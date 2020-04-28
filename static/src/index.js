@@ -7,8 +7,8 @@ const delayDuration = 1000;
 
 let sequenceArray = [];
 
-const title = "";
-const subTitle = "";
+const title = "UFC Rankings for Lightweight Division";
+const subTitle = "2013-present";
 
 const svg = d3.select("#bar-chart").append("svg")
    .attr("width", width)
@@ -17,7 +17,7 @@ const svg = d3.select("#bar-chart").append("svg")
 const margin = {
    top: 80,
    right: 0,
-   bottom: 5,
+   bottom: 80,
    left: 0
 };
 
@@ -25,12 +25,12 @@ const barPadding = 0;
 
 svg.append('text')
    .attr('class', 'title')
-   .attr('y', 24)
+   .attr('y', 45)
    .html(title);
 
 svg.append("text")
    .attr("class", "subTitle")
-   .attr("y", 55)
+   .attr("y", 75)
    .html( subTitle );
 
 Promise.all([
@@ -146,7 +146,7 @@ Promise.all([
       let dateText = svg.append('text')
          .attr('class', 'dateText')
          .attr('x', width-margin.right)
-         .attr('y', 55)
+         .attr('y', height-margin.bottom)
          .style('text-anchor', 'end');
          // .html(sequenceArray[sequence-1]);
    

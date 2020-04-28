@@ -1,3 +1,18 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
 svg{
   border: none;
 }
@@ -6,10 +21,11 @@ text{
  font-family: sans-serif;
 }
 text.title{
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
 }
 text.subTitle{
+  font-size: 18px;
   font-weight: 500;
   fill: #777777;
 }
@@ -27,7 +43,7 @@ text.valueLabel{
 }
 
 text.dateText{
-  font-size: 64px;
+  font-size: 42px;
   font-weight: 700;
   fill: #777777;
 }
