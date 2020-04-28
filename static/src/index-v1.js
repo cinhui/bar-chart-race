@@ -32,7 +32,7 @@ svg.append('text')
 svg.append("text")
    .attr("class", "subTitle")
    .attr("y", 75)
-   .html(subTitle);
+   .html( subTitle );
 
 svg.append("text")
    .attr("class", "caption")
@@ -48,7 +48,7 @@ svg.append("text")
 Promise.all([
    d3.csv("sequence.csv"),
    d3.csv("lightweight.csv"),
-   d3.json("fighters.json"),
+   // d3.json("fighters.json"),
    ])
    .then(function(data) {
       data[0].forEach(d => {
@@ -62,18 +62,17 @@ Promise.all([
       // console.log(sequenceStart)
       // console.log(sequenceEnd)
    
-      let fighters = {};
-      data[2].forEach( d => {
-         fighters[d.fighter] = d.bar_color
-      });
+      // let fighters = {};
+      // data[2].forEach( d => {
+      //    fighters[d.fighter] = d.bar_color
+      // });
 
       // console.log(fighters)
 
       // Assign colors to each 
       data[1].forEach( d => {
-         // d.color = d3.hsl("Cyan");
-         // d.color = d3.hsl(Math.random()*360,1,0.5);
-         d.color = fighters[d["fighter"]]
+         d.color = d3.hsl(Math.random()*360,1,0.5);
+         // d.color = fighters[d["fighter"]]
       });
 
       let lastValues = {};
@@ -87,7 +86,7 @@ Promise.all([
             const txt  = d[sequence];
             let val  = 0;
             val = parseFloat(txt);
-            val = Math.round(val + bar_offset);
+            val = Math.round(val + 3);
    
             let lastValue = lastValues[ name ];
             if( lastValue == null )
@@ -128,14 +127,29 @@ Promise.all([
          .ticks(width > 500 ? 5:2)
          .tickSize(-(height-margin.top-margin.bottom))
          .tickFormat("");
+   
+      // svg.append('g')
+      //    .attr('class', 'axis xAxis')
+      //    .attr('transform', `translate(0, ${margin.top})`)
+      //    .call(xAxis)
+      //    .selectAll('.tick line')
+      //    .classed('origin', d => d == 0);
+   
+      svg.append('text')
+         .attr('class', 'annotate')
+         .attr('x', width-(margin.right/2))
+         .attr('y', 1.35*margin.top)
+         .style('text-anchor', 'end')
+         .html("Champion");
+      
+      d3.selectAll(".annotate").style('visibility', 'hidden');
 
       svg.selectAll('rect.bar')
          .data(sequenceValue, d => d.name)
          .enter()
          .append('rect')
          .attr('class', 'bar')
-         .attr('x', x(2*bar_offset)+1)
-         // .attr('x', x(bar_offset)+1)
+         .attr('x', x(0)+1)
          .attr('width', d => x(d.lastValue)-x(0))
          .attr('y', d => y(d.rank)+5)
          .attr('height', y(1)-y(0)-barPadding)
@@ -146,39 +160,28 @@ Promise.all([
          .enter()
          .append('text')
          .attr('class', 'label')
-         .attr('x', d => x(d.lastValue)-200)
+         .attr('x', d => x(d.lastValue)-8)
          .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
-         .style('text-anchor', 'middle')
+         .style('text-anchor', 'end')
          .html(d => d.name);
+   
+      // svg.selectAll('text.valueLabel')
+      //    .data(sequenceValue, d => d.name)
+      //    .enter()
+      //    .append('text')
+      //    .attr('class', 'valueLabel')
+      //    .attr('x', d => x(d.lastValue)+5)
+      //    .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+14)
+      //    .text(d => d.lastValue);
    
       let dateText = svg.append('text')
          .attr('class', 'dateText')
-         .attr('x', x(3*bar_offset)+1)
-         // .attr('x', width-margin.right)
-         .attr('y', margin.top+20)
-         .style('text-anchor', 'middle');
-      
-      let rankText = svg.append("g");
-      rankText.append('text')
-         .attr('class', 'annotate')
-         .attr('x', 6*margin.right)
-         // .attr('x', width-(margin.right/2)+5)
-         .attr('y', 1.7*margin.top)
-         .style('text-anchor', 'end')
-         .html("Champion");
-
-      for (i = 1; i < 11; i++) {
-         rankText.append('text')
-            .attr('class', 'annotate')
-            .attr('x', 6*margin.right)
-            // .attr('x', width-(margin.right/2)+5)
-            .attr('y', y(i)+((y(1)-y(0))/2)+13+25)
-            .style('text-anchor', 'end')
-            .html(i);
-      }
+         // .attr('x', x(3*bar_offset)+1)
+         // .attr('y', margin.top+20)
+         .attr('x', width-margin.right)
+         .attr('y', height-margin.bottom)
+         .style('text-anchor', 'end');
    
-      d3.selectAll(".annotate").style('visibility', 'hidden');
-
       let ticker = d3.interval(e => {
    
          sequenceValue = _normalizeData();
@@ -197,36 +200,29 @@ Promise.all([
             .enter()
             .append('rect')
             .attr('class', d => `bar ${d.name.replace(/\s/g,'_')}`)
-            .attr('x', x(2*bar_offset)+1)
-            .attr('width', d => x(2*bar_offset))
-            // .attr('width', d => x(max_value + bar_offset)-x(0))
-            // .attr( 'width', d => x(d.value)-x(0))
-            .attr('y', d => y(max_value+1)+50)
+            .attr('x', x(0)+1)
+            .attr( 'width', d => x(d.value)-x(0))
+            .attr('y', d => y(max_value+1)+5)
             .attr('height', y(1)-y(0)-barPadding)
             .style('fill', d => d.color)
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('y', d => y(d.rank)+35);
+            .attr('y', d => y(d.rank)+5);
    
          bars
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('width', d => x(2*bar_offset))
-            // .attr('width', d => x(max_value + bar_offset)-x(0))
-            // .attr('width', d => Math.max(0, x(d.value)-x(0)))
-            .attr('y', d => y(d.rank)+35);
+            .attr('width', d => Math.max(0, x(d.value)-x(0)))
+            .attr('y', d => y(d.rank)+5);
    
          bars
             .exit()
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('width', d => x(2*bar_offset))
-            // .attr('width', d => x(max_value + bar_offset)-x(0))
-            // .attr('width', d => Math.max(0, x(d.value)-x(0)))
-            .attr('x', d => width-margin.right)
+            .attr('width', d => Math.max(0, x(d.value)-x(0)))
             .attr('y', d => y(max_value+1)+5)
             .remove();
    
@@ -237,43 +233,78 @@ Promise.all([
             .enter()
             .append('text')
             .attr('class', 'label')
-            .attr('x', x(3*bar_offset)+1)
-            // .attr('x', d => x(4)-8)
-            // .attr('x', d => x(d.value)-8)
-            .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+13+25)
-            .style('text-anchor', 'middle')
+            .attr('x', d => x(d.value)-8)
+            .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+13)
+            .style('text-anchor', 'end')
             .html(d => d.name)    
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13+25);
+            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13);
    
    
          labels
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('x', x(3*bar_offset)+1)
-            // .attr('x', d => x(4)-8)
-            // .attr('x', d => x(d.value)-8)
-            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13+25);
+            .attr('x', d => x(d.value)-8)
+            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13);
    
          labels
             .exit()
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('x', d => width-margin.right)
-            // .attr('x', d => x(d.value)+8)
+            .attr('x', d => x(d.value)-8)
             .attr('y', d => y(max_value+1)+5)
             .remove();
    
+      //    const valueLabels = svg.selectAll('.valueLabel').data(sequenceValue, d => d.name);
+   
+      //    valueLabels
+      //       .enter()
+      //       .append('text')
+      //       .attr('class', 'valueLabel')
+      //       .attr('x', d => x(d.value)+5)
+      //       .attr('y', d => y(max_value+1)+5)
+      //       .text(d => d.value)
+      //       .transition()
+      //       .duration(tickDuration)
+      //       .ease(d3.easeLinear)
+      //       .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+2);
+   
+      //    valueLabels
+      //       .transition()
+      //       .duration(tickDuration)
+      //       .ease(d3.easeLinear)
+      //       .attr('x', d => x(d.value)+5)
+      //       .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+2)
+      //       .tween("text", function(d) {
+      //          const i = d3.interpolateNumber(d.lastValue, d.value);
+      //          //return i(interpolator);
+      //          return function(t) {
+      //             let v = i(t);
+      //             if( v < 0 )
+      //                 v = 0;
+      //             this.textContent = v;
+      //          };
+      //       });
+   
+   
+      //    valueLabels
+      //       .exit()
+      //       .transition()
+      //       .duration(tickDuration)
+      //       .ease(d3.easeLinear)
+      //       .attr('x', d => x(d.value)+5)
+      //       .attr('y', d => y(max_value+1)+5)
+      //       .remove();
+   
          dateText.html(sequenceArray[sequence-1]);
          d3.selectAll(".annotate").style('visibility', 'visible');
-   
+
          sequence++;
          if(sequence> sequenceEnd) ticker.stop();
-
       }, delayDuration);
 
 }).catch(function(err) {

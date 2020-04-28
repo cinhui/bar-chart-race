@@ -31,13 +31,14 @@ text.subTitle{
 }
 text.caption{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   fill: #777777;
 }
 text.label{
   font-weight: 600;
 }
-text.valueLabel{
+text.rankLabel{
+  font-size: 18px;
   font-weight: 300;
 }
 text.annotate{
@@ -46,9 +47,9 @@ text.annotate{
   fill: #c5a30b;  
 }
 text.dateText{
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
-  fill: #777777;
+  fill: #000000;
 }
 .tick text {
   fill: #777777;
