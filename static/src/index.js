@@ -1,12 +1,13 @@
 const height = 600;
-const width = 900;
+const width = 960;
 
 const tickDuration  = 700;
 const delayDuration = 1000;
 
 let sequenceArray = [];
 
-const title = "History of UFC’s Lightweight Rankings";
+const title1 = "History of UFC’s";
+const title2 = "Lightweight Rankings";
 const subTitle = "2013-present";
 
 const svg = d3.select("#bar-chart").append("svg")
@@ -15,35 +16,73 @@ const svg = d3.select("#bar-chart").append("svg")
 
 const margin = {
    top: 80,
-   right: 50,
+   right: 30,
    bottom: 80,
-   left: 0
+   left: 30
 };
 
 const barPadding = 0;
 const bar_offset = 3;
 const max_value = 11;
 
+// Add title
 svg.append('text')
    .attr('class', 'title')
+   .attr('x', 45)
    .attr('y', 45)
-   .html(title);
+   .html(title1);
+svg.append('text')
+   .attr('class', 'title')
+   .attr('x', 45)
+   .attr('y', 85)
+   .html(title2);
 
+// Add subtitle
 svg.append("text")
    .attr("class", "subTitle")
-   .attr("y", 75)
+   .attr('x', 55)
+   .attr("y", 115)
    .html(subTitle);
 
+// Add subscript caption
 svg.append("text")
    .attr("class", "caption")
-   .attr("x", 10)
+   .attr("x", 45)
    .attr('y', height-20)
    .html("Sources: https://www.kaggle.com/martj42/ufc-rankings/data");
 svg.append("text")
    .attr("class", "caption")
-   .attr("x", 10+42)
+   .attr("x", 45+42)
    .attr('y', height-5)
    .html("http://mma-stats.com/rankings/");
+
+// Add color legend
+rect_size = 15
+rect_offset = 40
+svg.append("rect")
+   .attr("x",50).attr("y",height-1.5*rect_offset)
+   .attr("width", rect_size).attr("height", rect_size)
+   .style("fill", "#f0a500");
+svg.append("text")
+   .attr("x",70).attr("y", height-1.3*rect_offset)
+   .style("font-size", "12px").attr("alignment-baseline","middle")
+   .text("Active in UFC");
+svg.append("rect")
+   .attr("x",150).attr("y",height-1.5*rect_offset)
+   .attr("width", rect_size).attr("height", rect_size)
+   .style("fill", "#c1a57b");
+svg.append("text")
+   .attr("x",170).attr("y", height-1.3*rect_offset)
+   .style("font-size", "12px").attr("alignment-baseline","middle")
+   .text("No longer in UFC");
+svg.append("rect")
+   .attr("x",270).attr("y",height-1.5*rect_offset)
+   .attr("width", rect_size).attr("height", rect_size)
+   .style("fill", "#dbdbdb");
+svg.append("text")
+   .attr("x",290).attr("y", height-1.3*rect_offset)
+   .style("font-size", "12px").attr("alignment-baseline","middle")
+   .text("Retired");
 
 Promise.all([
    d3.csv("sequence.csv"),
@@ -87,7 +126,7 @@ Promise.all([
             const txt  = d[sequence];
             let val  = 0;
             val = parseFloat(txt);
-            val = Math.round(val + bar_offset);
+            val = Math.round(val);
    
             let lastValue = lastValues[ name ];
             if( lastValue == null )
@@ -116,28 +155,22 @@ Promise.all([
    
       // Format axes
       let x = d3.scaleLinear()
-         .domain([0, d3.max(sequenceValue, d => d.value)])
-         .range([margin.left, width-margin.right-65]);
+         .domain([0, 10])
+         .range([margin.left, width-margin.right-100]);
    
       let y = d3.scaleLinear()
          .domain([max_value, 0])
          .range([height-margin.bottom, margin.top]);
-   
-      let xAxis = d3.axisTop()
-         .scale(x)
-         .ticks(width > 500 ? 5:2)
-         .tickSize(-(height-margin.top-margin.bottom))
-         .tickFormat("");
 
       svg.selectAll('rect.bar')
          .data(sequenceValue, d => d.name)
          .enter()
          .append('rect')
          .attr('class', 'bar')
-         .attr('x', x(2*bar_offset)+1)
-         // .attr('x', x(bar_offset)+1)
+         .attr('x', x(6)+1)
+         // .attr('y', d => y(d.rank)+5)
+         .attr('y', d => y(d.rank)+35)
          .attr('width', d => x(d.lastValue)-x(0))
-         .attr('y', d => y(d.rank)+5)
          .attr('height', y(1)-y(0)-barPadding)
          .style('fill', d => d.color);
    
@@ -146,23 +179,28 @@ Promise.all([
          .enter()
          .append('text')
          .attr('class', 'label')
-         .attr('x', d => x(d.lastValue)-200)
+         // .attr('x', d => x(d.lastValue)-200)
+         // .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
+         // .attr('x', d => x(9)+1)
+         // .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+38)
+         .attr('x', d => x(10)+230)
          .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
          .style('text-anchor', 'middle')
          .html(d => d.name);
    
       let dateText = svg.append('text')
          .attr('class', 'dateText')
-         .attr('x', x(3*bar_offset)+1)
-         // .attr('x', width-margin.right)
-         .attr('y', margin.top+20)
-         .style('text-anchor', 'middle');
+         // .attr('x', 45)
+         // .attr('y', 2*margin.top)
+         .attr('x', x(6)+50)
+         .attr('y', margin.top+10)
+         .style('text-anchor', 'start');
       
       let rankText = svg.append("g");
       rankText.append('text')
          .attr('class', 'annotate')
-         .attr('x', 6*margin.right)
-         // .attr('x', width-(margin.right/2)+5)
+         .attr('x', x(5)+45)
+         // .attr('x', x(5)+45)
          .attr('y', 1.7*margin.top)
          .style('text-anchor', 'end')
          .html("Champion");
@@ -170,9 +208,8 @@ Promise.all([
       for (i = 1; i < 11; i++) {
          rankText.append('text')
             .attr('class', 'annotate')
-            .attr('x', 6*margin.right)
-            // .attr('x', width-(margin.right/2)+5)
-            .attr('y', y(i)+((y(1)-y(0))/2)+13+25)
+            .attr('x', x(5)+45)
+            .attr('y', y(i)+((y(1)-y(0))/2)+38)
             .style('text-anchor', 'end')
             .html(i);
       }
@@ -185,23 +222,15 @@ Promise.all([
          sequenceValue.forEach((d,i) => d.rank = i);
          x.domain([0, d3.max(sequenceValue, d => d.value)]); 
    
-         svg.select('.xAxis')
-            .transition()
-            .duration(tickDuration)
-            .ease(d3.easeLinear)
-            .call(xAxis);
-   
          const bars = svg.selectAll('.bar').data(sequenceValue, d => d.name);
    
          bars
             .enter()
             .append('rect')
             .attr('class', d => `bar ${d.name.replace(/\s/g,'_')}`)
-            .attr('x', x(2*bar_offset)+1)
-            .attr('width', d => x(2*bar_offset))
-            // .attr('width', d => x(max_value + bar_offset)-x(0))
-            // .attr( 'width', d => x(d.value)-x(0))
+            .attr('x', x(6)+45)
             .attr('y', d => y(max_value+1)+50)
+            .attr('width', d => x(1.5*bar_offset))
             .attr('height', y(1)-y(0)-barPadding)
             .style('fill', d => d.color)
             .transition()
@@ -213,9 +242,7 @@ Promise.all([
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('width', d => x(2*bar_offset))
-            // .attr('width', d => x(max_value + bar_offset)-x(0))
-            // .attr('width', d => Math.max(0, x(d.value)-x(0)))
+            .attr('width', d => x(1.5*bar_offset))
             .attr('y', d => y(d.rank)+35);
    
          bars
@@ -223,9 +250,7 @@ Promise.all([
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('width', d => x(2*bar_offset))
-            // .attr('width', d => x(max_value + bar_offset)-x(0))
-            // .attr('width', d => Math.max(0, x(d.value)-x(0)))
+            .attr('width', d => x(1.5*bar_offset))
             .attr('x', d => width-margin.right)
             .attr('y', d => y(max_value+1)+5)
             .remove();
@@ -237,26 +262,23 @@ Promise.all([
             .enter()
             .append('text')
             .attr('class', 'label')
-            .attr('x', x(3*bar_offset)+1)
-            // .attr('x', d => x(4)-8)
-            // .attr('x', d => x(d.value)-8)
-            .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+13+25)
+            .attr('x', x(9)+1)
+            // .attr('y', d => y(0))
+            .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+38)
             .style('text-anchor', 'middle')
             .html(d => d.name)    
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13+25);
+            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+38);
    
    
          labels
             .transition()
             .duration(tickDuration)
             .ease(d3.easeLinear)
-            .attr('x', x(3*bar_offset)+1)
-            // .attr('x', d => x(4)-8)
-            // .attr('x', d => x(d.value)-8)
-            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13+25);
+            .attr('x', x(9)+1)
+            .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+38);
    
          labels
             .exit()
@@ -264,7 +286,6 @@ Promise.all([
             .duration(tickDuration)
             .ease(d3.easeLinear)
             .attr('x', d => width-margin.right)
-            // .attr('x', d => x(d.value)+8)
             .attr('y', d => y(max_value+1)+5)
             .remove();
    
