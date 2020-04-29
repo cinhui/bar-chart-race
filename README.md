@@ -1,3 +1,3 @@
-# bar-chart-race
+# ufc-ranking-chart
 
-https://cinhui.github.io/bar-chart-race/
+https://cinhui.github.io/ufc-ranking-chart
