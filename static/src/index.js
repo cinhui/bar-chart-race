@@ -6,8 +6,11 @@ const delayDuration = 1000;
 
 let sequenceArray = [];
 
+// const weightclass = "lightweight";
+const weightclass = "bantamweight";
+
 const title1 = "HISTORY OF UFC";
-const title2 = "LIGHTWEIGHT";
+const title2 = weightclass;
 const title3 = "RANKINGS";
 const subTitle = "February 2013-present";
 
@@ -98,9 +101,9 @@ svg.append("text")
 
 Promise.all([
    d3.csv("sequence.csv"),
-   d3.csv("lightweight.csv"),
-   // d3.json("fighters.json"),
-   d3.json("https://raw.githubusercontent.com/cinhui/ufc-ranking-chart/master/fighters.json"),
+   d3.csv(weightclass+"-rankings.csv"),
+   // d3.json(weightclass+"-fighters.json"),
+   d3.json("https://raw.githubusercontent.com/cinhui/ufc-ranking-chart/master/"+weightclass+"-fighters.json"),
    ])
    .then(function(data) {
       data[0].forEach(d => {
