@@ -88,7 +88,7 @@ svg.append("rect")
 svg.append("text")
    .attr("x",290).attr("y", height-1.3*rect_offset)
    .style("font-size", "12px").attr("alignment-baseline","middle")
-   .text("Retired");
+   .text("Inactive/Retired");
 
 Promise.all([
    d3.csv("sequence.csv"),
