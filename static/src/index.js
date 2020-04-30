@@ -88,7 +88,7 @@ Promise.all([
    d3.csv("sequence.csv"),
    d3.csv("lightweight.csv"),
    // d3.json("fighters.json"),
-   d3.json("https://github.com/cinhui/ufc-ranking-chart/blob/master/fighters.json"),
+   d3.json("https://raw.githubusercontent.com/cinhui/ufc-ranking-chart/master/fighters.json"),
    ])
    .then(function(data) {
       data[0].forEach(d => {
