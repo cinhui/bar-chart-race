@@ -25,29 +25,30 @@ const margin = {
 const barPadding = 0;
 const bar_offset = 3;
 const max_value = 11;
+const shift_y = 85;
 
 // Add title
 svg.append('text')
    .attr('class', 'title')
    .attr('x', 45)
-   .attr('y', 45)
+   .attr('y', shift_y)
    .html(title1);
 svg.append('text')
    .attr('class', 'title')
    .attr('x', 45)
-   .attr('y', 85)
+   .attr('y', 40+shift_y)
    .html(title2);
 svg.append('text')
    .attr('class', 'title')
    .attr('x', 45)
-   .attr('y', 125)
+   .attr('y', 80+shift_y)
    .html(title3);
 
 // Add subtitle
 svg.append("text")
    .attr("class", "subTitle")
    .attr('x', 45)
-   .attr("y", 155)
+   .attr("y", 110+shift_y)
    .html(subTitle);
 
 // Add subscript caption
@@ -63,34 +64,35 @@ svg.append("text")
    .html("http://mma-stats.com/rankings/");
 
 // Add color legend
-rect_size = 20
-rect_offset = 400
+const rect_size = 20
+const rect_offset = 30
+const from_top = 250;
 
 svg.append("rect")
-   .attr("x",50).attr("y",height-12-rect_offset)
+   .attr("x",50).attr("y", from_top+rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
    .style("fill", "#f0a500");
 svg.append("text")
    .attr("class", "legend")
-   .attr("x",75).attr("y", height-rect_offset)
+   .attr("x",75).attr("y", from_top+rect_offset+12)
    .attr("alignment-baseline","middle")
-   .text("Active");
+   .text("Active in UFC");
 svg.append("rect")
-   .attr("x",125).attr("y",height-12-rect_offset)
+   .attr("x",50).attr("y", from_top+2*rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
    .style("fill", "#c1a57b");
 svg.append("text")
    .attr("class", "legend")
-   .attr("x",150).attr("y", height-rect_offset)
+   .attr("x",75).attr("y", from_top+2*rect_offset+12)
    .attr("alignment-baseline","middle")
    .text("No longer in UFC");
 svg.append("rect")
-   .attr("x",275).attr("y",height-12-rect_offset)
+   .attr("x",50).attr("y", from_top+3*rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
    .style("fill", "#dbdbdb");
 svg.append("text")
    .attr("class", "legend")   
-   .attr("x",300).attr("y", height-rect_offset)
+   .attr("x",75).attr("y", from_top+3*rect_offset+12)
    .attr("alignment-baseline","middle")
    .text("Inactive/Retired");
 
