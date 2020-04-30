@@ -63,31 +63,35 @@ svg.append("text")
    .html("http://mma-stats.com/rankings/");
 
 // Add color legend
-rect_size = 15
-rect_offset = 40
+rect_size = 20
+rect_offset = 400
+
 svg.append("rect")
-   .attr("x",50).attr("y",height-1.5*rect_offset)
+   .attr("x",50).attr("y",height-12-rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
    .style("fill", "#f0a500");
 svg.append("text")
-   .attr("x",70).attr("y", height-1.3*rect_offset)
-   .style("font-size", "12px").attr("alignment-baseline","middle")
-   .text("Active in UFC");
+   .attr("class", "legend")
+   .attr("x",75).attr("y", height-rect_offset)
+   .attr("alignment-baseline","middle")
+   .text("Active");
 svg.append("rect")
-   .attr("x",150).attr("y",height-1.5*rect_offset)
+   .attr("x",125).attr("y",height-12-rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
    .style("fill", "#c1a57b");
 svg.append("text")
-   .attr("x",170).attr("y", height-1.3*rect_offset)
-   .style("font-size", "12px").attr("alignment-baseline","middle")
+   .attr("class", "legend")
+   .attr("x",150).attr("y", height-rect_offset)
+   .attr("alignment-baseline","middle")
    .text("No longer in UFC");
 svg.append("rect")
-   .attr("x",270).attr("y",height-1.5*rect_offset)
+   .attr("x",275).attr("y",height-12-rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
    .style("fill", "#dbdbdb");
 svg.append("text")
-   .attr("x",290).attr("y", height-1.3*rect_offset)
-   .style("font-size", "12px").attr("alignment-baseline","middle")
+   .attr("class", "legend")   
+   .attr("x",300).attr("y", height-rect_offset)
+   .attr("alignment-baseline","middle")
    .text("Inactive/Retired");
 
 Promise.all([
