@@ -6,9 +6,10 @@ const delayDuration = 1000;
 
 let sequenceArray = [];
 
-const title1 = "History of UFC’s";
-const title2 = "Lightweight Rankings";
-const subTitle = "2013-present";
+const title1 = "HISTORY OF UFC";
+const title2 = "LIGHTWEIGHT";
+const title3 = "RANKINGS";
+const subTitle = "February 2013-present";
 
 const svg = d3.select("#bar-chart").append("svg")
    .attr("width", width)
@@ -36,12 +37,17 @@ svg.append('text')
    .attr('x', 45)
    .attr('y', 85)
    .html(title2);
+svg.append('text')
+   .attr('class', 'title')
+   .attr('x', 45)
+   .attr('y', 125)
+   .html(title3);
 
 // Add subtitle
 svg.append("text")
    .attr("class", "subTitle")
-   .attr('x', 55)
-   .attr("y", 115)
+   .attr('x', 45)
+   .attr("y", 155)
    .html(subTitle);
 
 // Add subscript caption
