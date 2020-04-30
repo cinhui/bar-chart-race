@@ -1,1 +1,178 @@
-[{"fighter":"Benson Henderson","bar_color":"#c1a57b"},{"fighter":"Gilbert Melendez","bar_color":"#dbdbdb"},{"fighter":"Anthony Pettis","bar_color":"#f0a500"},{"fighter":"Gray Maynard","bar_color":"#dbdbdb"},{"fighter":"Nate Diaz","bar_color":"#f0a500"},{"fighter":"Jim Miller","bar_color":"#f0a500"},{"fighter":"Donald Cerrone","bar_color":"#f0a500"},{"fighter":"TJ Grant","bar_color":"#c1a57b"},{"fighter":"Rafael Dos Anjos","bar_color":"#f0a500"},{"fighter":"Joe Lauzon","bar_color":"#f0a500"},{"fighter":"Khabib Nurmagomedov","bar_color":"#f0a500"},{"fighter":"Josh Thomson","bar_color":"#dbdbdb"},{"fighter":"Pat Healy","bar_color":"#dbdbdb"},{"fighter":"Edson Barboza","bar_color":"#f0a500"},{"fighter":"Bobby Green","bar_color":"#f0a500"},{"fighter":"Diego Sanchez","bar_color":"#f0a500"},{"fighter":"Michael Johnson","bar_color":"#f0a500"},{"fighter":"Rustam Khabilov","bar_color":"#f0a500"},{"fighter":"Myles Jury","bar_color":"#f0a500"},{"fighter":"Jorge Masvidal","bar_color":"#f0a500"},{"fighter":"Ross Pearson","bar_color":"#dbdbdb"},{"fighter":"Eddie Alvarez","bar_color":"#c1a57b"},{"fighter":"Al Iaquinta","bar_color":"#f0a500"},{"fighter":"Tony Ferguson","bar_color":"#f0a500"},{"fighter":"Beneil Dariush","bar_color":"#f0a500"},{"fighter":"Dustin Poirier","bar_color":"#f0a500"},{"fighter":"Michael Chiesa","bar_color":"#f0a500"},{"fighter":"Evan Dunham","bar_color":"#f0a500"},{"fighter":"Rashid Magomedov","bar_color":"#c1a57b"},{"fighter":"Francisco Trinaldo","bar_color":"#f0a500"},{"fighter":"Will Brooks","bar_color":"#c1a57b"},{"fighter":"Conor McGregor","bar_color":"#f0a500"},{"fighter":"Kevin Lee","bar_color":"#f0a500"},{"fighter":"James Vick","bar_color":"#f0a500"},{"fighter":"Justin Gaethje","bar_color":"#f0a500"},{"fighter":"Mairbek Taisumov","bar_color":"#c1a57b"},{"fighter":"Alexander Hernandez","bar_color":"#f0a500"},{"fighter":"Paul Felder","bar_color":"#f0a500"},{"fighter":"Olivier Aubin-Mercier","bar_color":"#c1a57b"},{"fighter":"Dan Hooker","bar_color":"#f0a500"},{"fighter":"Islam Makhachev","bar_color":"#f0a500"},{"fighter":"Gregor Gillespie","bar_color":"#f0a500"},{"fighter":"Charles Oliveira","bar_color":"#f0a500"},{"fighter":"Diego Ferreira","bar_color":"#f0a500"}]
+[
+    {
+        "fighter": "Benson Henderson",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Gilbert Melendez",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Anthony Pettis",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Gray Maynard",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Nate Diaz",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Jim Miller",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Donald Cerrone",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "TJ Grant",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Rafael Dos Anjos",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Joe Lauzon",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Khabib Nurmagomedov",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Josh Thomson",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Pat Healy",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Edson Barboza",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Bobby Green",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Diego Sanchez",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Michael Johnson",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Rustam Khabilov",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Myles Jury",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Jorge Masvidal",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Ross Pearson",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Eddie Alvarez",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Al Iaquinta",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Tony Ferguson",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Beneil Dariush",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Dustin Poirier",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Michael Chiesa",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Evan Dunham",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Rashid Magomedov",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Francisco Trinaldo",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Will Brooks",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Conor McGregor",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Kevin Lee",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "James Vick",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Justin Gaethje",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Mairbek Taisumov",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Alexander Hernandez",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Paul Felder",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Olivier Aubin-Mercier",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Dan Hooker",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Islam Makhachev",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Gregor Gillespie",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Charles Oliveira",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Diego Ferreira",
+        "bar_color": "#f0a500"
+    }
+]
