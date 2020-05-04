@@ -6,7 +6,7 @@ const delayDuration = 1000;
 
 let sequenceArray = [];
 
-const weightclass = "lightweight";
+// const weightclass = "lightweight";
 // const weightclass = "bantamweight";
 
 const title1 = "HISTORY OF UFC";
@@ -232,8 +232,10 @@ Promise.all([
    
       let dateText = svg.append('text')
          .attr('class', 'dateText')
-         .attr('x', x(6)+50)
-         .attr('y', margin.top+10)
+         .attr('x', 45)
+         .attr('y', 160+shift_y)
+         // .attr('x', x(6)+50)
+         // .attr('y', margin.top+10)
          .style('text-anchor', 'start');
       
       let rankText = svg.append("g");
@@ -281,7 +283,7 @@ Promise.all([
 
          sequence = Math.floor(h)
          dateText.html(sequenceArray[sequence]);
-         console.log(sequence + " " + sequenceArray[sequence])
+         // console.log(sequence + " " + sequenceArray[sequence])
       
          sequenceValue = computeDataSlice(sequence);
          sequenceValue.forEach((d,i) => d.rank = i);
@@ -353,7 +355,7 @@ Promise.all([
       playButton
          .on("click", function() {
             var button = d3.select(this);
-            console.log(currentValue)
+            // console.log(currentValue)
             if (button.text() == "Pause") {
                moving = false;
                clearInterval(timer);
@@ -377,10 +379,9 @@ Promise.all([
             }
       }
 
+}).catch(function(err) {
+   // handle error here
+   console.log("error")
 })
-// .catch(function(err) {
-//    // handle error here
-//    console.log("error")
-// })
 
 

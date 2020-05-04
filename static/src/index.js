@@ -7,7 +7,7 @@ const delayDuration = 1000;
 let sequenceArray = [];
 
 // const weightclass = "lightweight";
-const weightclass = "bantamweight";
+// const weightclass = "bantamweight";
 
 const title1 = "HISTORY OF UFC";
 const title2 = weightclass;
