@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UFC Ranking Bar Chart</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-timer.v1.min.js"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <style>
+      #button {
+      position: absolute;
+      top: 680px;
+      left: 80px;
+      background: #3b3939;
+      border-radius: 2px;
+      border: none;
+      color: white;
+      font-size: 12px;
+      padding: 2px 8px;
+      width: 60px;
+      cursor: pointer;
+      height: 30px;
+      }
+
+      #button:hover {
+      background-color: #696969;
+      }    
+
+      .track,
+      .track-inset,
+      .track-overlay {
+      stroke-linecap: round;
+      }
+
+      .track {
+      stroke: #000;
+      stroke-opacity: 0.3;
+      stroke-width: 10px;
+      }
+
+      .track-inset {
+      stroke: #dcdcdc;
+      stroke-width: 8px;
+      }
+
+      .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: pointer;
+      }
+
+      .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+      }
+    </style>
+   </head>
+   <body>
+      <div class="container ">
+         <div class="row margin-top-50 margin-bottom-50 ">
+           <div class="col-lg-12" id="bar-chart">
+           </div>
+           <div id="slider">
+           </div>
+           <button id="button">Start</button>
+       </div>
+      <script src="static/src/index-play.js"></script>
+   </body>
+</html>

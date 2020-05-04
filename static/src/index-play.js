@@ -6,8 +6,8 @@ const delayDuration = 1000;
 
 let sequenceArray = [];
 
-// const weightclass = "lightweight";
-const weightclass = "bantamweight";
+const weightclass = "lightweight";
+// const weightclass = "bantamweight";
 
 const title1 = "HISTORY OF UFC";
 const title2 = weightclass;
@@ -102,7 +102,6 @@ svg.append("text")
 Promise.all([
    d3.csv("sequence.csv"),
    d3.csv(weightclass+"-rankings.csv"),
-   // d3.json(weightclass+"-fighters.json"),
    d3.json("https://raw.githubusercontent.com/cinhui/ufc-ranking-chart/master/"+weightclass+"-fighters.json"),
    ])
    .then(function(data) {
@@ -131,9 +130,69 @@ Promise.all([
          d.color = fighters[d["fighter"]]
       });
 
-      let lastValues = {};
+      // Add slider
+
+      var startDate = sequenceStart;
+      var endDate = sequenceEnd-1;
+  
+      const svg2 = d3.select("#slider").append("svg")
+            .attr("width", width-2*margin.right)
+            .attr("height", 100);
+
+      var moving = false;
+      var currentValue = 0;
+      var targetValue = width-60-6*margin.right;
+            
+      var xslider = d3.scaleLinear()
+            .domain([startDate, endDate])
+            .range([0, targetValue])
+            .clamp(true);
+      
+      var slider = svg2.append("g")
+            .attr("class", "slider")
+            .attr("transform", "translate(" + 130 + "," + 45 + ")");
+      
+      slider.append("line")
+            .attr("class", "track")
+            .attr("x1", xslider.range()[0])
+            .attr("x2", xslider.range()[1])
+         .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+            .attr("class", "track-inset")
+         .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+            .attr("class", "track-overlay")
+            .call(d3.drag()
+               .on("start.interrupt", function() { slider.interrupt(); })
+               .on("start drag", function() {
+                  currentValue = d3.event.x;
+                  currentValue = d3.max([0,currentValue]);
+                  updateSlider(xslider.invert(currentValue)); 
+                  updateChart(xslider.invert(currentValue));
+               })
+            );
+      
+      slider.insert("g", ".track-overlay")
+            .attr("class", "ticks")
+            .attr("transform", "translate(0," + 20 + ")");
+      
+      var handle = slider.insert("circle", ".track-overlay")
+            .attr("class", "handle")
+            .attr("r", 6);
+      
+      var label = slider.append("text")  
+            .attr("class", "slider")
+            .attr("text-anchor", "middle")
+            .text((sequenceArray[Math.floor(startDate)]))
+            .attr("transform", "translate(15," + (-15) + ")");
+
+      function updateSlider(h) {
+         console.log(currentValue)
+         console.log(h + " " + Math.floor(h))
+         handle.attr("cx", xslider(h));
+         label.attr("x", xslider(h))
+               .text(sequenceArray[Math.floor(h)]);
+      }
    
-      function computeDataSlice(){
+      function computeDataSlice(sequence){
          const values = {};
    
          const ret = [];
@@ -144,27 +203,20 @@ Promise.all([
             val = parseFloat(txt);
             val = Math.round(val);
    
-            let lastValue = lastValues[ name ];
-            if( lastValue == null )
-               lastValue = 0;
-   
-            ret.push({
+            if( val>-1){
+               ret.push({
                   name     : name,
                   color   : d.color,
-                  value    : val,
-                  lastValue: lastValue
-            });
-            
-         //    console.log(val)
+                  value    : val
+               });
+            }   
             values[name] = val;
          });
-         
-         lastValues = values;
    
          return ret.sort((a,b) => b.value - a.value).slice(0, max_value);
       }
    
-      let sequenceValue = computeDataSlice();
+      let sequenceValue = computeDataSlice(sequence);
       sequenceValue.forEach((d,i) => d.rank = i);
    
       // console.log(sequenceValue)
@@ -177,37 +229,9 @@ Promise.all([
       let y = d3.scaleLinear()
          .domain([max_value, 0])
          .range([height-margin.bottom, margin.top]);
-
-      svg.selectAll('rect.bar')
-         .data(sequenceValue, d => d.name)
-         .enter()
-         .append('rect')
-         .attr('class', 'bar')
-         .attr('x', x(6)+1)
-         // .attr('y', d => y(d.rank)+5)
-         .attr('y', d => y(d.rank)+35)
-         .attr('width', d => x(d.lastValue)-x(0))
-         .attr('height', y(1)-y(0)-barPadding)
-         .style('fill', d => d.color);
-   
-      svg.selectAll('text.label')
-         .data(sequenceValue, d => d.name)
-         .enter()
-         .append('text')
-         .attr('class', 'label')
-         // .attr('x', d => x(d.lastValue)-200)
-         // .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
-         // .attr('x', d => x(9)+1)
-         // .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+38)
-         .attr('x', d => x(10)+230)
-         .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
-         .style('text-anchor', 'middle')
-         .html(d => d.name);
    
       let dateText = svg.append('text')
          .attr('class', 'dateText')
-         // .attr('x', 45)
-         // .attr('y', 2*margin.top)
          .attr('x', x(6)+50)
          .attr('y', margin.top+10)
          .style('text-anchor', 'start');
@@ -216,7 +240,6 @@ Promise.all([
       rankText.append('text')
          .attr('class', 'annotate')
          .attr('x', x(5)+45)
-         // .attr('x', x(5)+45)
          .attr('y', 1.7*margin.top)
          .style('text-anchor', 'end')
          .html("Champion");
@@ -230,19 +253,43 @@ Promise.all([
             .html(i);
       }
    
+      // dateText.html(sequenceArray[sequence]);
       d3.selectAll(".annotate").style('visibility', 'hidden');
 
-      let ticker = d3.interval(e => {
+      svg.selectAll('rect.bar')
+         .data(sequenceValue, d => d.name)
+         .enter()
+         .append('rect')
+         .attr('class', 'bar')
+         .attr('x', x(6)+1)
+         .attr('y', d => y(d.rank)+35)
+         .attr('width', d => x(d.value)-x(0))
+         .attr('height', y(1)-y(0)-barPadding)
+         .style('fill', d => d.color);
    
-         dateText.html(sequenceArray[sequence]);
-         d3.selectAll(".annotate").style('visibility', 'visible');
+      svg.selectAll('text.label')
+         .data(sequenceValue, d => d.name)
+         .enter()
+         .append('text')
+         .attr('class', 'label')
+         .attr('x', d => x(10)+230)
+         .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
+         .style('text-anchor', 'middle')
+         .html(d => d.name);
 
-         sequenceValue = computeDataSlice();
+      function updateChart(h) {
+
+         sequence = Math.floor(h)
+         dateText.html(sequenceArray[sequence]);
+         console.log(sequence + " " + sequenceArray[sequence])
+      
+         sequenceValue = computeDataSlice(sequence);
          sequenceValue.forEach((d,i) => d.rank = i);
          x.domain([0, d3.max(sequenceValue, d => d.value)]); 
    
-         const bars = svg.selectAll('.bar').data(sequenceValue, d => d.name);
+         var bars = svg.selectAll('.bar').data(sequenceValue, d => d.name);
    
+         console.log(sequenceValue)
          bars
             .enter()
             .append('rect')
@@ -266,15 +313,9 @@ Promise.all([
    
          bars
             .exit()
-            .transition()
-            .duration(tickDuration)
-            .ease(d3.easeLinear)
-            .attr('width', d => x(1.5*bar_offset))
-            .attr('x', d => width-margin.right)
-            .attr('y', d => y(max_value+1)+5)
             .remove();
    
-         const labels = svg.selectAll('.label')
+         var labels = svg.selectAll('.label')
             .data(sequenceValue, d => d.name);
    
          labels
@@ -282,7 +323,6 @@ Promise.all([
             .append('text')
             .attr('class', 'label')
             .attr('x', x(9)+1)
-            // .attr('y', d => y(0))
             .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+38)
             .style('text-anchor', 'middle')
             .html(d => d.name)    
@@ -301,21 +341,46 @@ Promise.all([
    
          labels
             .exit()
-            .transition()
-            .duration(tickDuration)
-            .ease(d3.easeLinear)
-            .attr('x', d => width-margin.right)
-            .attr('y', d => y(max_value+1)+5)
             .remove();
    
-         sequence++;
-         if(sequence> sequenceEnd) ticker.stop();
+      }
 
-      }, delayDuration);
+      d3.selectAll(".annotate").style('visibility', 'visible');
+      updateChart(sequenceStart);
 
-}).catch(function(err) {
-   // handle error here
-   console.log("error")
+      var playButton = d3.select("#button");
+
+      playButton
+         .on("click", function() {
+            var button = d3.select(this);
+            console.log(currentValue)
+            if (button.text() == "Pause") {
+               moving = false;
+               clearInterval(timer);
+               button.text("Resume");
+            } else {
+               moving = true;
+               timer = setInterval(step, 1000);
+               button.text("Pause");
+            }
+         })
+      
+      function step() {
+            updateSlider(xslider.invert(currentValue)); 
+            updateChart(xslider.invert(currentValue));
+            currentValue = currentValue + 2;
+            if (currentValue > targetValue) {
+              moving = false;
+              currentValue = 0;
+              clearInterval(timer);
+              playButton.text("Start");
+            }
+      }
+
 })
+// .catch(function(err) {
+//    // handle error here
+//    console.log("error")
+// })
 
 

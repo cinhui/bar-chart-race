@@ -55,7 +55,7 @@ Promise.all([
          sequenceArray.push(d.date_formatted)
       })
 
-      const sequenceStart     = 1;
+      const sequenceStart     = 0;
       const sequenceEnd       = sequenceArray.length;
       let sequence = sequenceStart;
 
@@ -77,7 +77,7 @@ Promise.all([
 
       let lastValues = {};
    
-      function _normalizeData(){
+      function computeDataSlice(){
          const values = {};
    
          const ret = [];
@@ -108,7 +108,7 @@ Promise.all([
          return ret.sort((a,b) => b.value - a.value).slice(0, max_value);
       }
    
-      let sequenceValue = _normalizeData();
+      let sequenceValue = computeDataSlice();
       sequenceValue.forEach((d,i) => d.rank = i);
    
       // console.log(sequenceValue)
@@ -184,7 +184,10 @@ Promise.all([
    
       let ticker = d3.interval(e => {
    
-         sequenceValue = _normalizeData();
+         dateText.html(sequenceArray[sequence]);
+         d3.selectAll(".annotate").style('visibility', 'visible');
+
+         sequenceValue = computeDataSlice();
          sequenceValue.forEach((d,i) => d.rank = i);
          x.domain([0, d3.max(sequenceValue, d => d.value)]); 
    
@@ -299,9 +302,6 @@ Promise.all([
       //       .attr('x', d => x(d.value)+5)
       //       .attr('y', d => y(max_value+1)+5)
       //       .remove();
-   
-         dateText.html(sequenceArray[sequence-1]);
-         d3.selectAll(".annotate").style('visibility', 'visible');
 
          sequence++;
          if(sequence> sequenceEnd) ticker.stop();
