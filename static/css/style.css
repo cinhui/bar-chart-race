@@ -57,6 +57,11 @@ text.dateText{
   font-weight: 700;
   fill: #000000;
 }
+text.slider{
+  font-weight: 400;
+  font-size: 12px;
+  fill: #000000;
+}
 .tick text {
   fill: #777777;
 }
