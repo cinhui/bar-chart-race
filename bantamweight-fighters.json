@@ -1,1 +1,138 @@
-[{"fighter":"Dominick Cruz","bar_color":"#f0a500"},{"fighter":"Renan Barao","bar_color":"#c1a57b"},{"fighter":"Michael McDonald","bar_color":"#dbdbdb"},{"fighter":"Urijah Faber","bar_color":"#f0a500"},{"fighter":"Eddie Wineland","bar_color":"#f0a500"},{"fighter":"Brad Pickett","bar_color":"#dbdbdb"},{"fighter":"Brian Bowles","bar_color":"#dbdbdb"},{"fighter":"Raphael Assuncao","bar_color":"#f0a500"},{"fighter":"Scott Jorgensen","bar_color":"#dbdbdb"},{"fighter":"Mike Easton","bar_color":"#dbdbdb"},{"fighter":"Ivan Menjivar","bar_color":"#dbdbdb"},{"fighter":"TJ Dillashaw","bar_color":"#f0a500"},{"fighter":"Takeya Mizugaki","bar_color":"#c1a57b"},{"fighter":"Iuri Alcantara","bar_color":"#f0a500"},{"fighter":"Francisco Rivera","bar_color":"#dbdbdb"},{"fighter":"Erik Perez","bar_color":"#c1a57b"},{"fighter":"Alex Caceres","bar_color":"#f0a500"},{"fighter":"Johnny Eduardo","bar_color":"#f0a500"},{"fighter":"Bryan Caraway","bar_color":"#c1a57b"},{"fighter":"Aljamain Sterling","bar_color":"#f0a500"},{"fighter":"Thomas Almeida","bar_color":"#f0a500"},{"fighter":"John Dodson","bar_color":"#f0a500"},{"fighter":"Cody Garbrandt","bar_color":"#f0a500"},{"fighter":"John Lineker","bar_color":"#c1a57b"},{"fighter":"Jimmie Rivera","bar_color":"#f0a500"},{"fighter":"Marlon Moraes","bar_color":"#f0a500"},{"fighter":"Pedro Munhoz","bar_color":"#f0a500"},{"fighter":"Cody Stamann","bar_color":"#f0a500"},{"fighter":"Rob Font","bar_color":"#f0a500"},{"fighter":"Petr Yan","bar_color":"#f0a500"},{"fighter":"VACANT","bar_color":"#ffff00"},{"fighter":"Cory Sandhagen","bar_color":"#f0a500"},{"fighter":"Henry Cejudo","bar_color":"#f0a500"},{"fighter":"Jose Aldo","bar_color":"#f0a500"}]
+[
+    {
+        "fighter": "Dominick Cruz",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Renan Barao",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Michael McDonald",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Urijah Faber",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Eddie Wineland",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Brad Pickett",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Brian Bowles",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Raphael Assuncao",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Scott Jorgensen",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Mike Easton",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Ivan Menjivar",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "TJ Dillashaw",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Takeya Mizugaki",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Iuri Alcantara",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Francisco Rivera",
+        "bar_color": "#dbdbdb"
+    },
+    {
+        "fighter": "Erik Perez",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Alex Caceres",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Johnny Eduardo",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Bryan Caraway",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Aljamain Sterling",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Thomas Almeida",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "John Dodson",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Cody Garbrandt",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "John Lineker",
+        "bar_color": "#c1a57b"
+    },
+    {
+        "fighter": "Jimmie Rivera",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Marlon Moraes",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Pedro Munhoz",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Cody Stamann",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Rob Font",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Petr Yan",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "VACANT",
+        "bar_color": "#ffff00"
+    },
+    {
+        "fighter": "Cory Sandhagen",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Henry Cejudo",
+        "bar_color": "#f0a500"
+    },
+    {
+        "fighter": "Jose Aldo",
+        "bar_color": "#f0a500"
+    }
+]
