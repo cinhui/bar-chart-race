@@ -54,50 +54,58 @@ svg.append("text")
    .attr("y", 110+shift_y)
    .html(subTitle);
 
+// Add color legend
+const rect_size = 15
+const rect_offset = 25
+const from_top = 200;
+
 // Add subscript caption
 svg.append("text")
    .attr("class", "caption")
    .attr("x", 45)
-   .attr('y', height-20)
+   // .attr('y', height-20)
+   .attr('y', from_top+4*rect_offset+23)
    .html("Sources: https://www.kaggle.com/martj42/ufc-rankings/data");
 svg.append("text")
    .attr("class", "caption")
    .attr("x", 45+42)
-   .attr('y', height-5)
+   // .attr('y', height-5)
+   .attr('y', from_top+4*rect_offset+23+15)
    .html("http://mma-stats.com/rankings/");
 
-// Add color legend
-// const rect_size = 20
-// const rect_offset = 30
-// const from_top = 250;
+svg.append("text")
+   .attr("class", "caption")
+   .attr("x", 45)
+   .attr('y', from_top+4*rect_offset+8)
+   .html("Status as of March 14, 2020");
 
-// svg.append("rect")
-//    .attr("x",50).attr("y", from_top+rect_offset)
-//    .attr("width", rect_size).attr("height", rect_size)
-//    .style("fill", "#f0a500");
-// svg.append("text")
-//    .attr("class", "legend")
-//    .attr("x",75).attr("y", from_top+rect_offset+12)
-//    .attr("alignment-baseline","middle")
-//    .text("Active in UFC");
-// svg.append("rect")
-//    .attr("x",50).attr("y", from_top+2*rect_offset)
-//    .attr("width", rect_size).attr("height", rect_size)
-//    .style("fill", "#c1a57b");
-// svg.append("text")
-//    .attr("class", "legend")
-//    .attr("x",75).attr("y", from_top+2*rect_offset+12)
-//    .attr("alignment-baseline","middle")
-//    .text("No longer in UFC");
-// svg.append("rect")
-//    .attr("x",50).attr("y", from_top+3*rect_offset)
-//    .attr("width", rect_size).attr("height", rect_size)
-//    .style("fill", "#dbdbdb");
-// svg.append("text")
-//    .attr("class", "legend")   
-//    .attr("x",75).attr("y", from_top+3*rect_offset+12)
-//    .attr("alignment-baseline","middle")
-//    .text("Inactive/Retired");
+svg.append("rect")
+   .attr("x",50).attr("y", from_top+rect_offset)
+   .attr("width", rect_size).attr("height", rect_size)
+   .style("fill", "#f0a500");
+svg.append("text")
+   .attr("class", "legend")
+   .attr("x",75).attr("y", from_top+rect_offset+10)
+   .attr("alignment-baseline","middle")
+   .text("UFC Roster");
+svg.append("rect")
+   .attr("x",50).attr("y", from_top+2*rect_offset)
+   .attr("width", rect_size).attr("height", rect_size)
+   .style("fill", "#c1a57b");
+svg.append("text")
+   .attr("class", "legend")
+   .attr("x",75).attr("y", from_top+2*rect_offset+10)
+   .attr("alignment-baseline","middle")
+   .text("Fighting Outside of UFC");
+svg.append("rect")
+   .attr("x",50).attr("y", from_top+3*rect_offset)
+   .attr("width", rect_size).attr("height", rect_size)
+   .style("fill", "#dbdbdb");
+svg.append("text")
+   .attr("class", "legend")   
+   .attr("x",75).attr("y", from_top+3*rect_offset+10)
+   .attr("alignment-baseline","middle")
+   .text("Inactive/Retired");
 
 Promise.all([
    d3.csv("sequence.csv"),
