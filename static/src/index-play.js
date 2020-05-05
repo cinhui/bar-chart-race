@@ -242,9 +242,9 @@ Promise.all([
          .attr('class', 'dateText')
          // .attr('x', 45)
          // .attr('y', 160+shift_y)
-         .attr('x', x(6)+50)
+         .attr('x', x(8))
          .attr('y', margin.top+10)
-         .style('text-anchor', 'start');
+         .style('text-anchor', 'middle');
       
       let rankText = svg.append("g");
       rankText.append('text')
