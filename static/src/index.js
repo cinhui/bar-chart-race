@@ -110,7 +110,6 @@ svg.append("text")
 Promise.all([
    d3.csv("sequence.csv"),
    d3.csv(weightclass+"-rankings.csv"),
-   // d3.json(weightclass+"-fighters.json"),
    d3.json("https://raw.githubusercontent.com/cinhui/ufc-ranking-chart/master/"+weightclass+"-fighters.json"),
    ])
    .then(function(data) {
