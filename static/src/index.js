@@ -207,7 +207,7 @@ Promise.all([
          // .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
          // .attr('x', d => x(9)+1)
          // .attr('y', d => y(max_value+1)+((y(1)-y(0))/2)+38)
-         .attr('x', d => x(10)+230)
+         .attr('x', d => x(10)+260)
          .attr('y', d => y(d.rank)+((y(1)-y(0))/2)+13)
          .style('text-anchor', 'middle')
          .html(d => d.name);
