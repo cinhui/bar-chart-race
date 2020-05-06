@@ -370,7 +370,7 @@ Promise.all([
                button.text("Resume");
             } else {
                moving = true;
-               timer = setInterval(step, 1000);
+               timer = setInterval(step, delayDuration);
                button.text("Pause");
             }
          })
