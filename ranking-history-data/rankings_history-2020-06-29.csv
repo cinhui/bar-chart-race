@@ -39980,2092 +39980,415 @@ date,weightclass,fighter,rank
 2020-06-15,Women's Bantamweight,Sijara Eubanks,14
 2020-06-15,Women's Bantamweight,Nicco Montano,15
 2020-06-15,Women's Featherweight,Amanda Nunes,0
-2020-07-14,Pound-for-Pound,Jon Jones,1
-2020-07-14,Pound-for-Pound,Amanda Nunes,1
-2020-07-14,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-07-14,Pound-for-Pound,Weili Zhang,2
-2020-07-14,Pound-for-Pound,Stipe Miocic,3
-2020-07-14,Pound-for-Pound,Valentina Shevchenko,3
-2020-07-14,Pound-for-Pound,Israel Adesanya,4
-2020-07-14,Pound-for-Pound,Rose Namajunas,4
-2020-07-14,Pound-for-Pound,Kamaru Usman,5
-2020-07-14,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-07-14,Pound-for-Pound,Daniel Cormier,6
-2020-07-14,Pound-for-Pound,Jessica Andrade,6
-2020-07-14,Pound-for-Pound,Alexander Volkanovski,7
-2020-07-14,Pound-for-Pound,Tatiana Suarez,7
-2020-07-14,Pound-for-Pound,Dustin Poirier,8
-2020-07-14,Pound-for-Pound,Holly Holm,8
-2020-07-14,Pound-for-Pound,Max Holloway,9
-2020-07-14,Pound-for-Pound,Germaine de Randamie,9
-2020-07-14,Pound-for-Pound,Conor McGregor,10
-2020-07-14,Pound-for-Pound,Aspen Ladd,10
-2020-07-14,Pound-for-Pound,Justin Gaethje,11
-2020-07-14,Pound-for-Pound,Katlyn Chookagian,11
-2020-07-14,Pound-for-Pound,Tony Ferguson,12
-2020-07-14,Pound-for-Pound,Claudia Gadelha,12
-2020-07-14,Pound-for-Pound,Petr Yan,13
-2020-07-14,Pound-for-Pound,Cynthia Calvillo,13
-2020-07-14,Pound-for-Pound,Robert Whittaker,14
-2020-07-14,Pound-for-Pound,Julianna Pena,14
-2020-07-14,Pound-for-Pound,Dominick Reyes,15
-2020-07-14,Pound-for-Pound,Francis Ngannou,15
-2020-07-14,Pound-for-Pound,Nina Ansaroff,15
-2020-07-14,Flyweight,Deiveson Figueiredo,1
-2020-07-14,Flyweight,Joseph Benavidez,2
-2020-07-14,Flyweight,Brandon Moreno,3
-2020-07-14,Flyweight,Alexandre Pantoja,4
-2020-07-14,Flyweight,Alex Perez,5
-2020-07-14,Flyweight,Jussier Formiga,6
-2020-07-14,Flyweight,Askar Askarov,7
-2020-07-14,Flyweight,Kai Kara-France,8
-2020-07-14,Flyweight,Rogerio Bontorin,9
-2020-07-14,Flyweight,Matt Schnell,10
-2020-07-14,Flyweight,Brandon Royval,11
-2020-07-14,Flyweight,Raulian Paiva,12
-2020-07-14,Flyweight,Tim Elliott,13
-2020-07-14,Flyweight,Jordan Espinosa,14
-2020-07-14,Flyweight,David Dvorak,15
-2020-07-14,Bantamweight,Petr Yan,0
-2020-07-14,Bantamweight,Marlon Moraes,1
-2020-07-14,Bantamweight,Aljamain Sterling,2
-2020-07-14,Bantamweight,Cody Garbrandt,3
-2020-07-14,Bantamweight,Cory Sandhagen,4
-2020-07-14,Bantamweight,Pedro Munhoz,5
-2020-07-14,Bantamweight,Jose Aldo,6
-2020-07-14,Bantamweight,Raphael Assuncao,7
-2020-07-14,Bantamweight,Jimmie Rivera,8
-2020-07-14,Bantamweight,Cody Stamann,9
-2020-07-14,Bantamweight,Rob Font,10
-2020-07-14,Bantamweight,Dominick Cruz,11
-2020-07-14,Bantamweight,John Dodson,12
-2020-07-14,Bantamweight,Song Yadong,13
-2020-07-14,Bantamweight,Sean O'Malley,14
-2020-07-14,Bantamweight,Merab Dvalishvili,15
-2020-07-14,Featherweight,Alexander Volkanovski,0
-2020-07-14,Featherweight,Max Holloway,1
-2020-07-14,Featherweight,Zabit Magomedsharipov,2
-2020-07-14,Featherweight,Brian Ortega,3
-2020-07-14,Featherweight,Chan Sung Jung,4
-2020-07-14,Featherweight,Yair Rodriguez,5
-2020-07-14,Featherweight,Calvin Kattar,6
-2020-07-14,Featherweight,Frankie Edgar,7
-2020-07-14,Featherweight,Josh Emmett,7
-2020-07-14,Featherweight,Jeremy Stephens,9
-2020-07-14,Featherweight,Dan Ige,10
-2020-07-14,Featherweight,Arnold Allen,11
-2020-07-14,Featherweight,Shane Burgos,12
-2020-07-14,Featherweight,Ryan Hall,13
-2020-07-14,Featherweight,Sodiq Yusuff,14
-2020-07-14,Featherweight,Jose Aldo,15
-2020-07-14,Lightweight,Khabib Nurmagomedov,0
-2020-07-14,Lightweight,Justin Gaethje,1
-2020-07-14,Lightweight,Dustin Poirier,2
-2020-07-14,Lightweight,Tony Ferguson,3
-2020-07-14,Lightweight,Conor McGregor,4
-2020-07-14,Lightweight,Dan Hooker,5
-2020-07-14,Lightweight,Charles Oliveira,6
-2020-07-14,Lightweight,Paul Felder,7
-2020-07-14,Lightweight,Diego Ferreira,8
-2020-07-14,Lightweight,Kevin Lee,9
-2020-07-14,Lightweight,Al Iaquinta,10
-2020-07-14,Lightweight,Islam Makhachev,11
-2020-07-14,Lightweight,Gregor Gillespie,12
-2020-07-14,Lightweight,Donald Cerrone,13
-2020-07-14,Lightweight,Beneil Dariush,14
-2020-07-14,Lightweight,Drew Dober,15
-2020-07-14,Welterweight,Kamaru Usman,0
-2020-07-14,Welterweight,Gilbert Burns,1
-2020-07-14,Welterweight,Colby Covington,2
-2020-07-14,Welterweight,Leon Edwards,3
-2020-07-14,Welterweight,Jorge Masvidal,4
-2020-07-14,Welterweight,Tyron Woodley,5
-2020-07-14,Welterweight,Stephen Thompson,6
-2020-07-14,Welterweight,Demian Maia,7
-2020-07-14,Welterweight,Michael Chiesa,8
-2020-07-14,Welterweight,Rafael Dos Anjos,9
-2020-07-14,Welterweight,Geoff Neal,10
-2020-07-14,Welterweight,Nate Diaz,11
-2020-07-14,Welterweight,Vicente Luque,12
-2020-07-14,Welterweight,Robbie Lawler,13
-2020-07-14,Welterweight,Neil Magny,14
-2020-07-14,Welterweight,Anthony Pettis,15
-2020-07-14,Middleweight,Israel Adesanya,0
-2020-07-14,Middleweight,Robert Whittaker,1
-2020-07-14,Middleweight,Paulo Costa,2
-2020-07-14,Middleweight,Jared Cannonier,3
-2020-07-14,Middleweight,Yoel Romero,4
-2020-07-14,Middleweight,Darren Till,5
-2020-07-14,Middleweight,Jack Hermansson,6
-2020-07-14,Middleweight,Kelvin Gastelum,7
-2020-07-14,Middleweight,Derek Brunson,8
-2020-07-14,Middleweight,Edmen Shahbazyan,9
-2020-07-14,Middleweight,Uriah Hall,10
-2020-07-14,Middleweight,Omari Akhmedov,11
-2020-07-14,Middleweight,Brad Tavares,12
-2020-07-14,Middleweight,Ian Heinisch,13
-2020-07-14,Middleweight,Marvin Vettori,14
-2020-07-14,Middleweight,Antonio Carlos Junior,15
-2020-07-14,Light Heavyweight,Jon Jones,0
-2020-07-14,Light Heavyweight,Dominick Reyes,1
-2020-07-14,Light Heavyweight,Thiago Santos,2
-2020-07-14,Light Heavyweight,Jan Blachowicz,3
-2020-07-14,Light Heavyweight,Corey Anderson,4
-2020-07-14,Light Heavyweight,Glover Teixeira,5
-2020-07-14,Light Heavyweight,Anthony Smith,6
-2020-07-14,Light Heavyweight,Alexander Gustafsson,7
-2020-07-14,Light Heavyweight,Jiri Prochazka,8
-2020-07-14,Light Heavyweight,Volkan Oezdemir,9
-2020-07-14,Light Heavyweight,Aleksandar Rakic,10
-2020-07-14,Light Heavyweight,Nikita Krylov,11
-2020-07-14,Light Heavyweight,Misha Cirkunov,12
-2020-07-14,Light Heavyweight,Johnny Walker,13
-2020-07-14,Light Heavyweight,Ryan Spann,14
-2020-07-14,Light Heavyweight,Mauricio Rua,15
-2020-07-14,Light Heavyweight,Magomed Ankalaev,15
-2020-07-14,Heavyweight,Stipe Miocic,0
-2020-07-14,Heavyweight,Daniel Cormier,1
-2020-07-14,Heavyweight,Francis Ngannou,2
-2020-07-14,Heavyweight,Curtis Blaydes,3
-2020-07-14,Heavyweight,Derrick Lewis,4
-2020-07-14,Heavyweight,Junior Dos Santos,5
-2020-07-14,Heavyweight,Jairzinho Rozenstruik,6
-2020-07-14,Heavyweight,Alistair Overeem,7
-2020-07-14,Heavyweight,Alexander Volkov,8
-2020-07-14,Heavyweight,Augusto Sakai,9
-2020-07-14,Heavyweight,Walt Harris,10
-2020-07-14,Heavyweight,Aleksei Oleinik,11
-2020-07-14,Heavyweight,Shamil Abdurakhimov,12
-2020-07-14,Heavyweight,Sergei Pavlovich,13
-2020-07-14,Heavyweight,Fabricio Werdum,14
-2020-07-14,Heavyweight,Ciryl Gane,15
-2020-07-14,Women's Strawweight,Weili Zhang,0
-2020-07-14,Women's Strawweight,Rose Namajunas,1
-2020-07-14,Women's Strawweight,Jessica Andrade,2
-2020-07-14,Women's Strawweight,Joanna Jedrzejczyk,3
-2020-07-14,Women's Strawweight,Tatiana Suarez,3
-2020-07-14,Women's Strawweight,Nina Ansaroff,5
-2020-07-14,Women's Strawweight,Claudia Gadelha,6
-2020-07-14,Women's Strawweight,Carla Esparza,7
-2020-07-14,Women's Strawweight,Michelle Waterson,8
-2020-07-14,Women's Strawweight,Marina Rodriguez,9
-2020-07-14,Women's Strawweight,Yan Xiaonan,10
-2020-07-14,Women's Strawweight,Tecia Torres,11
-2020-07-14,Women's Strawweight,Amanda Ribas,12
-2020-07-14,Women's Strawweight,Alexa Grasso,13
-2020-07-14,Women's Strawweight,Angela Hill,14
-2020-07-14,Women's Strawweight,Felice Herrig,15
-2020-07-14,Women's Flyweight,Valentina Shevchenko,0
-2020-07-14,Women's Flyweight,Katlyn Chookagian,1
-2020-07-14,Women's Flyweight,Cynthia Calvillo,2
-2020-07-14,Women's Flyweight,Joanne Calderwood,3
-2020-07-14,Women's Flyweight,Lauren Murphy,4
-2020-07-14,Women's Flyweight,Jessica Eye,5
-2020-07-14,Women's Flyweight,Jennifer Maia,6
-2020-07-14,Women's Flyweight,Roxanne Modafferi,7
-2020-07-14,Women's Flyweight,Viviane Araujo,8
-2020-07-14,Women's Flyweight,Andrea Lee,9
-2020-07-14,Women's Flyweight,Maycee Barber,10
-2020-07-14,Women's Flyweight,Alexis Davis,11
-2020-07-14,Women's Flyweight,Montana De La Rosa,12
-2020-07-14,Women's Flyweight,Antonina Shevchenko,13
-2020-07-14,Women's Flyweight,Ji Yeon Kim,14
-2020-07-14,Women's Flyweight,Molly McCann,15
-2020-07-14,Women's Bantamweight,Amanda Nunes,0
-2020-07-14,Women's Bantamweight,Germaine de Randamie,1
-2020-07-14,Women's Bantamweight,Holly Holm,2
-2020-07-14,Women's Bantamweight,Aspen Ladd,3
-2020-07-14,Women's Bantamweight,Raquel Pennington,4
-2020-07-14,Women's Bantamweight,Julianna Pena,4
-2020-07-14,Women's Bantamweight,Irene Aldana,6
-2020-07-14,Women's Bantamweight,Ketlen Vieira,7
-2020-07-14,Women's Bantamweight,Yana Kunitskaya,8
-2020-07-14,Women's Bantamweight,Sara McMann,9
-2020-07-14,Women's Bantamweight,Marion Reneau,10
-2020-07-14,Women's Bantamweight,Lina Lansberg,11
-2020-07-14,Women's Bantamweight,Macy Chiasson,12
-2020-07-14,Women's Bantamweight,Bethe Correia,13
-2020-07-14,Women's Bantamweight,Sijara Eubanks,14
-2020-07-14,Women's Bantamweight,Julia Avila,15
-2020-07-14,Women's Featherweight,Amanda Nunes,0
-2020-07-27,Pound-for-Pound,Jon Jones,1
-2020-07-27,Pound-for-Pound,Amanda Nunes,1
-2020-07-27,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-07-27,Pound-for-Pound,Weili Zhang,2
-2020-07-27,Pound-for-Pound,Stipe Miocic,3
-2020-07-27,Pound-for-Pound,Valentina Shevchenko,3
-2020-07-27,Pound-for-Pound,Israel Adesanya,4
-2020-07-27,Pound-for-Pound,Rose Namajunas,4
-2020-07-27,Pound-for-Pound,Kamaru Usman,5
-2020-07-27,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-07-27,Pound-for-Pound,Daniel Cormier,6
-2020-07-27,Pound-for-Pound,Jessica Andrade,6
-2020-07-27,Pound-for-Pound,Alexander Volkanovski,7
-2020-07-27,Pound-for-Pound,Tatiana Suarez,7
-2020-07-27,Pound-for-Pound,Dustin Poirier,8
-2020-07-27,Pound-for-Pound,Holly Holm,8
-2020-07-27,Pound-for-Pound,Max Holloway,9
-2020-07-27,Pound-for-Pound,Germaine de Randamie,9
-2020-07-27,Pound-for-Pound,Conor McGregor,10
-2020-07-27,Pound-for-Pound,Aspen Ladd,10
-2020-07-27,Pound-for-Pound,Justin Gaethje,11
-2020-07-27,Pound-for-Pound,Katlyn Chookagian,11
-2020-07-27,Pound-for-Pound,Tony Ferguson,12
-2020-07-27,Pound-for-Pound,Claudia Gadelha,12
-2020-07-27,Pound-for-Pound,Petr Yan,13
-2020-07-27,Pound-for-Pound,Cynthia Calvillo,13
-2020-07-27,Pound-for-Pound,Robert Whittaker,14
-2020-07-27,Pound-for-Pound,Julianna Pena,14
-2020-07-27,Pound-for-Pound,Francis Ngannou,15
-2020-07-27,Pound-for-Pound,Nina Ansaroff,15
-2020-07-27,Flyweight,Deiveson Figueiredo,0
-2020-07-27,Flyweight,Deiveson Figueiredo,1
-2020-07-27,Flyweight,Joseph Benavidez,2
-2020-07-27,Flyweight,Brandon Moreno,3
-2020-07-27,Flyweight,Alexandre Pantoja,4
-2020-07-27,Flyweight,Alex Perez,5
-2020-07-27,Flyweight,Jussier Formiga,6
-2020-07-27,Flyweight,Askar Askarov,7
-2020-07-27,Flyweight,Kai Kara-France,8
-2020-07-27,Flyweight,Rogerio Bontorin,9
-2020-07-27,Flyweight,Matt Schnell,10
-2020-07-27,Flyweight,Brandon Royval,11
-2020-07-27,Flyweight,Raulian Paiva,12
-2020-07-27,Flyweight,Tim Elliott,13
-2020-07-27,Flyweight,Jordan Espinosa,14
-2020-07-27,Flyweight,David Dvorak,15
-2020-07-27,Bantamweight,Petr Yan,0
-2020-07-27,Bantamweight,Marlon Moraes,1
-2020-07-27,Bantamweight,Aljamain Sterling,2
-2020-07-27,Bantamweight,Cody Garbrandt,3
-2020-07-27,Bantamweight,Cory Sandhagen,4
-2020-07-27,Bantamweight,Pedro Munhoz,5
-2020-07-27,Bantamweight,Jose Aldo,6
-2020-07-27,Bantamweight,Raphael Assuncao,7
-2020-07-27,Bantamweight,Jimmie Rivera,8
-2020-07-27,Bantamweight,Cody Stamann,9
-2020-07-27,Bantamweight,Rob Font,10
-2020-07-27,Bantamweight,Dominick Cruz,11
-2020-07-27,Bantamweight,John Dodson,12
-2020-07-27,Bantamweight,Song Yadong,13
-2020-07-27,Bantamweight,Sean O'Malley,14
-2020-07-27,Bantamweight,Merab Dvalishvili,15
-2020-07-27,Featherweight,Alexander Volkanovski,0
-2020-07-27,Featherweight,Max Holloway,1
-2020-07-27,Featherweight,Zabit Magomedsharipov,2
-2020-07-27,Featherweight,Brian Ortega,3
-2020-07-27,Featherweight,Chan Sung Jung,4
-2020-07-27,Featherweight,Yair Rodriguez,5
-2020-07-27,Featherweight,Calvin Kattar,6
-2020-07-27,Featherweight,Frankie Edgar,7
-2020-07-27,Featherweight,Josh Emmett,7
-2020-07-27,Featherweight,Jeremy Stephens,9
-2020-07-27,Featherweight,Dan Ige,10
-2020-07-27,Featherweight,Arnold Allen,11
-2020-07-27,Featherweight,Shane Burgos,12
-2020-07-27,Featherweight,Ryan Hall,13
-2020-07-27,Featherweight,Sodiq Yusuff,14
-2020-07-27,Featherweight,Jose Aldo,15
-2020-07-27,Lightweight,Khabib Nurmagomedov,0
-2020-07-27,Lightweight,Justin Gaethje,1
-2020-07-27,Lightweight,Dustin Poirier,2
-2020-07-27,Lightweight,Tony Ferguson,3
-2020-07-27,Lightweight,Conor McGregor,4
-2020-07-27,Lightweight,Dan Hooker,5
-2020-07-27,Lightweight,Charles Oliveira,6
-2020-07-27,Lightweight,Paul Felder,7
-2020-07-27,Lightweight,Diego Ferreira,8
-2020-07-27,Lightweight,Kevin Lee,9
-2020-07-27,Lightweight,Al Iaquinta,10
-2020-07-27,Lightweight,Islam Makhachev,11
-2020-07-27,Lightweight,Gregor Gillespie,12
-2020-07-27,Lightweight,Donald Cerrone,13
-2020-07-27,Lightweight,Beneil Dariush,14
-2020-07-27,Lightweight,Drew Dober,15
-2020-07-27,Welterweight,Kamaru Usman,0
-2020-07-27,Welterweight,Gilbert Burns,1
-2020-07-27,Welterweight,Colby Covington,2
-2020-07-27,Welterweight,Leon Edwards,3
-2020-07-27,Welterweight,Jorge Masvidal,4
-2020-07-27,Welterweight,Tyron Woodley,5
-2020-07-27,Welterweight,Stephen Thompson,6
-2020-07-27,Welterweight,Demian Maia,7
-2020-07-27,Welterweight,Michael Chiesa,8
-2020-07-27,Welterweight,Rafael Dos Anjos,9
-2020-07-27,Welterweight,Geoff Neal,10
-2020-07-27,Welterweight,Nate Diaz,11
-2020-07-27,Welterweight,Vicente Luque,12
-2020-07-27,Welterweight,Robbie Lawler,13
-2020-07-27,Welterweight,Neil Magny,14
-2020-07-27,Welterweight,Anthony Pettis,15
-2020-07-27,Middleweight,Israel Adesanya,0
-2020-07-27,Middleweight,Robert Whittaker,1
-2020-07-27,Middleweight,Paulo Costa,2
-2020-07-27,Middleweight,Jared Cannonier,3
-2020-07-27,Middleweight,Yoel Romero,4
-2020-07-27,Middleweight,Darren Till,5
-2020-07-27,Middleweight,Jack Hermansson,6
-2020-07-27,Middleweight,Kelvin Gastelum,7
-2020-07-27,Middleweight,Derek Brunson,8
-2020-07-27,Middleweight,Edmen Shahbazyan,9
-2020-07-27,Middleweight,Uriah Hall,10
-2020-07-27,Middleweight,Omari Akhmedov,11
-2020-07-27,Middleweight,Brad Tavares,12
-2020-07-27,Middleweight,Ian Heinisch,13
-2020-07-27,Middleweight,Marvin Vettori,14
-2020-07-27,Middleweight,Antonio Carlos Junior,15
-2020-07-27,Light Heavyweight,Jon Jones,0
-2020-07-27,Light Heavyweight,Dominick Reyes,1
-2020-07-27,Light Heavyweight,Thiago Santos,2
-2020-07-27,Light Heavyweight,Jan Blachowicz,3
-2020-07-27,Light Heavyweight,Corey Anderson,4
-2020-07-27,Light Heavyweight,Glover Teixeira,5
-2020-07-27,Light Heavyweight,Anthony Smith,6
-2020-07-27,Light Heavyweight,Alexander Gustafsson,7
-2020-07-27,Light Heavyweight,Jiri Prochazka,8
-2020-07-27,Light Heavyweight,Volkan Oezdemir,9
-2020-07-27,Light Heavyweight,Aleksandar Rakic,10
-2020-07-27,Light Heavyweight,Nikita Krylov,11
-2020-07-27,Light Heavyweight,Misha Cirkunov,12
-2020-07-27,Light Heavyweight,Johnny Walker,13
-2020-07-27,Light Heavyweight,Ryan Spann,14
-2020-07-27,Light Heavyweight,Magomed Ankalaev,15
-2020-07-27,Heavyweight,Stipe Miocic,0
-2020-07-27,Heavyweight,Daniel Cormier,1
-2020-07-27,Heavyweight,Francis Ngannou,2
-2020-07-27,Heavyweight,Curtis Blaydes,3
-2020-07-27,Heavyweight,Derrick Lewis,4
-2020-07-27,Heavyweight,Junior Dos Santos,5
-2020-07-27,Heavyweight,Jairzinho Rozenstruik,6
-2020-07-27,Heavyweight,Alistair Overeem,7
-2020-07-27,Heavyweight,Alexander Volkov,8
-2020-07-27,Heavyweight,Augusto Sakai,9
-2020-07-27,Heavyweight,Walt Harris,10
-2020-07-27,Heavyweight,Aleksei Oleinik,11
-2020-07-27,Heavyweight,Shamil Abdurakhimov,12
-2020-07-27,Heavyweight,Sergei Pavlovich,13
-2020-07-27,Heavyweight,Fabricio Werdum,14
-2020-07-27,Heavyweight,Ciryl Gane,15
-2020-07-27,Women's Strawweight,Weili Zhang,0
-2020-07-27,Women's Strawweight,Rose Namajunas,0
-2020-07-27,Women's Strawweight,Rose Namajunas,1
-2020-07-27,Women's Strawweight,Jessica Andrade,2
-2020-07-27,Women's Strawweight,Joanna Jedrzejczyk,3
-2020-07-27,Women's Strawweight,Tatiana Suarez,3
-2020-07-27,Women's Strawweight,Nina Ansaroff,5
-2020-07-27,Women's Strawweight,Claudia Gadelha,6
-2020-07-27,Women's Strawweight,Carla Esparza,7
-2020-07-27,Women's Strawweight,Michelle Waterson,8
-2020-07-27,Women's Strawweight,Marina Rodriguez,9
-2020-07-27,Women's Strawweight,Yan Xiaonan,10
-2020-07-27,Women's Strawweight,Tecia Torres,11
-2020-07-27,Women's Strawweight,Amanda Ribas,12
-2020-07-27,Women's Strawweight,Alexa Grasso,13
-2020-07-27,Women's Strawweight,Angela Hill,14
-2020-07-27,Women's Strawweight,Felice Herrig,15
-2020-07-27,Women's Flyweight,Valentina Shevchenko,0
-2020-07-27,Women's Flyweight,Katlyn Chookagian,0
-2020-07-27,Women's Flyweight,Katlyn Chookagian,1
-2020-07-27,Women's Flyweight,Cynthia Calvillo,2
-2020-07-27,Women's Flyweight,Joanne Calderwood,3
-2020-07-27,Women's Flyweight,Lauren Murphy,4
-2020-07-27,Women's Flyweight,Jessica Eye,5
-2020-07-27,Women's Flyweight,Jennifer Maia,6
-2020-07-27,Women's Flyweight,Roxanne Modafferi,7
-2020-07-27,Women's Flyweight,Viviane Araujo,8
-2020-07-27,Women's Flyweight,Andrea Lee,9
-2020-07-27,Women's Flyweight,Maycee Barber,10
-2020-07-27,Women's Flyweight,Alexis Davis,11
-2020-07-27,Women's Flyweight,Montana De La Rosa,12
-2020-07-27,Women's Flyweight,Antonina Shevchenko,13
-2020-07-27,Women's Flyweight,Ji Yeon Kim,14
-2020-07-27,Women's Flyweight,Molly McCann,15
-2020-07-27,Women's Bantamweight,Amanda Nunes,0
-2020-07-27,Women's Bantamweight,Germaine de Randamie,0
-2020-07-27,Women's Bantamweight,Germaine de Randamie,1
-2020-07-27,Women's Bantamweight,Holly Holm,2
-2020-07-27,Women's Bantamweight,Aspen Ladd,3
-2020-07-27,Women's Bantamweight,Julianna Pena,4
-2020-07-27,Women's Bantamweight,Raquel Pennington,4
-2020-07-27,Women's Bantamweight,Irene Aldana,6
-2020-07-27,Women's Bantamweight,Ketlen Vieira,7
-2020-07-27,Women's Bantamweight,Yana Kunitskaya,8
-2020-07-27,Women's Bantamweight,Sara McMann,9
-2020-07-27,Women's Bantamweight,Marion Reneau,10
-2020-07-27,Women's Bantamweight,Lina Lansberg,11
-2020-07-27,Women's Bantamweight,Macy Chiasson,12
-2020-07-27,Women's Bantamweight,Bethe Correia,13
-2020-07-27,Women's Bantamweight,Sijara Eubanks,14
-2020-07-27,Women's Bantamweight,Julia Avila,15
-2020-07-27,Women's Featherweight,Amanda Nunes,0
-2020-08-03,Pound-for-Pound,Jon Jones,1
-2020-08-03,Pound-for-Pound,Amanda Nunes,1
-2020-08-03,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-08-03,Pound-for-Pound,Weili Zhang,2
-2020-08-03,Pound-for-Pound,Stipe Miocic,3
-2020-08-03,Pound-for-Pound,Valentina Shevchenko,3
-2020-08-03,Pound-for-Pound,Israel Adesanya,4
-2020-08-03,Pound-for-Pound,Rose Namajunas,4
-2020-08-03,Pound-for-Pound,Kamaru Usman,5
-2020-08-03,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-08-03,Pound-for-Pound,Daniel Cormier,6
-2020-08-03,Pound-for-Pound,Jessica Andrade,6
-2020-08-03,Pound-for-Pound,Alexander Volkanovski,7
-2020-08-03,Pound-for-Pound,Tatiana Suarez,7
-2020-08-03,Pound-for-Pound,Max Holloway,8
-2020-08-03,Pound-for-Pound,Holly Holm,8
-2020-08-03,Pound-for-Pound,Dustin Poirier,9
-2020-08-03,Pound-for-Pound,Germaine de Randamie,9
-2020-08-03,Pound-for-Pound,Justin Gaethje,10
-2020-08-03,Pound-for-Pound,Aspen Ladd,10
-2020-08-03,Pound-for-Pound,Conor McGregor,11
-2020-08-03,Pound-for-Pound,Katlyn Chookagian,11
-2020-08-03,Pound-for-Pound,Petr Yan,12
-2020-08-03,Pound-for-Pound,Claudia Gadelha,12
-2020-08-03,Pound-for-Pound,Deiveson Figueiredo,13
-2020-08-03,Pound-for-Pound,Cynthia Calvillo,13
-2020-08-03,Pound-for-Pound,Robert Whittaker,14
-2020-08-03,Pound-for-Pound,Julianna Pena,14
-2020-08-03,Pound-for-Pound,Francis Ngannou,15
-2020-08-03,Pound-for-Pound,Tony Ferguson,15
-2020-08-03,Pound-for-Pound,Nina Ansaroff,15
-2020-08-03,Flyweight,Deiveson Figueiredo,0
-2020-08-03,Flyweight,Joseph Benavidez,1
-2020-08-03,Flyweight,Brandon Moreno,2
-2020-08-03,Flyweight,Askar Askarov,3
-2020-08-03,Flyweight,Alex Perez,4
-2020-08-03,Flyweight,Alexandre Pantoja,5
-2020-08-03,Flyweight,Jussier Formiga,6
-2020-08-03,Flyweight,Kai Kara-France,7
-2020-08-03,Flyweight,Rogerio Bontorin,8
-2020-08-03,Flyweight,Matt Schnell,9
-2020-08-03,Flyweight,Brandon Royval,10
-2020-08-03,Flyweight,Tim Elliott,11
-2020-08-03,Flyweight,Raulian Paiva,12
-2020-08-03,Flyweight,Jordan Espinosa,13
-2020-08-03,Flyweight,David Dvorak,14
-2020-08-03,Flyweight,Amir Albazi,15
-2020-08-03,Bantamweight,Petr Yan,0
-2020-08-03,Bantamweight,Marlon Moraes,1
-2020-08-03,Bantamweight,Aljamain Sterling,2
-2020-08-03,Bantamweight,Cody Garbrandt,3
-2020-08-03,Bantamweight,Cory Sandhagen,4
-2020-08-03,Bantamweight,Pedro Munhoz,5
-2020-08-03,Bantamweight,Jose Aldo,6
-2020-08-03,Bantamweight,Jimmie Rivera,7
-2020-08-03,Bantamweight,Raphael Assuncao,8
-2020-08-03,Bantamweight,Cody Stamann,9
-2020-08-03,Bantamweight,Rob Font,10
-2020-08-03,Bantamweight,Dominick Cruz,11
-2020-08-03,Bantamweight,John Dodson,12
-2020-08-03,Bantamweight,Song Yadong,13
-2020-08-03,Bantamweight,Sean O'Malley,14
-2020-08-03,Bantamweight,Merab Dvalishvili,15
-2020-08-03,Featherweight,Alexander Volkanovski,0
-2020-08-03,Featherweight,Max Holloway,1
-2020-08-03,Featherweight,Brian Ortega,2
-2020-08-03,Featherweight,Zabit Magomedsharipov,3
-2020-08-03,Featherweight,Chan Sung Jung,4
-2020-08-03,Featherweight,Yair Rodriguez,5
-2020-08-03,Featherweight,Calvin Kattar,6
-2020-08-03,Featherweight,Josh Emmett,7
-2020-08-03,Featherweight,Frankie Edgar,8
-2020-08-03,Featherweight,Jeremy Stephens,9
-2020-08-03,Featherweight,Arnold Allen,10
-2020-08-03,Featherweight,Sodiq Yusuff,11
-2020-08-03,Featherweight,Dan Ige,12
-2020-08-03,Featherweight,Ryan Hall,13
-2020-08-03,Featherweight,Shane Burgos,14
-2020-08-03,Featherweight,Jose Aldo,15
-2020-08-03,Lightweight,Khabib Nurmagomedov,0
-2020-08-03,Lightweight,Justin Gaethje,1
-2020-08-03,Lightweight,Dustin Poirier,2
-2020-08-03,Lightweight,Tony Ferguson,3
-2020-08-03,Lightweight,Conor McGregor,4
-2020-08-03,Lightweight,Dan Hooker,5
-2020-08-03,Lightweight,Charles Oliveira,6
-2020-08-03,Lightweight,Paul Felder,7
-2020-08-03,Lightweight,Diego Ferreira,8
-2020-08-03,Lightweight,Al Iaquinta,9
-2020-08-03,Lightweight,Kevin Lee,10
-2020-08-03,Lightweight,Islam Makhachev,11
-2020-08-03,Lightweight,Gregor Gillespie,12
-2020-08-03,Lightweight,Donald Cerrone,13
-2020-08-03,Lightweight,Beneil Dariush,14
-2020-08-03,Lightweight,Drew Dober,15
-2020-08-03,Welterweight,Kamaru Usman,0
-2020-08-03,Welterweight,Gilbert Burns,1
-2020-08-03,Welterweight,Colby Covington,2
-2020-08-03,Welterweight,Leon Edwards,3
-2020-08-03,Welterweight,Jorge Masvidal,4
-2020-08-03,Welterweight,Tyron Woodley,5
-2020-08-03,Welterweight,Stephen Thompson,6
-2020-08-03,Welterweight,Demian Maia,7
-2020-08-03,Welterweight,Michael Chiesa,8
-2020-08-03,Welterweight,Rafael Dos Anjos,9
-2020-08-03,Welterweight,Vicente Luque,10
-2020-08-03,Welterweight,Geoff Neal,11
-2020-08-03,Welterweight,Nate Diaz,12
-2020-08-03,Welterweight,Robbie Lawler,13
-2020-08-03,Welterweight,Neil Magny,14
-2020-08-03,Welterweight,Anthony Pettis,15
-2020-08-03,Middleweight,Israel Adesanya,0
-2020-08-03,Middleweight,Robert Whittaker,1
-2020-08-03,Middleweight,Paulo Costa,2
-2020-08-03,Middleweight,Jared Cannonier,3
-2020-08-03,Middleweight,Jack Hermansson,4
-2020-08-03,Middleweight,Yoel Romero,5
-2020-08-03,Middleweight,Darren Till,6
-2020-08-03,Middleweight,Derek Brunson,7
-2020-08-03,Middleweight,Kelvin Gastelum,8
-2020-08-03,Middleweight,Uriah Hall,9
-2020-08-03,Middleweight,Edmen Shahbazyan,10
-2020-08-03,Middleweight,Omari Akhmedov,11
-2020-08-03,Middleweight,Brad Tavares,12
-2020-08-03,Middleweight,Ian Heinisch,13
-2020-08-03,Middleweight,Marvin Vettori,14
-2020-08-03,Middleweight,Antonio Carlos Junior,15
-2020-08-03,Light Heavyweight,Jon Jones,0
-2020-08-03,Light Heavyweight,Dominick Reyes,1
-2020-08-03,Light Heavyweight,Thiago Santos,2
-2020-08-03,Light Heavyweight,Jan Blachowicz,3
-2020-08-03,Light Heavyweight,Corey Anderson,4
-2020-08-03,Light Heavyweight,Glover Teixeira,5
-2020-08-03,Light Heavyweight,Anthony Smith,6
-2020-08-03,Light Heavyweight,Alexander Gustafsson,7
-2020-08-03,Light Heavyweight,Jiri Prochazka,7
-2020-08-03,Light Heavyweight,Volkan Oezdemir,8
-2020-08-03,Light Heavyweight,Aleksandar Rakic,9
-2020-08-03,Light Heavyweight,Nikita Krylov,10
-2020-08-03,Light Heavyweight,Misha Cirkunov,11
-2020-08-03,Light Heavyweight,Johnny Walker,12
-2020-08-03,Light Heavyweight,Ryan Spann,13
-2020-08-03,Light Heavyweight,Magomed Ankalaev,14
-2020-08-03,Light Heavyweight,Mauricio Rua,15
-2020-08-03,Heavyweight,Stipe Miocic,0
-2020-08-03,Heavyweight,Daniel Cormier,1
-2020-08-03,Heavyweight,Francis Ngannou,2
-2020-08-03,Heavyweight,Curtis Blaydes,3
-2020-08-03,Heavyweight,Derrick Lewis,4
-2020-08-03,Heavyweight,Junior Dos Santos,5
-2020-08-03,Heavyweight,Jairzinho Rozenstruik,6
-2020-08-03,Heavyweight,Alistair Overeem,7
-2020-08-03,Heavyweight,Alexander Volkov,8
-2020-08-03,Heavyweight,Augusto Sakai,9
-2020-08-03,Heavyweight,Aleksei Oleinik,10
-2020-08-03,Heavyweight,Walt Harris,11
-2020-08-03,Heavyweight,Shamil Abdurakhimov,12
-2020-08-03,Heavyweight,Fabricio Werdum,13
-2020-08-03,Heavyweight,Sergei Pavlovich,14
-2020-08-03,Heavyweight,Ciryl Gane,15
-2020-08-03,Women's Strawweight,Weili Zhang,0
-2020-08-03,Women's Strawweight,Rose Namajunas,1
-2020-08-03,Women's Strawweight,Jessica Andrade,2
-2020-08-03,Women's Strawweight,Tatiana Suarez,3
-2020-08-03,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-08-03,Women's Strawweight,Nina Ansaroff,5
-2020-08-03,Women's Strawweight,Claudia Gadelha,6
-2020-08-03,Women's Strawweight,Carla Esparza,7
-2020-08-03,Women's Strawweight,Michelle Waterson,8
-2020-08-03,Women's Strawweight,Marina Rodriguez,9
-2020-08-03,Women's Strawweight,Yan Xiaonan,10
-2020-08-03,Women's Strawweight,Tecia Torres,11
-2020-08-03,Women's Strawweight,Amanda Ribas,12
-2020-08-03,Women's Strawweight,Angela Hill,13
-2020-08-03,Women's Strawweight,Alexa Grasso,14
-2020-08-03,Women's Strawweight,Felice Herrig,15
-2020-08-03,Women's Flyweight,Valentina Shevchenko,0
-2020-08-03,Women's Flyweight,Katlyn Chookagian,1
-2020-08-03,Women's Flyweight,Cynthia Calvillo,2
-2020-08-03,Women's Flyweight,Jennifer Maia,3
-2020-08-03,Women's Flyweight,Lauren Murphy,4
-2020-08-03,Women's Flyweight,Joanne Calderwood,5
-2020-08-03,Women's Flyweight,Jessica Eye,5
-2020-08-03,Women's Flyweight,Roxanne Modafferi,7
-2020-08-03,Women's Flyweight,Viviane Araujo,8
-2020-08-03,Women's Flyweight,Andrea Lee,9
-2020-08-03,Women's Flyweight,Maycee Barber,10
-2020-08-03,Women's Flyweight,Alexis Davis,11
-2020-08-03,Women's Flyweight,Montana De La Rosa,12
-2020-08-03,Women's Flyweight,Antonina Shevchenko,13
-2020-08-03,Women's Flyweight,Ji Yeon Kim,14
-2020-08-03,Women's Flyweight,Molly McCann,15
-2020-08-03,Women's Flyweight,Gillian Robertson,15
-2020-08-03,Women's Bantamweight,Amanda Nunes,0
-2020-08-03,Women's Bantamweight,Germaine de Randamie,1
-2020-08-03,Women's Bantamweight,Holly Holm,2
-2020-08-03,Women's Bantamweight,Aspen Ladd,3
-2020-08-03,Women's Bantamweight,Julianna Pena,4
-2020-08-03,Women's Bantamweight,Raquel Pennington,5
-2020-08-03,Women's Bantamweight,Irene Aldana,6
-2020-08-03,Women's Bantamweight,Ketlen Vieira,7
-2020-08-03,Women's Bantamweight,Yana Kunitskaya,8
-2020-08-03,Women's Bantamweight,Sara McMann,9
-2020-08-03,Women's Bantamweight,Marion Reneau,10
-2020-08-03,Women's Bantamweight,Lina Lansberg,11
-2020-08-03,Women's Bantamweight,Macy Chiasson,12
-2020-08-03,Women's Bantamweight,Bethe Correia,13
-2020-08-03,Women's Bantamweight,Pannie Kianzad,13
-2020-08-03,Women's Bantamweight,Julia Avila,14
-2020-08-03,Women's Bantamweight,Sijara Eubanks,15
-2020-08-03,Women's Featherweight,Amanda Nunes,0
-2020-08-10,Pound-for-Pound,Jon Jones,1
-2020-08-10,Pound-for-Pound,Amanda Nunes,1
-2020-08-10,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-08-10,Pound-for-Pound,Weili Zhang,2
-2020-08-10,Pound-for-Pound,Stipe Miocic,3
-2020-08-10,Pound-for-Pound,Valentina Shevchenko,3
-2020-08-10,Pound-for-Pound,Israel Adesanya,4
-2020-08-10,Pound-for-Pound,Rose Namajunas,4
-2020-08-10,Pound-for-Pound,Kamaru Usman,5
-2020-08-10,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-08-10,Pound-for-Pound,Daniel Cormier,6
-2020-08-10,Pound-for-Pound,Jessica Andrade,6
-2020-08-10,Pound-for-Pound,Alexander Volkanovski,7
-2020-08-10,Pound-for-Pound,Tatiana Suarez,7
-2020-08-10,Pound-for-Pound,Max Holloway,8
-2020-08-10,Pound-for-Pound,Holly Holm,8
-2020-08-10,Pound-for-Pound,Dustin Poirier,9
-2020-08-10,Pound-for-Pound,Germaine de Randamie,9
-2020-08-10,Pound-for-Pound,Justin Gaethje,10
-2020-08-10,Pound-for-Pound,Aspen Ladd,10
-2020-08-10,Pound-for-Pound,Conor McGregor,11
-2020-08-10,Pound-for-Pound,Katlyn Chookagian,11
-2020-08-10,Pound-for-Pound,Petr Yan,12
-2020-08-10,Pound-for-Pound,Claudia Gadelha,12
-2020-08-10,Pound-for-Pound,Deiveson Figueiredo,13
-2020-08-10,Pound-for-Pound,Cynthia Calvillo,13
-2020-08-10,Pound-for-Pound,Robert Whittaker,14
-2020-08-10,Pound-for-Pound,Julianna Pena,14
-2020-08-10,Pound-for-Pound,Tony Ferguson,15
-2020-08-10,Pound-for-Pound,Nina Ansaroff,15
-2020-08-10,Flyweight,Deiveson Figueiredo,0
-2020-08-10,Flyweight,Joseph Benavidez,1
-2020-08-10,Flyweight,Brandon Moreno,2
-2020-08-10,Flyweight,Askar Askarov,3
-2020-08-10,Flyweight,Alex Perez,4
-2020-08-10,Flyweight,Alexandre Pantoja,5
-2020-08-10,Flyweight,Jussier Formiga,6
-2020-08-10,Flyweight,Kai Kara-France,7
-2020-08-10,Flyweight,Rogerio Bontorin,8
-2020-08-10,Flyweight,Matt Schnell,9
-2020-08-10,Flyweight,Brandon Royval,10
-2020-08-10,Flyweight,Tim Elliott,11
-2020-08-10,Flyweight,Raulian Paiva,12
-2020-08-10,Flyweight,Jordan Espinosa,13
-2020-08-10,Flyweight,David Dvorak,14
-2020-08-10,Flyweight,Amir Albazi,15
-2020-08-10,Bantamweight,Petr Yan,0
-2020-08-10,Bantamweight,Marlon Moraes,1
-2020-08-10,Bantamweight,Aljamain Sterling,2
-2020-08-10,Bantamweight,Cody Garbrandt,3
-2020-08-10,Bantamweight,Cory Sandhagen,4
-2020-08-10,Bantamweight,Pedro Munhoz,5
-2020-08-10,Bantamweight,Jose Aldo,6
-2020-08-10,Bantamweight,Jimmie Rivera,7
-2020-08-10,Bantamweight,Raphael Assuncao,8
-2020-08-10,Bantamweight,Cody Stamann,9
-2020-08-10,Bantamweight,Rob Font,10
-2020-08-10,Bantamweight,Dominick Cruz,11
-2020-08-10,Bantamweight,John Dodson,12
-2020-08-10,Bantamweight,Song Yadong,13
-2020-08-10,Bantamweight,Sean O'Malley,14
-2020-08-10,Bantamweight,Merab Dvalishvili,15
-2020-08-10,Featherweight,Alexander Volkanovski,0
-2020-08-10,Featherweight,Max Holloway,1
-2020-08-10,Featherweight,Brian Ortega,2
-2020-08-10,Featherweight,Zabit Magomedsharipov,3
-2020-08-10,Featherweight,Chan Sung Jung,4
-2020-08-10,Featherweight,Yair Rodriguez,5
-2020-08-10,Featherweight,Calvin Kattar,6
-2020-08-10,Featherweight,Josh Emmett,7
-2020-08-10,Featherweight,Frankie Edgar,8
-2020-08-10,Featherweight,Jeremy Stephens,9
-2020-08-10,Featherweight,Arnold Allen,10
-2020-08-10,Featherweight,Sodiq Yusuff,11
-2020-08-10,Featherweight,Dan Ige,12
-2020-08-10,Featherweight,Ryan Hall,13
-2020-08-10,Featherweight,Shane Burgos,14
-2020-08-10,Featherweight,Jose Aldo,15
-2020-08-10,Lightweight,Khabib Nurmagomedov,0
-2020-08-10,Lightweight,Justin Gaethje,1
-2020-08-10,Lightweight,Dustin Poirier,2
-2020-08-10,Lightweight,Tony Ferguson,3
-2020-08-10,Lightweight,Conor McGregor,4
-2020-08-10,Lightweight,Dan Hooker,5
-2020-08-10,Lightweight,Charles Oliveira,6
-2020-08-10,Lightweight,Paul Felder,7
-2020-08-10,Lightweight,Diego Ferreira,8
-2020-08-10,Lightweight,Al Iaquinta,9
-2020-08-10,Lightweight,Kevin Lee,10
-2020-08-10,Lightweight,Islam Makhachev,11
-2020-08-10,Lightweight,Gregor Gillespie,12
-2020-08-10,Lightweight,Donald Cerrone,13
-2020-08-10,Lightweight,Beneil Dariush,14
-2020-08-10,Lightweight,Drew Dober,15
-2020-08-10,Welterweight,Kamaru Usman,0
-2020-08-10,Welterweight,Gilbert Burns,1
-2020-08-10,Welterweight,Colby Covington,2
-2020-08-10,Welterweight,Leon Edwards,3
-2020-08-10,Welterweight,Jorge Masvidal,4
-2020-08-10,Welterweight,Tyron Woodley,5
-2020-08-10,Welterweight,Stephen Thompson,6
-2020-08-10,Welterweight,Demian Maia,7
-2020-08-10,Welterweight,Michael Chiesa,8
-2020-08-10,Welterweight,Rafael Dos Anjos,9
-2020-08-10,Welterweight,Vicente Luque,10
-2020-08-10,Welterweight,Geoff Neal,11
-2020-08-10,Welterweight,Nate Diaz,12
-2020-08-10,Welterweight,Robbie Lawler,13
-2020-08-10,Welterweight,Neil Magny,14
-2020-08-10,Welterweight,Anthony Pettis,15
-2020-08-10,Middleweight,Israel Adesanya,0
-2020-08-10,Middleweight,Robert Whittaker,1
-2020-08-10,Middleweight,Paulo Costa,2
-2020-08-10,Middleweight,Jared Cannonier,3
-2020-08-10,Middleweight,Jack Hermansson,4
-2020-08-10,Middleweight,Yoel Romero,5
-2020-08-10,Middleweight,Darren Till,6
-2020-08-10,Middleweight,Derek Brunson,7
-2020-08-10,Middleweight,Kelvin Gastelum,8
-2020-08-10,Middleweight,Uriah Hall,9
-2020-08-10,Middleweight,Edmen Shahbazyan,10
-2020-08-10,Middleweight,Omari Akhmedov,11
-2020-08-10,Middleweight,Brad Tavares,12
-2020-08-10,Middleweight,Ian Heinisch,13
-2020-08-10,Middleweight,Marvin Vettori,14
-2020-08-10,Middleweight,Antonio Carlos Junior,15
-2020-08-10,Light Heavyweight,Jon Jones,0
-2020-08-10,Light Heavyweight,Dominick Reyes,1
-2020-08-10,Light Heavyweight,Thiago Santos,2
-2020-08-10,Light Heavyweight,Jan Blachowicz,3
-2020-08-10,Light Heavyweight,Corey Anderson,4
-2020-08-10,Light Heavyweight,Glover Teixeira,4
-2020-08-10,Light Heavyweight,Anthony Smith,5
-2020-08-10,Light Heavyweight,Jiri Prochazka,6
-2020-08-10,Light Heavyweight,Volkan Oezdemir,7
-2020-08-10,Light Heavyweight,Aleksandar Rakic,8
-2020-08-10,Light Heavyweight,Nikita Krylov,9
-2020-08-10,Light Heavyweight,Misha Cirkunov,10
-2020-08-10,Light Heavyweight,Johnny Walker,11
-2020-08-10,Light Heavyweight,Ryan Spann,12
-2020-08-10,Light Heavyweight,Magomed Ankalaev,13
-2020-08-10,Light Heavyweight,Mauricio Rua,14
-2020-08-10,Light Heavyweight,Paul Craig,15
-2020-08-10,Heavyweight,Stipe Miocic,0
-2020-08-10,Heavyweight,Daniel Cormier,1
-2020-08-10,Heavyweight,Francis Ngannou,2
-2020-08-10,Heavyweight,Curtis Blaydes,3
-2020-08-10,Heavyweight,Derrick Lewis,4
-2020-08-10,Heavyweight,Junior Dos Santos,5
-2020-08-10,Heavyweight,Jairzinho Rozenstruik,6
-2020-08-10,Heavyweight,Alistair Overeem,7
-2020-08-10,Heavyweight,Alexander Volkov,8
-2020-08-10,Heavyweight,Augusto Sakai,9
-2020-08-10,Heavyweight,Aleksei Oleinik,10
-2020-08-10,Heavyweight,Walt Harris,11
-2020-08-10,Heavyweight,Shamil Abdurakhimov,12
-2020-08-10,Heavyweight,Fabricio Werdum,13
-2020-08-10,Heavyweight,Sergei Pavlovich,14
-2020-08-10,Heavyweight,Ciryl Gane,15
-2020-08-10,Women's Strawweight,Weili Zhang,0
-2020-08-10,Women's Strawweight,Rose Namajunas,1
-2020-08-10,Women's Strawweight,Jessica Andrade,2
-2020-08-10,Women's Strawweight,Tatiana Suarez,3
-2020-08-10,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-08-10,Women's Strawweight,Nina Ansaroff,5
-2020-08-10,Women's Strawweight,Claudia Gadelha,6
-2020-08-10,Women's Strawweight,Carla Esparza,7
-2020-08-10,Women's Strawweight,Michelle Waterson,8
-2020-08-10,Women's Strawweight,Marina Rodriguez,9
-2020-08-10,Women's Strawweight,Yan Xiaonan,10
-2020-08-10,Women's Strawweight,Tecia Torres,11
-2020-08-10,Women's Strawweight,Amanda Ribas,12
-2020-08-10,Women's Strawweight,Angela Hill,13
-2020-08-10,Women's Strawweight,Alexa Grasso,14
-2020-08-10,Women's Strawweight,Felice Herrig,15
-2020-08-10,Women's Flyweight,Valentina Shevchenko,0
-2020-08-10,Women's Flyweight,Katlyn Chookagian,1
-2020-08-10,Women's Flyweight,Cynthia Calvillo,2
-2020-08-10,Women's Flyweight,Jennifer Maia,3
-2020-08-10,Women's Flyweight,Lauren Murphy,4
-2020-08-10,Women's Flyweight,Joanne Calderwood,5
-2020-08-10,Women's Flyweight,Jessica Eye,5
-2020-08-10,Women's Flyweight,Roxanne Modafferi,7
-2020-08-10,Women's Flyweight,Viviane Araujo,8
-2020-08-10,Women's Flyweight,Andrea Lee,9
-2020-08-10,Women's Flyweight,Maycee Barber,10
-2020-08-10,Women's Flyweight,Alexis Davis,11
-2020-08-10,Women's Flyweight,Montana De La Rosa,12
-2020-08-10,Women's Flyweight,Antonina Shevchenko,13
-2020-08-10,Women's Flyweight,Ji Yeon Kim,14
-2020-08-10,Women's Flyweight,Gillian Robertson,15
-2020-08-10,Women's Bantamweight,Amanda Nunes,0
-2020-08-10,Women's Bantamweight,Germaine de Randamie,1
-2020-08-10,Women's Bantamweight,Holly Holm,2
-2020-08-10,Women's Bantamweight,Aspen Ladd,3
-2020-08-10,Women's Bantamweight,Julianna Pena,4
-2020-08-10,Women's Bantamweight,Raquel Pennington,5
-2020-08-10,Women's Bantamweight,Irene Aldana,6
-2020-08-10,Women's Bantamweight,Ketlen Vieira,7
-2020-08-10,Women's Bantamweight,Yana Kunitskaya,8
-2020-08-10,Women's Bantamweight,Sara McMann,9
-2020-08-10,Women's Bantamweight,Marion Reneau,10
-2020-08-10,Women's Bantamweight,Lina Lansberg,11
-2020-08-10,Women's Bantamweight,Macy Chiasson,12
-2020-08-10,Women's Bantamweight,Pannie Kianzad,13
-2020-08-10,Women's Bantamweight,Julia Avila,14
-2020-08-10,Women's Bantamweight,Sijara Eubanks,15
-2020-08-10,Women's Featherweight,Amanda Nunes,0
-2020-08-17,Pound-for-Pound,Jon Jones,1
-2020-08-17,Pound-for-Pound,Amanda Nunes,1
-2020-08-17,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-08-17,Pound-for-Pound,Weili Zhang,2
-2020-08-17,Pound-for-Pound,Stipe Miocic,3
-2020-08-17,Pound-for-Pound,Valentina Shevchenko,3
-2020-08-17,Pound-for-Pound,Israel Adesanya,4
-2020-08-17,Pound-for-Pound,Rose Namajunas,4
-2020-08-17,Pound-for-Pound,Kamaru Usman,5
-2020-08-17,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-08-17,Pound-for-Pound,Alexander Volkanovski,6
-2020-08-17,Pound-for-Pound,Jessica Andrade,6
-2020-08-17,Pound-for-Pound,Daniel Cormier,7
-2020-08-17,Pound-for-Pound,Tatiana Suarez,7
-2020-08-17,Pound-for-Pound,Justin Gaethje,8
-2020-08-17,Pound-for-Pound,Holly Holm,8
-2020-08-17,Pound-for-Pound,Dustin Poirier,9
-2020-08-17,Pound-for-Pound,Germaine de Randamie,9
-2020-08-17,Pound-for-Pound,Max Holloway,10
-2020-08-17,Pound-for-Pound,Aspen Ladd,10
-2020-08-17,Pound-for-Pound,Conor McGregor,11
-2020-08-17,Pound-for-Pound,Katlyn Chookagian,11
-2020-08-17,Pound-for-Pound,Petr Yan,12
-2020-08-17,Pound-for-Pound,Claudia Gadelha,12
-2020-08-17,Pound-for-Pound,Deiveson Figueiredo,13
-2020-08-17,Pound-for-Pound,Cynthia Calvillo,13
-2020-08-17,Pound-for-Pound,Robert Whittaker,14
-2020-08-17,Pound-for-Pound,Julianna Pena,14
-2020-08-17,Pound-for-Pound,Tony Ferguson,15
-2020-08-17,Pound-for-Pound,Nina Ansaroff,15
-2020-08-17,Flyweight,Deiveson Figueiredo,0
-2020-08-17,Flyweight,Joseph Benavidez,1
-2020-08-17,Flyweight,Brandon Moreno,2
-2020-08-17,Flyweight,Askar Askarov,3
-2020-08-17,Flyweight,Alex Perez,4
-2020-08-17,Flyweight,Alexandre Pantoja,5
-2020-08-17,Flyweight,Jussier Formiga,6
-2020-08-17,Flyweight,Kai Kara-France,7
-2020-08-17,Flyweight,Rogerio Bontorin,8
-2020-08-17,Flyweight,Matt Schnell,9
-2020-08-17,Flyweight,Brandon Royval,10
-2020-08-17,Flyweight,Raulian Paiva,11
-2020-08-17,Flyweight,Tim Elliott,12
-2020-08-17,Flyweight,Jordan Espinosa,13
-2020-08-17,Flyweight,David Dvorak,14
-2020-08-17,Flyweight,Amir Albazi,15
-2020-08-17,Bantamweight,Petr Yan,0
-2020-08-17,Bantamweight,Marlon Moraes,1
-2020-08-17,Bantamweight,Aljamain Sterling,2
-2020-08-17,Bantamweight,Cody Garbrandt,3
-2020-08-17,Bantamweight,Cory Sandhagen,4
-2020-08-17,Bantamweight,Pedro Munhoz,5
-2020-08-17,Bantamweight,Jose Aldo,6
-2020-08-17,Bantamweight,Jimmie Rivera,7
-2020-08-17,Bantamweight,Raphael Assuncao,8
-2020-08-17,Bantamweight,Rob Font,9
-2020-08-17,Bantamweight,Dominick Cruz,10
-2020-08-17,Bantamweight,Cody Stamann,10
-2020-08-17,Bantamweight,Merab Dvalishvili,12
-2020-08-17,Bantamweight,Song Yadong,13
-2020-08-17,Bantamweight,Sean O'Malley,14
-2020-08-17,Bantamweight,Marlon Vera,14
-2020-08-17,Bantamweight,John Dodson,15
-2020-08-17,Featherweight,Alexander Volkanovski,0
-2020-08-17,Featherweight,Max Holloway,1
-2020-08-17,Featherweight,Brian Ortega,2
-2020-08-17,Featherweight,Zabit Magomedsharipov,3
-2020-08-17,Featherweight,Chan Sung Jung,4
-2020-08-17,Featherweight,Yair Rodriguez,5
-2020-08-17,Featherweight,Calvin Kattar,6
-2020-08-17,Featherweight,Josh Emmett,7
-2020-08-17,Featherweight,Frankie Edgar,8
-2020-08-17,Featherweight,Jeremy Stephens,9
-2020-08-17,Featherweight,Arnold Allen,10
-2020-08-17,Featherweight,Sodiq Yusuff,11
-2020-08-17,Featherweight,Dan Ige,11
-2020-08-17,Featherweight,Ryan Hall,13
-2020-08-17,Featherweight,Shane Burgos,14
-2020-08-17,Featherweight,Jose Aldo,15
-2020-08-17,Lightweight,Khabib Nurmagomedov,0
-2020-08-17,Lightweight,Justin Gaethje,1
-2020-08-17,Lightweight,Dustin Poirier,2
-2020-08-17,Lightweight,Tony Ferguson,3
-2020-08-17,Lightweight,Conor McGregor,4
-2020-08-17,Lightweight,Dan Hooker,5
-2020-08-17,Lightweight,Charles Oliveira,6
-2020-08-17,Lightweight,Paul Felder,7
-2020-08-17,Lightweight,Diego Ferreira,8
-2020-08-17,Lightweight,Kevin Lee,9
-2020-08-17,Lightweight,Al Iaquinta,10
-2020-08-17,Lightweight,Beneil Dariush,11
-2020-08-17,Lightweight,Islam Makhachev,12
-2020-08-17,Lightweight,Gregor Gillespie,13
-2020-08-17,Lightweight,Donald Cerrone,14
-2020-08-17,Lightweight,Drew Dober,15
-2020-08-17,Welterweight,Kamaru Usman,0
-2020-08-17,Welterweight,Gilbert Burns,1
-2020-08-17,Welterweight,Colby Covington,2
-2020-08-17,Welterweight,Leon Edwards,3
-2020-08-17,Welterweight,Jorge Masvidal,4
-2020-08-17,Welterweight,Tyron Woodley,5
-2020-08-17,Welterweight,Stephen Thompson,6
-2020-08-17,Welterweight,Demian Maia,7
-2020-08-17,Welterweight,Michael Chiesa,8
-2020-08-17,Welterweight,Rafael Dos Anjos,9
-2020-08-17,Welterweight,Vicente Luque,10
-2020-08-17,Welterweight,Geoff Neal,11
-2020-08-17,Welterweight,Nate Diaz,12
-2020-08-17,Welterweight,Robbie Lawler,13
-2020-08-17,Welterweight,Neil Magny,14
-2020-08-17,Welterweight,Anthony Pettis,15
-2020-08-17,Middleweight,Israel Adesanya,0
-2020-08-17,Middleweight,Robert Whittaker,1
-2020-08-17,Middleweight,Paulo Costa,2
-2020-08-17,Middleweight,Jared Cannonier,3
-2020-08-17,Middleweight,Jack Hermansson,4
-2020-08-17,Middleweight,Yoel Romero,5
-2020-08-17,Middleweight,Darren Till,6
-2020-08-17,Middleweight,Derek Brunson,7
-2020-08-17,Middleweight,Kelvin Gastelum,8
-2020-08-17,Middleweight,Uriah Hall,9
-2020-08-17,Middleweight,Edmen Shahbazyan,10
-2020-08-17,Middleweight,Chris Weidman,11
-2020-08-17,Middleweight,Brad Tavares,12
-2020-08-17,Middleweight,Omari Akhmedov,13
-2020-08-17,Middleweight,Ian Heinisch,14
-2020-08-17,Middleweight,Antonio Carlos Junior,15
-2020-08-17,Middleweight,Marvin Vettori,15
-2020-08-17,Light Heavyweight,Jon Jones,0
-2020-08-17,Light Heavyweight,Dominick Reyes,1
-2020-08-17,Light Heavyweight,Thiago Santos,2
-2020-08-17,Light Heavyweight,Jan Blachowicz,3
-2020-08-17,Light Heavyweight,Glover Teixeira,4
-2020-08-17,Light Heavyweight,Anthony Smith,5
-2020-08-17,Light Heavyweight,Jiri Prochazka,6
-2020-08-17,Light Heavyweight,Volkan Oezdemir,7
-2020-08-17,Light Heavyweight,Aleksandar Rakic,8
-2020-08-17,Light Heavyweight,Nikita Krylov,9
-2020-08-17,Light Heavyweight,Misha Cirkunov,10
-2020-08-17,Light Heavyweight,Johnny Walker,11
-2020-08-17,Light Heavyweight,Ryan Spann,12
-2020-08-17,Light Heavyweight,Mauricio Rua,13
-2020-08-17,Light Heavyweight,Magomed Ankalaev,14
-2020-08-17,Light Heavyweight,Paul Craig,15
-2020-08-17,Heavyweight,Stipe Miocic,0
-2020-08-17,Heavyweight,Francis Ngannou,1
-2020-08-17,Heavyweight,Curtis Blaydes,2
-2020-08-17,Heavyweight,Daniel Cormier,3
-2020-08-17,Heavyweight,Jairzinho Rozenstruik,4
-2020-08-17,Heavyweight,Derrick Lewis,4
-2020-08-17,Heavyweight,Alistair Overeem,6
-2020-08-17,Heavyweight,Junior Dos Santos,7
-2020-08-17,Heavyweight,Alexander Volkov,8
-2020-08-17,Heavyweight,Augusto Sakai,9
-2020-08-17,Heavyweight,Walt Harris,10
-2020-08-17,Heavyweight,Shamil Abdurakhimov,11
-2020-08-17,Heavyweight,Aleksei Oleinik,12
-2020-08-17,Heavyweight,Fabricio Werdum,13
-2020-08-17,Heavyweight,Sergei Pavlovich,13
-2020-08-17,Heavyweight,Ciryl Gane,14
-2020-08-17,Heavyweight,Blagoy Ivanov,15
-2020-08-17,Women's Strawweight,Weili Zhang,0
-2020-08-17,Women's Strawweight,Rose Namajunas,1
-2020-08-17,Women's Strawweight,Jessica Andrade,2
-2020-08-17,Women's Strawweight,Tatiana Suarez,3
-2020-08-17,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-08-17,Women's Strawweight,Nina Ansaroff,5
-2020-08-17,Women's Strawweight,Claudia Gadelha,6
-2020-08-17,Women's Strawweight,Carla Esparza,7
-2020-08-17,Women's Strawweight,Michelle Waterson,8
-2020-08-17,Women's Strawweight,Marina Rodriguez,9
-2020-08-17,Women's Strawweight,Yan Xiaonan,10
-2020-08-17,Women's Strawweight,Tecia Torres,11
-2020-08-17,Women's Strawweight,Amanda Ribas,12
-2020-08-17,Women's Strawweight,Angela Hill,13
-2020-08-17,Women's Strawweight,Alexa Grasso,14
-2020-08-17,Women's Strawweight,Felice Herrig,15
-2020-08-17,Women's Strawweight,Virna Jandiroba,15
-2020-08-17,Women's Flyweight,Valentina Shevchenko,0
-2020-08-17,Women's Flyweight,Katlyn Chookagian,1
-2020-08-17,Women's Flyweight,Cynthia Calvillo,2
-2020-08-17,Women's Flyweight,Jennifer Maia,3
-2020-08-17,Women's Flyweight,Lauren Murphy,4
-2020-08-17,Women's Flyweight,Jessica Eye,5
-2020-08-17,Women's Flyweight,Joanne Calderwood,5
-2020-08-17,Women's Flyweight,Roxanne Modafferi,7
-2020-08-17,Women's Flyweight,Viviane Araujo,8
-2020-08-17,Women's Flyweight,Andrea Lee,9
-2020-08-17,Women's Flyweight,Maycee Barber,10
-2020-08-17,Women's Flyweight,Alexis Davis,11
-2020-08-17,Women's Flyweight,Montana De La Rosa,12
-2020-08-17,Women's Flyweight,Antonina Shevchenko,13
-2020-08-17,Women's Flyweight,Ji Yeon Kim,14
-2020-08-17,Women's Flyweight,Gillian Robertson,15
-2020-08-17,Women's Bantamweight,Amanda Nunes,0
-2020-08-17,Women's Bantamweight,Germaine de Randamie,1
-2020-08-17,Women's Bantamweight,Holly Holm,2
-2020-08-17,Women's Bantamweight,Aspen Ladd,3
-2020-08-17,Women's Bantamweight,Julianna Pena,4
-2020-08-17,Women's Bantamweight,Raquel Pennington,5
-2020-08-17,Women's Bantamweight,Irene Aldana,6
-2020-08-17,Women's Bantamweight,Ketlen Vieira,7
-2020-08-17,Women's Bantamweight,Yana Kunitskaya,8
-2020-08-17,Women's Bantamweight,Sara McMann,9
-2020-08-17,Women's Bantamweight,Marion Reneau,10
-2020-08-17,Women's Bantamweight,Lina Lansberg,11
-2020-08-17,Women's Bantamweight,Macy Chiasson,12
-2020-08-17,Women's Bantamweight,Pannie Kianzad,13
-2020-08-17,Women's Bantamweight,Julia Avila,14
-2020-08-17,Women's Bantamweight,Sijara Eubanks,15
-2020-08-17,Women's Featherweight,Amanda Nunes,0
-2020-08-24,Pound-for-Pound,Jon Jones,1
-2020-08-24,Pound-for-Pound,Amanda Nunes,1
-2020-08-24,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-08-24,Pound-for-Pound,Weili Zhang,2
-2020-08-24,Pound-for-Pound,Stipe Miocic,3
-2020-08-24,Pound-for-Pound,Valentina Shevchenko,3
-2020-08-24,Pound-for-Pound,Israel Adesanya,4
-2020-08-24,Pound-for-Pound,Rose Namajunas,4
-2020-08-24,Pound-for-Pound,Kamaru Usman,5
-2020-08-24,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-08-24,Pound-for-Pound,Alexander Volkanovski,6
-2020-08-24,Pound-for-Pound,Jessica Andrade,6
-2020-08-24,Pound-for-Pound,Daniel Cormier,7
-2020-08-24,Pound-for-Pound,Tatiana Suarez,7
-2020-08-24,Pound-for-Pound,Justin Gaethje,8
-2020-08-24,Pound-for-Pound,Holly Holm,8
-2020-08-24,Pound-for-Pound,Dustin Poirier,9
-2020-08-24,Pound-for-Pound,Germaine de Randamie,9
-2020-08-24,Pound-for-Pound,Max Holloway,10
-2020-08-24,Pound-for-Pound,Aspen Ladd,10
-2020-08-24,Pound-for-Pound,Conor McGregor,11
-2020-08-24,Pound-for-Pound,Katlyn Chookagian,11
-2020-08-24,Pound-for-Pound,Petr Yan,12
-2020-08-24,Pound-for-Pound,Claudia Gadelha,12
-2020-08-24,Pound-for-Pound,Deiveson Figueiredo,13
-2020-08-24,Pound-for-Pound,Cynthia Calvillo,13
-2020-08-24,Pound-for-Pound,Robert Whittaker,14
-2020-08-24,Pound-for-Pound,Julianna Pena,14
-2020-08-24,Pound-for-Pound,Tony Ferguson,15
-2020-08-24,Pound-for-Pound,Nina Ansaroff,15
-2020-08-24,Flyweight,Deiveson Figueiredo,0
-2020-08-24,Flyweight,Joseph Benavidez,1
-2020-08-24,Flyweight,Brandon Moreno,2
-2020-08-24,Flyweight,Askar Askarov,3
-2020-08-24,Flyweight,Alex Perez,4
-2020-08-24,Flyweight,Alexandre Pantoja,5
-2020-08-24,Flyweight,Jussier Formiga,6
-2020-08-24,Flyweight,Kai Kara-France,7
-2020-08-24,Flyweight,Rogerio Bontorin,8
-2020-08-24,Flyweight,Matt Schnell,9
-2020-08-24,Flyweight,Brandon Royval,10
-2020-08-24,Flyweight,Raulian Paiva,11
-2020-08-24,Flyweight,Tim Elliott,12
-2020-08-24,Flyweight,Jordan Espinosa,13
-2020-08-24,Flyweight,David Dvorak,14
-2020-08-24,Flyweight,Amir Albazi,15
-2020-08-24,Bantamweight,Petr Yan,0
-2020-08-24,Bantamweight,Marlon Moraes,1
-2020-08-24,Bantamweight,Aljamain Sterling,2
-2020-08-24,Bantamweight,Cody Garbrandt,3
-2020-08-24,Bantamweight,Cory Sandhagen,4
-2020-08-24,Bantamweight,Frankie Edgar,5
-2020-08-24,Bantamweight,Pedro Munhoz,6
-2020-08-24,Bantamweight,Jose Aldo,7
-2020-08-24,Bantamweight,Jimmie Rivera,8
-2020-08-24,Bantamweight,Raphael Assuncao,9
-2020-08-24,Bantamweight,Rob Font,10
-2020-08-24,Bantamweight,Dominick Cruz,11
-2020-08-24,Bantamweight,Cody Stamann,12
-2020-08-24,Bantamweight,Merab Dvalishvili,13
-2020-08-24,Bantamweight,Song Yadong,14
-2020-08-24,Bantamweight,John Dodson,15
-2020-08-24,Bantamweight,Marlon Vera,15
-2020-08-24,Featherweight,Alexander Volkanovski,0
-2020-08-24,Featherweight,Max Holloway,1
-2020-08-24,Featherweight,Brian Ortega,2
-2020-08-24,Featherweight,Zabit Magomedsharipov,3
-2020-08-24,Featherweight,Chan Sung Jung,4
-2020-08-24,Featherweight,Yair Rodriguez,5
-2020-08-24,Featherweight,Calvin Kattar,6
-2020-08-24,Featherweight,Josh Emmett,7
-2020-08-24,Featherweight,Frankie Edgar,8
-2020-08-24,Featherweight,Jeremy Stephens,8
-2020-08-24,Featherweight,Arnold Allen,9
-2020-08-24,Featherweight,Dan Ige,10
-2020-08-24,Featherweight,Sodiq Yusuff,11
-2020-08-24,Featherweight,Ryan Hall,12
-2020-08-24,Featherweight,Shane Burgos,13
-2020-08-24,Featherweight,Jose Aldo,14
-2020-08-24,Featherweight,Bryce Mitchell,15
-2020-08-24,Lightweight,Khabib Nurmagomedov,0
-2020-08-24,Lightweight,Justin Gaethje,1
-2020-08-24,Lightweight,Dustin Poirier,2
-2020-08-24,Lightweight,Tony Ferguson,3
-2020-08-24,Lightweight,Conor McGregor,4
-2020-08-24,Lightweight,Dan Hooker,5
-2020-08-24,Lightweight,Charles Oliveira,6
-2020-08-24,Lightweight,Paul Felder,7
-2020-08-24,Lightweight,Diego Ferreira,8
-2020-08-24,Lightweight,Al Iaquinta,9
-2020-08-24,Lightweight,Kevin Lee,10
-2020-08-24,Lightweight,Beneil Dariush,11
-2020-08-24,Lightweight,Islam Makhachev,12
-2020-08-24,Lightweight,Gregor Gillespie,13
-2020-08-24,Lightweight,Donald Cerrone,14
-2020-08-24,Lightweight,Drew Dober,15
-2020-08-24,Welterweight,Kamaru Usman,0
-2020-08-24,Welterweight,Gilbert Burns,1
-2020-08-24,Welterweight,Colby Covington,2
-2020-08-24,Welterweight,Leon Edwards,3
-2020-08-24,Welterweight,Jorge Masvidal,4
-2020-08-24,Welterweight,Tyron Woodley,5
-2020-08-24,Welterweight,Stephen Thompson,6
-2020-08-24,Welterweight,Demian Maia,7
-2020-08-24,Welterweight,Michael Chiesa,8
-2020-08-24,Welterweight,Rafael Dos Anjos,9
-2020-08-24,Welterweight,Vicente Luque,10
-2020-08-24,Welterweight,Geoff Neal,11
-2020-08-24,Welterweight,Nate Diaz,12
-2020-08-24,Welterweight,Robbie Lawler,13
-2020-08-24,Welterweight,Neil Magny,14
-2020-08-24,Welterweight,Anthony Pettis,15
-2020-08-24,Middleweight,Israel Adesanya,0
-2020-08-24,Middleweight,Robert Whittaker,1
-2020-08-24,Middleweight,Paulo Costa,2
-2020-08-24,Middleweight,Jared Cannonier,3
-2020-08-24,Middleweight,Jack Hermansson,4
-2020-08-24,Middleweight,Yoel Romero,5
-2020-08-24,Middleweight,Darren Till,6
-2020-08-24,Middleweight,Derek Brunson,7
-2020-08-24,Middleweight,Kelvin Gastelum,8
-2020-08-24,Middleweight,Uriah Hall,9
-2020-08-24,Middleweight,Edmen Shahbazyan,10
-2020-08-24,Middleweight,Chris Weidman,11
-2020-08-24,Middleweight,Brad Tavares,12
-2020-08-24,Middleweight,Omari Akhmedov,13
-2020-08-24,Middleweight,Ian Heinisch,14
-2020-08-24,Middleweight,Marvin Vettori,15
-2020-08-24,Light Heavyweight,Jon Jones,0
-2020-08-24,Light Heavyweight,Dominick Reyes,1
-2020-08-24,Light Heavyweight,Thiago Santos,2
-2020-08-24,Light Heavyweight,Jan Blachowicz,3
-2020-08-24,Light Heavyweight,Glover Teixeira,4
-2020-08-24,Light Heavyweight,Anthony Smith,5
-2020-08-24,Light Heavyweight,Jiri Prochazka,6
-2020-08-24,Light Heavyweight,Volkan Oezdemir,7
-2020-08-24,Light Heavyweight,Aleksandar Rakic,8
-2020-08-24,Light Heavyweight,Nikita Krylov,9
-2020-08-24,Light Heavyweight,Misha Cirkunov,10
-2020-08-24,Light Heavyweight,Johnny Walker,11
-2020-08-24,Light Heavyweight,Ryan Spann,12
-2020-08-24,Light Heavyweight,Magomed Ankalaev,13
-2020-08-24,Light Heavyweight,Mauricio Rua,14
-2020-08-24,Light Heavyweight,Paul Craig,15
-2020-08-24,Heavyweight,Stipe Miocic,0
-2020-08-24,Heavyweight,Francis Ngannou,1
-2020-08-24,Heavyweight,Curtis Blaydes,2
-2020-08-24,Heavyweight,Daniel Cormier,3
-2020-08-24,Heavyweight,Jairzinho Rozenstruik,4
-2020-08-24,Heavyweight,Derrick Lewis,5
-2020-08-24,Heavyweight,Alistair Overeem,6
-2020-08-24,Heavyweight,Junior Dos Santos,7
-2020-08-24,Heavyweight,Alexander Volkov,8
-2020-08-24,Heavyweight,Augusto Sakai,9
-2020-08-24,Heavyweight,Walt Harris,10
-2020-08-24,Heavyweight,Shamil Abdurakhimov,11
-2020-08-24,Heavyweight,Aleksei Oleinik,12
-2020-08-24,Heavyweight,Sergei Pavlovich,13
-2020-08-24,Heavyweight,Ciryl Gane,14
-2020-08-24,Heavyweight,Blagoy Ivanov,15
-2020-08-24,Women's Strawweight,Weili Zhang,0
-2020-08-24,Women's Strawweight,Rose Namajunas,1
-2020-08-24,Women's Strawweight,Jessica Andrade,2
-2020-08-24,Women's Strawweight,Tatiana Suarez,3
-2020-08-24,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-08-24,Women's Strawweight,Nina Ansaroff,5
-2020-08-24,Women's Strawweight,Claudia Gadelha,6
-2020-08-24,Women's Strawweight,Carla Esparza,7
-2020-08-24,Women's Strawweight,Michelle Waterson,8
-2020-08-24,Women's Strawweight,Marina Rodriguez,9
-2020-08-24,Women's Strawweight,Yan Xiaonan,10
-2020-08-24,Women's Strawweight,Tecia Torres,11
-2020-08-24,Women's Strawweight,Amanda Ribas,12
-2020-08-24,Women's Strawweight,Angela Hill,13
-2020-08-24,Women's Strawweight,Alexa Grasso,14
-2020-08-24,Women's Strawweight,Virna Jandiroba,15
-2020-08-24,Women's Flyweight,Valentina Shevchenko,0
-2020-08-24,Women's Flyweight,Katlyn Chookagian,1
-2020-08-24,Women's Flyweight,Cynthia Calvillo,2
-2020-08-24,Women's Flyweight,Jennifer Maia,3
-2020-08-24,Women's Flyweight,Lauren Murphy,4
-2020-08-24,Women's Flyweight,Joanne Calderwood,5
-2020-08-24,Women's Flyweight,Jessica Eye,5
-2020-08-24,Women's Flyweight,Roxanne Modafferi,7
-2020-08-24,Women's Flyweight,Viviane Araujo,8
-2020-08-24,Women's Flyweight,Andrea Lee,9
-2020-08-24,Women's Flyweight,Maycee Barber,10
-2020-08-24,Women's Flyweight,Alexis Davis,11
-2020-08-24,Women's Flyweight,Montana De La Rosa,12
-2020-08-24,Women's Flyweight,Antonina Shevchenko,13
-2020-08-24,Women's Flyweight,Ji Yeon Kim,14
-2020-08-24,Women's Flyweight,Gillian Robertson,15
-2020-08-24,Women's Bantamweight,Amanda Nunes,0
-2020-08-24,Women's Bantamweight,Germaine de Randamie,1
-2020-08-24,Women's Bantamweight,Holly Holm,2
-2020-08-24,Women's Bantamweight,Aspen Ladd,3
-2020-08-24,Women's Bantamweight,Julianna Pena,4
-2020-08-24,Women's Bantamweight,Raquel Pennington,5
-2020-08-24,Women's Bantamweight,Irene Aldana,6
-2020-08-24,Women's Bantamweight,Ketlen Vieira,7
-2020-08-24,Women's Bantamweight,Yana Kunitskaya,8
-2020-08-24,Women's Bantamweight,Sara McMann,9
-2020-08-24,Women's Bantamweight,Marion Reneau,10
-2020-08-24,Women's Bantamweight,Lina Lansberg,11
-2020-08-24,Women's Bantamweight,Macy Chiasson,12
-2020-08-24,Women's Bantamweight,Pannie Kianzad,13
-2020-08-24,Women's Bantamweight,Julia Avila,14
-2020-08-24,Women's Bantamweight,Sijara Eubanks,15
-2020-08-24,Women's Featherweight,Amanda Nunes,0
-2020-08-31,Pound-for-Pound,Jon Jones,1
-2020-08-31,Pound-for-Pound,Amanda Nunes,1
-2020-08-31,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-08-31,Pound-for-Pound,Weili Zhang,2
-2020-08-31,Pound-for-Pound,Stipe Miocic,3
-2020-08-31,Pound-for-Pound,Valentina Shevchenko,3
-2020-08-31,Pound-for-Pound,Israel Adesanya,4
-2020-08-31,Pound-for-Pound,Rose Namajunas,4
-2020-08-31,Pound-for-Pound,Kamaru Usman,5
-2020-08-31,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-08-31,Pound-for-Pound,Alexander Volkanovski,6
-2020-08-31,Pound-for-Pound,Jessica Andrade,6
-2020-08-31,Pound-for-Pound,Daniel Cormier,7
-2020-08-31,Pound-for-Pound,Tatiana Suarez,7
-2020-08-31,Pound-for-Pound,Justin Gaethje,8
-2020-08-31,Pound-for-Pound,Holly Holm,8
-2020-08-31,Pound-for-Pound,Dustin Poirier,9
-2020-08-31,Pound-for-Pound,Germaine de Randamie,9
-2020-08-31,Pound-for-Pound,Max Holloway,10
-2020-08-31,Pound-for-Pound,Aspen Ladd,10
-2020-08-31,Pound-for-Pound,Conor McGregor,11
-2020-08-31,Pound-for-Pound,Katlyn Chookagian,11
-2020-08-31,Pound-for-Pound,Petr Yan,12
-2020-08-31,Pound-for-Pound,Claudia Gadelha,12
-2020-08-31,Pound-for-Pound,Deiveson Figueiredo,13
-2020-08-31,Pound-for-Pound,Cynthia Calvillo,13
-2020-08-31,Pound-for-Pound,Robert Whittaker,14
-2020-08-31,Pound-for-Pound,Julianna Pena,14
-2020-08-31,Pound-for-Pound,Tony Ferguson,15
-2020-08-31,Pound-for-Pound,Nina Ansaroff,15
-2020-08-31,Flyweight,Deiveson Figueiredo,0
-2020-08-31,Flyweight,Joseph Benavidez,1
-2020-08-31,Flyweight,Brandon Moreno,2
-2020-08-31,Flyweight,Askar Askarov,3
-2020-08-31,Flyweight,Alex Perez,4
-2020-08-31,Flyweight,Alexandre Pantoja,5
-2020-08-31,Flyweight,Jussier Formiga,6
-2020-08-31,Flyweight,Kai Kara-France,7
-2020-08-31,Flyweight,Rogerio Bontorin,8
-2020-08-31,Flyweight,Matt Schnell,9
-2020-08-31,Flyweight,Brandon Royval,10
-2020-08-31,Flyweight,Raulian Paiva,11
-2020-08-31,Flyweight,Tim Elliott,12
-2020-08-31,Flyweight,Jordan Espinosa,13
-2020-08-31,Flyweight,David Dvorak,14
-2020-08-31,Flyweight,Amir Albazi,15
-2020-08-31,Bantamweight,Petr Yan,0
-2020-08-31,Bantamweight,Marlon Moraes,1
-2020-08-31,Bantamweight,Aljamain Sterling,2
-2020-08-31,Bantamweight,Cody Garbrandt,3
-2020-08-31,Bantamweight,Cory Sandhagen,4
-2020-08-31,Bantamweight,Frankie Edgar,5
-2020-08-31,Bantamweight,Pedro Munhoz,6
-2020-08-31,Bantamweight,Jose Aldo,7
-2020-08-31,Bantamweight,Jimmie Rivera,8
-2020-08-31,Bantamweight,Raphael Assuncao,9
-2020-08-31,Bantamweight,Rob Font,10
-2020-08-31,Bantamweight,Dominick Cruz,11
-2020-08-31,Bantamweight,Cody Stamann,12
-2020-08-31,Bantamweight,Merab Dvalishvili,13
-2020-08-31,Bantamweight,Song Yadong,14
-2020-08-31,Bantamweight,Marlon Vera,15
-2020-08-31,Featherweight,Alexander Volkanovski,0
-2020-08-31,Featherweight,Max Holloway,1
-2020-08-31,Featherweight,Brian Ortega,2
-2020-08-31,Featherweight,Zabit Magomedsharipov,3
-2020-08-31,Featherweight,Chan Sung Jung,4
-2020-08-31,Featherweight,Yair Rodriguez,5
-2020-08-31,Featherweight,Calvin Kattar,6
-2020-08-31,Featherweight,Josh Emmett,7
-2020-08-31,Featherweight,Jeremy Stephens,8
-2020-08-31,Featherweight,Arnold Allen,9
-2020-08-31,Featherweight,Dan Ige,10
-2020-08-31,Featherweight,Sodiq Yusuff,11
-2020-08-31,Featherweight,Ryan Hall,12
-2020-08-31,Featherweight,Shane Burgos,13
-2020-08-31,Featherweight,Jose Aldo,14
-2020-08-31,Featherweight,Bryce Mitchell,15
-2020-08-31,Featherweight,Edson Barboza,15
-2020-08-31,Lightweight,Khabib Nurmagomedov,0
-2020-08-31,Lightweight,Justin Gaethje,1
-2020-08-31,Lightweight,Dustin Poirier,2
-2020-08-31,Lightweight,Tony Ferguson,3
-2020-08-31,Lightweight,Conor McGregor,4
-2020-08-31,Lightweight,Dan Hooker,5
-2020-08-31,Lightweight,Charles Oliveira,6
-2020-08-31,Lightweight,Paul Felder,7
-2020-08-31,Lightweight,Diego Ferreira,8
-2020-08-31,Lightweight,Al Iaquinta,9
-2020-08-31,Lightweight,Kevin Lee,10
-2020-08-31,Lightweight,Beneil Dariush,11
-2020-08-31,Lightweight,Islam Makhachev,12
-2020-08-31,Lightweight,Gregor Gillespie,13
-2020-08-31,Lightweight,Donald Cerrone,14
-2020-08-31,Lightweight,Drew Dober,15
-2020-08-31,Welterweight,Kamaru Usman,0
-2020-08-31,Welterweight,Gilbert Burns,1
-2020-08-31,Welterweight,Colby Covington,2
-2020-08-31,Welterweight,Leon Edwards,3
-2020-08-31,Welterweight,Jorge Masvidal,4
-2020-08-31,Welterweight,Tyron Woodley,5
-2020-08-31,Welterweight,Stephen Thompson,6
-2020-08-31,Welterweight,Demian Maia,7
-2020-08-31,Welterweight,Michael Chiesa,8
-2020-08-31,Welterweight,Rafael Dos Anjos,9
-2020-08-31,Welterweight,Vicente Luque,10
-2020-08-31,Welterweight,Geoff Neal,11
-2020-08-31,Welterweight,Neil Magny,11
-2020-08-31,Welterweight,Nate Diaz,12
-2020-08-31,Welterweight,Robbie Lawler,13
-2020-08-31,Welterweight,Neil Magny,14
-2020-08-31,Welterweight,Anthony Pettis,15
-2020-08-31,Middleweight,Israel Adesanya,0
-2020-08-31,Middleweight,Robert Whittaker,1
-2020-08-31,Middleweight,Paulo Costa,2
-2020-08-31,Middleweight,Jared Cannonier,3
-2020-08-31,Middleweight,Jack Hermansson,4
-2020-08-31,Middleweight,Yoel Romero,5
-2020-08-31,Middleweight,Darren Till,6
-2020-08-31,Middleweight,Derek Brunson,7
-2020-08-31,Middleweight,Kelvin Gastelum,8
-2020-08-31,Middleweight,Uriah Hall,9
-2020-08-31,Middleweight,Edmen Shahbazyan,10
-2020-08-31,Middleweight,Chris Weidman,11
-2020-08-31,Middleweight,Brad Tavares,12
-2020-08-31,Middleweight,Omari Akhmedov,13
-2020-08-31,Middleweight,Ian Heinisch,14
-2020-08-31,Middleweight,Marvin Vettori,15
-2020-08-31,Light Heavyweight,Dominick Reyes,1
-2020-08-31,Light Heavyweight,Thiago Santos,2
-2020-08-31,Light Heavyweight,Jan Blachowicz,3
-2020-08-31,Light Heavyweight,Glover Teixeira,4
-2020-08-31,Light Heavyweight,Aleksandar Rakic,5
-2020-08-31,Light Heavyweight,Jiri Prochazka,6
-2020-08-31,Light Heavyweight,Volkan Oezdemir,7
-2020-08-31,Light Heavyweight,Anthony Smith,8
-2020-08-31,Light Heavyweight,Nikita Krylov,9
-2020-08-31,Light Heavyweight,Misha Cirkunov,10
-2020-08-31,Light Heavyweight,Johnny Walker,11
-2020-08-31,Light Heavyweight,Ryan Spann,12
-2020-08-31,Light Heavyweight,Mauricio Rua,13
-2020-08-31,Light Heavyweight,Magomed Ankalaev,13
-2020-08-31,Light Heavyweight,Paul Craig,15
-2020-08-31,Heavyweight,Stipe Miocic,0
-2020-08-31,Heavyweight,Francis Ngannou,1
-2020-08-31,Heavyweight,Curtis Blaydes,2
-2020-08-31,Heavyweight,Daniel Cormier,3
-2020-08-31,Heavyweight,Jairzinho Rozenstruik,4
-2020-08-31,Heavyweight,Derrick Lewis,5
-2020-08-31,Heavyweight,Alistair Overeem,6
-2020-08-31,Heavyweight,Junior Dos Santos,7
-2020-08-31,Heavyweight,Alexander Volkov,8
-2020-08-31,Heavyweight,Augusto Sakai,9
-2020-08-31,Heavyweight,Walt Harris,10
-2020-08-31,Heavyweight,Shamil Abdurakhimov,11
-2020-08-31,Heavyweight,Aleksei Oleinik,12
-2020-08-31,Heavyweight,Ciryl Gane,13
-2020-08-31,Heavyweight,Sergei Pavlovich,14
-2020-08-31,Heavyweight,Blagoy Ivanov,15
-2020-08-31,Women's Strawweight,Weili Zhang,0
-2020-08-31,Women's Strawweight,Rose Namajunas,1
-2020-08-31,Women's Strawweight,Jessica Andrade,2
-2020-08-31,Women's Strawweight,Tatiana Suarez,3
-2020-08-31,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-08-31,Women's Strawweight,Nina Ansaroff,5
-2020-08-31,Women's Strawweight,Claudia Gadelha,6
-2020-08-31,Women's Strawweight,Carla Esparza,7
-2020-08-31,Women's Strawweight,Michelle Waterson,8
-2020-08-31,Women's Strawweight,Marina Rodriguez,9
-2020-08-31,Women's Strawweight,Yan Xiaonan,10
-2020-08-31,Women's Strawweight,Tecia Torres,11
-2020-08-31,Women's Strawweight,Amanda Ribas,12
-2020-08-31,Women's Strawweight,Angela Hill,13
-2020-08-31,Women's Strawweight,Alexa Grasso,14
-2020-08-31,Women's Strawweight,Virna Jandiroba,14
-2020-08-31,Women's Strawweight,Mackenzie Dern,15
-2020-08-31,Women's Flyweight,Valentina Shevchenko,0
-2020-08-31,Women's Flyweight,Katlyn Chookagian,1
-2020-08-31,Women's Flyweight,Cynthia Calvillo,2
-2020-08-31,Women's Flyweight,Jennifer Maia,3
-2020-08-31,Women's Flyweight,Lauren Murphy,4
-2020-08-31,Women's Flyweight,Joanne Calderwood,5
-2020-08-31,Women's Flyweight,Jessica Eye,5
-2020-08-31,Women's Flyweight,Roxanne Modafferi,7
-2020-08-31,Women's Flyweight,Viviane Araujo,8
-2020-08-31,Women's Flyweight,Andrea Lee,9
-2020-08-31,Women's Flyweight,Maycee Barber,10
-2020-08-31,Women's Flyweight,Montana De La Rosa,12
-2020-08-31,Women's Flyweight,Alexis Davis,12
-2020-08-31,Women's Flyweight,Antonina Shevchenko,13
-2020-08-31,Women's Flyweight,Ji Yeon Kim,14
-2020-08-31,Women's Flyweight,Alexa Grasso,14
-2020-08-31,Women's Flyweight,Gillian Robertson,15
-2020-08-31,Women's Bantamweight,Amanda Nunes,0
-2020-08-31,Women's Bantamweight,Germaine de Randamie,1
-2020-08-31,Women's Bantamweight,Holly Holm,2
-2020-08-31,Women's Bantamweight,Aspen Ladd,3
-2020-08-31,Women's Bantamweight,Julianna Pena,4
-2020-08-31,Women's Bantamweight,Raquel Pennington,5
-2020-08-31,Women's Bantamweight,Irene Aldana,6
-2020-08-31,Women's Bantamweight,Ketlen Vieira,7
-2020-08-31,Women's Bantamweight,Yana Kunitskaya,8
-2020-08-31,Women's Bantamweight,Sara McMann,9
-2020-08-31,Women's Bantamweight,Marion Reneau,10
-2020-08-31,Women's Bantamweight,Lina Lansberg,11
-2020-08-31,Women's Bantamweight,Macy Chiasson,12
-2020-08-31,Women's Bantamweight,Pannie Kianzad,13
-2020-08-31,Women's Bantamweight,Julia Avila,14
-2020-08-31,Women's Bantamweight,Sijara Eubanks,15
-2020-08-31,Women's Featherweight,Amanda Nunes,0
-2020-09-07,Pound-for-Pound,Jon Jones,1
-2020-09-07,Pound-for-Pound,Amanda Nunes,1
-2020-09-07,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-09-07,Pound-for-Pound,Weili Zhang,2
-2020-09-07,Pound-for-Pound,Stipe Miocic,3
-2020-09-07,Pound-for-Pound,Valentina Shevchenko,3
-2020-09-07,Pound-for-Pound,Israel Adesanya,4
-2020-09-07,Pound-for-Pound,Rose Namajunas,4
-2020-09-07,Pound-for-Pound,Kamaru Usman,5
-2020-09-07,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-09-07,Pound-for-Pound,Alexander Volkanovski,6
-2020-09-07,Pound-for-Pound,Jessica Andrade,6
-2020-09-07,Pound-for-Pound,Daniel Cormier,7
-2020-09-07,Pound-for-Pound,Justin Gaethje,7
-2020-09-07,Pound-for-Pound,Tatiana Suarez,7
-2020-09-07,Pound-for-Pound,Dustin Poirier,8
-2020-09-07,Pound-for-Pound,Holly Holm,8
-2020-09-07,Pound-for-Pound,Max Holloway,9
-2020-09-07,Pound-for-Pound,Germaine de Randamie,9
-2020-09-07,Pound-for-Pound,Conor McGregor,10
-2020-09-07,Pound-for-Pound,Aspen Ladd,10
-2020-09-07,Pound-for-Pound,Petr Yan,11
-2020-09-07,Pound-for-Pound,Katlyn Chookagian,11
-2020-09-07,Pound-for-Pound,Robert Whittaker,12
-2020-09-07,Pound-for-Pound,Claudia Gadelha,12
-2020-09-07,Pound-for-Pound,Tony Ferguson,13
-2020-09-07,Pound-for-Pound,Cynthia Calvillo,13
-2020-09-07,Pound-for-Pound,Deiveson Figueiredo,14
-2020-09-07,Pound-for-Pound,Julianna Pena,14
-2020-09-07,Pound-for-Pound,Francis Ngannou,15
-2020-09-07,Pound-for-Pound,Nina Ansaroff,15
-2020-09-07,Flyweight,Deiveson Figueiredo,0
-2020-09-07,Flyweight,Joseph Benavidez,1
-2020-09-07,Flyweight,Brandon Moreno,2
-2020-09-07,Flyweight,Askar Askarov,3
-2020-09-07,Flyweight,Alex Perez,4
-2020-09-07,Flyweight,Alexandre Pantoja,5
-2020-09-07,Flyweight,Jussier Formiga,6
-2020-09-07,Flyweight,Kai Kara-France,7
-2020-09-07,Flyweight,Rogerio Bontorin,8
-2020-09-07,Flyweight,Matt Schnell,9
-2020-09-07,Flyweight,Brandon Royval,10
-2020-09-07,Flyweight,Raulian Paiva,11
-2020-09-07,Flyweight,Tim Elliott,12
-2020-09-07,Flyweight,Jordan Espinosa,13
-2020-09-07,Flyweight,David Dvorak,14
-2020-09-07,Flyweight,Amir Albazi,15
-2020-09-07,Bantamweight,Petr Yan,0
-2020-09-07,Bantamweight,Marlon Moraes,1
-2020-09-07,Bantamweight,Aljamain Sterling,2
-2020-09-07,Bantamweight,Cody Garbrandt,3
-2020-09-07,Bantamweight,Cory Sandhagen,4
-2020-09-07,Bantamweight,Frankie Edgar,5
-2020-09-07,Bantamweight,Pedro Munhoz,6
-2020-09-07,Bantamweight,Jose Aldo,7
-2020-09-07,Bantamweight,Jimmie Rivera,8
-2020-09-07,Bantamweight,Raphael Assuncao,9
-2020-09-07,Bantamweight,Rob Font,10
-2020-09-07,Bantamweight,Dominick Cruz,11
-2020-09-07,Bantamweight,Cody Stamann,12
-2020-09-07,Bantamweight,Merab Dvalishvili,13
-2020-09-07,Bantamweight,Song Yadong,14
-2020-09-07,Bantamweight,Marlon Vera,15
-2020-09-07,Featherweight,Alexander Volkanovski,0
-2020-09-07,Featherweight,Max Holloway,1
-2020-09-07,Featherweight,Brian Ortega,2
-2020-09-07,Featherweight,Zabit Magomedsharipov,3
-2020-09-07,Featherweight,Chan Sung Jung,4
-2020-09-07,Featherweight,Yair Rodriguez,5
-2020-09-07,Featherweight,Calvin Kattar,6
-2020-09-07,Featherweight,Josh Emmett,7
-2020-09-07,Featherweight,Jeremy Stephens,8
-2020-09-07,Featherweight,Arnold Allen,9
-2020-09-07,Featherweight,Dan Ige,10
-2020-09-07,Featherweight,Sodiq Yusuff,11
-2020-09-07,Featherweight,Ryan Hall,12
-2020-09-07,Featherweight,Shane Burgos,13
-2020-09-07,Featherweight,Jose Aldo,14
-2020-09-07,Featherweight,Edson Barboza,15
-2020-09-07,Lightweight,Khabib Nurmagomedov,0
-2020-09-07,Lightweight,Justin Gaethje,1
-2020-09-07,Lightweight,Dustin Poirier,2
-2020-09-07,Lightweight,Tony Ferguson,3
-2020-09-07,Lightweight,Conor McGregor,4
-2020-09-07,Lightweight,Dan Hooker,5
-2020-09-07,Lightweight,Charles Oliveira,6
-2020-09-07,Lightweight,Paul Felder,7
-2020-09-07,Lightweight,Diego Ferreira,8
-2020-09-07,Lightweight,Al Iaquinta,9
-2020-09-07,Lightweight,Kevin Lee,10
-2020-09-07,Lightweight,Beneil Dariush,11
-2020-09-07,Lightweight,Islam Makhachev,12
-2020-09-07,Lightweight,Gregor Gillespie,13
-2020-09-07,Lightweight,Donald Cerrone,14
-2020-09-07,Lightweight,Drew Dober,15
-2020-09-07,Welterweight,Kamaru Usman,0
-2020-09-07,Welterweight,Gilbert Burns,1
-2020-09-07,Welterweight,Colby Covington,2
-2020-09-07,Welterweight,Leon Edwards,3
-2020-09-07,Welterweight,Jorge Masvidal,4
-2020-09-07,Welterweight,Tyron Woodley,5
-2020-09-07,Welterweight,Stephen Thompson,6
-2020-09-07,Welterweight,Demian Maia,7
-2020-09-07,Welterweight,Michael Chiesa,8
-2020-09-07,Welterweight,Rafael Dos Anjos,9
-2020-09-07,Welterweight,Vicente Luque,10
-2020-09-07,Welterweight,Neil Magny,11
-2020-09-07,Welterweight,Geoff Neal,12
-2020-09-07,Welterweight,Nate Diaz,13
-2020-09-07,Welterweight,Anthony Pettis,14
-2020-09-07,Welterweight,Robbie Lawler,15
-2020-09-07,Middleweight,Israel Adesanya,0
-2020-09-07,Middleweight,Robert Whittaker,1
-2020-09-07,Middleweight,Paulo Costa,2
-2020-09-07,Middleweight,Jared Cannonier,3
-2020-09-07,Middleweight,Jack Hermansson,4
-2020-09-07,Middleweight,Yoel Romero,5
-2020-09-07,Middleweight,Darren Till,6
-2020-09-07,Middleweight,Derek Brunson,7
-2020-09-07,Middleweight,Kelvin Gastelum,8
-2020-09-07,Middleweight,Uriah Hall,9
-2020-09-07,Middleweight,Chris Weidman,10
-2020-09-07,Middleweight,Edmen Shahbazyan,11
-2020-09-07,Middleweight,Brad Tavares,12
-2020-09-07,Middleweight,Omari Akhmedov,13
-2020-09-07,Middleweight,Marvin Vettori,14
-2020-09-07,Middleweight,Ian Heinisch,15
-2020-09-07,Light Heavyweight,Dominick Reyes,1
-2020-09-07,Light Heavyweight,Thiago Santos,2
-2020-09-07,Light Heavyweight,Jan Blachowicz,3
-2020-09-07,Light Heavyweight,Glover Teixeira,4
-2020-09-07,Light Heavyweight,Aleksandar Rakic,5
-2020-09-07,Light Heavyweight,Jiri Prochazka,6
-2020-09-07,Light Heavyweight,Volkan Oezdemir,7
-2020-09-07,Light Heavyweight,Anthony Smith,8
-2020-09-07,Light Heavyweight,Nikita Krylov,9
-2020-09-07,Light Heavyweight,Misha Cirkunov,10
-2020-09-07,Light Heavyweight,Johnny Walker,11
-2020-09-07,Light Heavyweight,Ryan Spann,12
-2020-09-07,Light Heavyweight,Magomed Ankalaev,13
-2020-09-07,Light Heavyweight,Mauricio Rua,14
-2020-09-07,Light Heavyweight,Paul Craig,15
-2020-09-07,Heavyweight,Stipe Miocic,0
-2020-09-07,Heavyweight,Francis Ngannou,1
-2020-09-07,Heavyweight,Curtis Blaydes,2
-2020-09-07,Heavyweight,Daniel Cormier,3
-2020-09-07,Heavyweight,Jairzinho Rozenstruik,3
-2020-09-07,Heavyweight,Derrick Lewis,4
-2020-09-07,Heavyweight,Alistair Overeem,5
-2020-09-07,Heavyweight,Alexander Volkov,6
-2020-09-07,Heavyweight,Junior Dos Santos,7
-2020-09-07,Heavyweight,Walt Harris,8
-2020-09-07,Heavyweight,Augusto Sakai,9
-2020-09-07,Heavyweight,Shamil Abdurakhimov,9
-2020-09-07,Heavyweight,Aleksei Oleinik,11
-2020-09-07,Heavyweight,Sergei Pavlovich,12
-2020-09-07,Heavyweight,Blagoy Ivanov,13
-2020-09-07,Heavyweight,Ciryl Gane,13
-2020-09-07,Heavyweight,Tanner Boser,15
-2020-09-07,Women's Strawweight,Weili Zhang,0
-2020-09-07,Women's Strawweight,Rose Namajunas,1
-2020-09-07,Women's Strawweight,Jessica Andrade,2
-2020-09-07,Women's Strawweight,Tatiana Suarez,3
-2020-09-07,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-09-07,Women's Strawweight,Nina Ansaroff,5
-2020-09-07,Women's Strawweight,Claudia Gadelha,6
-2020-09-07,Women's Strawweight,Carla Esparza,7
-2020-09-07,Women's Strawweight,Michelle Waterson,8
-2020-09-07,Women's Strawweight,Marina Rodriguez,9
-2020-09-07,Women's Strawweight,Yan Xiaonan,10
-2020-09-07,Women's Strawweight,Tecia Torres,11
-2020-09-07,Women's Strawweight,Amanda Ribas,12
-2020-09-07,Women's Strawweight,Angela Hill,13
-2020-09-07,Women's Strawweight,Virna Jandiroba,14
-2020-09-07,Women's Strawweight,Mackenzie Dern,15
-2020-09-07,Women's Flyweight,Valentina Shevchenko,0
-2020-09-07,Women's Flyweight,Katlyn Chookagian,1
-2020-09-07,Women's Flyweight,Cynthia Calvillo,2
-2020-09-07,Women's Flyweight,Jennifer Maia,3
-2020-09-07,Women's Flyweight,Lauren Murphy,4
-2020-09-07,Women's Flyweight,Jessica Eye,5
-2020-09-07,Women's Flyweight,Joanne Calderwood,6
-2020-09-07,Women's Flyweight,Viviane Araujo,7
-2020-09-07,Women's Flyweight,Roxanne Modafferi,8
-2020-09-07,Women's Flyweight,Andrea Lee,9
-2020-09-07,Women's Flyweight,Maycee Barber,10
-2020-09-07,Women's Flyweight,Alexis Davis,11
-2020-09-07,Women's Flyweight,Montana De La Rosa,12
-2020-09-07,Women's Flyweight,Antonina Shevchenko,13
-2020-09-07,Women's Flyweight,Alexa Grasso,14
-2020-09-07,Women's Flyweight,Gillian Robertson,15
-2020-09-07,Women's Bantamweight,Amanda Nunes,0
-2020-09-07,Women's Bantamweight,Germaine de Randamie,1
-2020-09-07,Women's Bantamweight,Holly Holm,2
-2020-09-07,Women's Bantamweight,Aspen Ladd,3
-2020-09-07,Women's Bantamweight,Julianna Pena,4
-2020-09-07,Women's Bantamweight,Raquel Pennington,5
-2020-09-07,Women's Bantamweight,Irene Aldana,6
-2020-09-07,Women's Bantamweight,Ketlen Vieira,7
-2020-09-07,Women's Bantamweight,Yana Kunitskaya,8
-2020-09-07,Women's Bantamweight,Sara McMann,9
-2020-09-07,Women's Bantamweight,Marion Reneau,10
-2020-09-07,Women's Bantamweight,Lina Lansberg,11
-2020-09-07,Women's Bantamweight,Macy Chiasson,12
-2020-09-07,Women's Bantamweight,Pannie Kianzad,13
-2020-09-07,Women's Bantamweight,Julia Avila,14
-2020-09-07,Women's Bantamweight,Sijara Eubanks,15
-2020-09-07,Women's Featherweight,Amanda Nunes,0
-2020-09-15,Pound-for-Pound,Jon Jones,1
-2020-09-15,Pound-for-Pound,Amanda Nunes,1
-2020-09-15,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-09-15,Pound-for-Pound,Weili Zhang,2
-2020-09-15,Pound-for-Pound,Stipe Miocic,3
-2020-09-15,Pound-for-Pound,Valentina Shevchenko,3
-2020-09-15,Pound-for-Pound,Israel Adesanya,4
-2020-09-15,Pound-for-Pound,Rose Namajunas,4
-2020-09-15,Pound-for-Pound,Kamaru Usman,5
-2020-09-15,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-09-15,Pound-for-Pound,Alexander Volkanovski,6
-2020-09-15,Pound-for-Pound,Jessica Andrade,6
-2020-09-15,Pound-for-Pound,Justin Gaethje,7
-2020-09-15,Pound-for-Pound,Tatiana Suarez,7
-2020-09-15,Pound-for-Pound,Dustin Poirier,8
-2020-09-15,Pound-for-Pound,Holly Holm,8
-2020-09-15,Pound-for-Pound,Max Holloway,9
-2020-09-15,Pound-for-Pound,Germaine de Randamie,9
-2020-09-15,Pound-for-Pound,Conor McGregor,10
-2020-09-15,Pound-for-Pound,Aspen Ladd,10
-2020-09-15,Pound-for-Pound,Petr Yan,11
-2020-09-15,Pound-for-Pound,Katlyn Chookagian,11
-2020-09-15,Pound-for-Pound,Robert Whittaker,12
-2020-09-15,Pound-for-Pound,Claudia Gadelha,12
-2020-09-15,Pound-for-Pound,Tony Ferguson,13
-2020-09-15,Pound-for-Pound,Cynthia Calvillo,13
-2020-09-15,Pound-for-Pound,Deiveson Figueiredo,14
-2020-09-15,Pound-for-Pound,Julianna Pena,14
-2020-09-15,Pound-for-Pound,Francis Ngannou,15
-2020-09-15,Pound-for-Pound,Nina Ansaroff,15
-2020-09-15,Flyweight,Deiveson Figueiredo,0
-2020-09-15,Flyweight,Joseph Benavidez,1
-2020-09-15,Flyweight,Brandon Moreno,2
-2020-09-15,Flyweight,Askar Askarov,3
-2020-09-15,Flyweight,Alex Perez,4
-2020-09-15,Flyweight,Alexandre Pantoja,5
-2020-09-15,Flyweight,Jussier Formiga,6
-2020-09-15,Flyweight,Kai Kara-France,7
-2020-09-15,Flyweight,Rogerio Bontorin,8
-2020-09-15,Flyweight,Matt Schnell,9
-2020-09-15,Flyweight,Brandon Royval,10
-2020-09-15,Flyweight,Raulian Paiva,11
-2020-09-15,Flyweight,Tim Elliott,12
-2020-09-15,Flyweight,Jordan Espinosa,13
-2020-09-15,Flyweight,David Dvorak,14
-2020-09-15,Flyweight,Amir Albazi,15
-2020-09-15,Bantamweight,Petr Yan,0
-2020-09-15,Bantamweight,Marlon Moraes,1
-2020-09-15,Bantamweight,Aljamain Sterling,2
-2020-09-15,Bantamweight,Cody Garbrandt,3
-2020-09-15,Bantamweight,Cory Sandhagen,4
-2020-09-15,Bantamweight,Frankie Edgar,5
-2020-09-15,Bantamweight,Pedro Munhoz,6
-2020-09-15,Bantamweight,Jose Aldo,7
-2020-09-15,Bantamweight,Jimmie Rivera,8
-2020-09-15,Bantamweight,Raphael Assuncao,9
-2020-09-15,Bantamweight,Rob Font,10
-2020-09-15,Bantamweight,Dominick Cruz,11
-2020-09-15,Bantamweight,Cody Stamann,12
-2020-09-15,Bantamweight,Merab Dvalishvili,13
-2020-09-15,Bantamweight,Song Yadong,14
-2020-09-15,Bantamweight,Marlon Vera,15
-2020-09-15,Featherweight,Alexander Volkanovski,0
-2020-09-15,Featherweight,Max Holloway,1
-2020-09-15,Featherweight,Brian Ortega,2
-2020-09-15,Featherweight,Zabit Magomedsharipov,3
-2020-09-15,Featherweight,Chan Sung Jung,4
-2020-09-15,Featherweight,Yair Rodriguez,5
-2020-09-15,Featherweight,Calvin Kattar,6
-2020-09-15,Featherweight,Josh Emmett,7
-2020-09-15,Featherweight,Jeremy Stephens,8
-2020-09-15,Featherweight,Arnold Allen,9
-2020-09-15,Featherweight,Dan Ige,10
-2020-09-15,Featherweight,Sodiq Yusuff,11
-2020-09-15,Featherweight,Ryan Hall,12
-2020-09-15,Featherweight,Shane Burgos,13
-2020-09-15,Featherweight,Jose Aldo,14
-2020-09-15,Featherweight,Edson Barboza,15
-2020-09-15,Lightweight,Khabib Nurmagomedov,0
-2020-09-15,Lightweight,Justin Gaethje,1
-2020-09-15,Lightweight,Dustin Poirier,2
-2020-09-15,Lightweight,Tony Ferguson,3
-2020-09-15,Lightweight,Conor McGregor,4
-2020-09-15,Lightweight,Dan Hooker,5
-2020-09-15,Lightweight,Charles Oliveira,6
-2020-09-15,Lightweight,Paul Felder,7
-2020-09-15,Lightweight,Diego Ferreira,8
-2020-09-15,Lightweight,Al Iaquinta,9
-2020-09-15,Lightweight,Kevin Lee,10
-2020-09-15,Lightweight,Beneil Dariush,11
-2020-09-15,Lightweight,Islam Makhachev,12
-2020-09-15,Lightweight,Gregor Gillespie,13
-2020-09-15,Lightweight,Donald Cerrone,14
-2020-09-15,Lightweight,Drew Dober,15
-2020-09-15,Welterweight,Kamaru Usman,0
-2020-09-15,Welterweight,Gilbert Burns,1
-2020-09-15,Welterweight,Colby Covington,2
-2020-09-15,Welterweight,Leon Edwards,3
-2020-09-15,Welterweight,Jorge Masvidal,4
-2020-09-15,Welterweight,Tyron Woodley,5
-2020-09-15,Welterweight,Stephen Thompson,6
-2020-09-15,Welterweight,Demian Maia,7
-2020-09-15,Welterweight,Michael Chiesa,8
-2020-09-15,Welterweight,Rafael Dos Anjos,9
-2020-09-15,Welterweight,Vicente Luque,10
-2020-09-15,Welterweight,Neil Magny,11
-2020-09-15,Welterweight,Geoff Neal,12
-2020-09-15,Welterweight,Nate Diaz,13
-2020-09-15,Welterweight,Anthony Pettis,14
-2020-09-15,Welterweight,Robbie Lawler,15
-2020-09-15,Middleweight,Israel Adesanya,0
-2020-09-15,Middleweight,Robert Whittaker,1
-2020-09-15,Middleweight,Paulo Costa,2
-2020-09-15,Middleweight,Jared Cannonier,3
-2020-09-15,Middleweight,Jack Hermansson,4
-2020-09-15,Middleweight,Yoel Romero,5
-2020-09-15,Middleweight,Darren Till,6
-2020-09-15,Middleweight,Derek Brunson,7
-2020-09-15,Middleweight,Kelvin Gastelum,8
-2020-09-15,Middleweight,Uriah Hall,9
-2020-09-15,Middleweight,Chris Weidman,10
-2020-09-15,Middleweight,Edmen Shahbazyan,11
-2020-09-15,Middleweight,Brad Tavares,12
-2020-09-15,Middleweight,Omari Akhmedov,13
-2020-09-15,Middleweight,Marvin Vettori,14
-2020-09-15,Middleweight,Ian Heinisch,15
-2020-09-15,Light Heavyweight,Dominick Reyes,1
-2020-09-15,Light Heavyweight,Thiago Santos,2
-2020-09-15,Light Heavyweight,Jan Blachowicz,3
-2020-09-15,Light Heavyweight,Glover Teixeira,4
-2020-09-15,Light Heavyweight,Aleksandar Rakic,5
-2020-09-15,Light Heavyweight,Jiri Prochazka,6
-2020-09-15,Light Heavyweight,Volkan Oezdemir,7
-2020-09-15,Light Heavyweight,Anthony Smith,8
-2020-09-15,Light Heavyweight,Nikita Krylov,9
-2020-09-15,Light Heavyweight,Misha Cirkunov,10
-2020-09-15,Light Heavyweight,Johnny Walker,11
-2020-09-15,Light Heavyweight,Ryan Spann,12
-2020-09-15,Light Heavyweight,Magomed Ankalaev,13
-2020-09-15,Light Heavyweight,Mauricio Rua,14
-2020-09-15,Light Heavyweight,Paul Craig,15
-2020-09-15,Heavyweight,Stipe Miocic,0
-2020-09-15,Heavyweight,Francis Ngannou,1
-2020-09-15,Heavyweight,Curtis Blaydes,2
-2020-09-15,Heavyweight,Jairzinho Rozenstruik,3
-2020-09-15,Heavyweight,Derrick Lewis,4
-2020-09-15,Heavyweight,Alistair Overeem,5
-2020-09-15,Heavyweight,Alexander Volkov,6
-2020-09-15,Heavyweight,Junior Dos Santos,7
-2020-09-15,Heavyweight,Walt Harris,8
-2020-09-15,Heavyweight,Shamil Abdurakhimov,9
-2020-09-15,Heavyweight,Augusto Sakai,9
-2020-09-15,Heavyweight,Aleksei Oleinik,11
-2020-09-15,Heavyweight,Sergei Pavlovich,12
-2020-09-15,Heavyweight,Blagoy Ivanov,13
-2020-09-15,Heavyweight,Ciryl Gane,13
-2020-09-15,Heavyweight,Tanner Boser,15
-2020-09-15,Women's Strawweight,Weili Zhang,0
-2020-09-15,Women's Strawweight,Rose Namajunas,1
-2020-09-15,Women's Strawweight,Jessica Andrade,2
-2020-09-15,Women's Strawweight,Tatiana Suarez,3
-2020-09-15,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-09-15,Women's Strawweight,Nina Ansaroff,5
-2020-09-15,Women's Strawweight,Claudia Gadelha,6
-2020-09-15,Women's Strawweight,Carla Esparza,7
-2020-09-15,Women's Strawweight,Michelle Waterson,8
-2020-09-15,Women's Strawweight,Marina Rodriguez,9
-2020-09-15,Women's Strawweight,Yan Xiaonan,10
-2020-09-15,Women's Strawweight,Tecia Torres,11
-2020-09-15,Women's Strawweight,Amanda Ribas,12
-2020-09-15,Women's Strawweight,Angela Hill,13
-2020-09-15,Women's Strawweight,Virna Jandiroba,14
-2020-09-15,Women's Strawweight,Mackenzie Dern,15
-2020-09-15,Women's Flyweight,Valentina Shevchenko,0
-2020-09-15,Women's Flyweight,Katlyn Chookagian,1
-2020-09-15,Women's Flyweight,Cynthia Calvillo,2
-2020-09-15,Women's Flyweight,Jennifer Maia,3
-2020-09-15,Women's Flyweight,Lauren Murphy,4
-2020-09-15,Women's Flyweight,Jessica Eye,5
-2020-09-15,Women's Flyweight,Joanne Calderwood,6
-2020-09-15,Women's Flyweight,Viviane Araujo,7
-2020-09-15,Women's Flyweight,Roxanne Modafferi,8
-2020-09-15,Women's Flyweight,Andrea Lee,9
-2020-09-15,Women's Flyweight,Maycee Barber,10
-2020-09-15,Women's Flyweight,Alexis Davis,11
-2020-09-15,Women's Flyweight,Montana De La Rosa,12
-2020-09-15,Women's Flyweight,Antonina Shevchenko,13
-2020-09-15,Women's Flyweight,Alexa Grasso,14
-2020-09-15,Women's Flyweight,Gillian Robertson,15
-2020-09-15,Women's Bantamweight,Amanda Nunes,0
-2020-09-15,Women's Bantamweight,Germaine de Randamie,1
-2020-09-15,Women's Bantamweight,Holly Holm,2
-2020-09-15,Women's Bantamweight,Aspen Ladd,3
-2020-09-15,Women's Bantamweight,Julianna Pena,4
-2020-09-15,Women's Bantamweight,Raquel Pennington,5
-2020-09-15,Women's Bantamweight,Irene Aldana,6
-2020-09-15,Women's Bantamweight,Ketlen Vieira,7
-2020-09-15,Women's Bantamweight,Yana Kunitskaya,8
-2020-09-15,Women's Bantamweight,Sara McMann,9
-2020-09-15,Women's Bantamweight,Marion Reneau,10
-2020-09-15,Women's Bantamweight,Lina Lansberg,11
-2020-09-15,Women's Bantamweight,Macy Chiasson,12
-2020-09-15,Women's Bantamweight,Pannie Kianzad,13
-2020-09-15,Women's Bantamweight,Julia Avila,14
-2020-09-15,Women's Bantamweight,Sijara Eubanks,15
-2020-09-15,Women's Featherweight,Amanda Nunes,0
-2020-09-21,Pound-for-Pound,Jon Jones,1
-2020-09-21,Pound-for-Pound,Amanda Nunes,1
-2020-09-21,Pound-for-Pound,Khabib Nurmagomedov,2
-2020-09-21,Pound-for-Pound,Weili Zhang,2
-2020-09-21,Pound-for-Pound,Stipe Miocic,3
-2020-09-21,Pound-for-Pound,Valentina Shevchenko,3
-2020-09-21,Pound-for-Pound,Israel Adesanya,4
-2020-09-21,Pound-for-Pound,Rose Namajunas,4
-2020-09-21,Pound-for-Pound,Kamaru Usman,5
-2020-09-21,Pound-for-Pound,Joanna Jedrzejczyk,5
-2020-09-21,Pound-for-Pound,Alexander Volkanovski,6
-2020-09-21,Pound-for-Pound,Jessica Andrade,6
-2020-09-21,Pound-for-Pound,Justin Gaethje,7
-2020-09-21,Pound-for-Pound,Tatiana Suarez,7
-2020-09-21,Pound-for-Pound,Dustin Poirier,8
-2020-09-21,Pound-for-Pound,Holly Holm,8
-2020-09-21,Pound-for-Pound,Max Holloway,9
-2020-09-21,Pound-for-Pound,Germaine de Randamie,9
-2020-09-21,Pound-for-Pound,Conor McGregor,10
-2020-09-21,Pound-for-Pound,Aspen Ladd,10
-2020-09-21,Pound-for-Pound,Petr Yan,11
-2020-09-21,Pound-for-Pound,Katlyn Chookagian,11
-2020-09-21,Pound-for-Pound,Tony Ferguson,12
-2020-09-21,Pound-for-Pound,Claudia Gadelha,12
-2020-09-21,Pound-for-Pound,Robert Whittaker,13
-2020-09-21,Pound-for-Pound,Cynthia Calvillo,13
-2020-09-21,Pound-for-Pound,Deiveson Figueiredo,14
-2020-09-21,Pound-for-Pound,Julianna Pena,14
-2020-09-21,Pound-for-Pound,Francis Ngannou,15
-2020-09-21,Pound-for-Pound,Nina Ansaroff,15
-2020-09-21,Flyweight,Deiveson Figueiredo,0
-2020-09-21,Flyweight,Joseph Benavidez,1
-2020-09-21,Flyweight,Brandon Moreno,2
-2020-09-21,Flyweight,Askar Askarov,3
-2020-09-21,Flyweight,Alex Perez,4
-2020-09-21,Flyweight,Alexandre Pantoja,5
-2020-09-21,Flyweight,Jussier Formiga,6
-2020-09-21,Flyweight,Kai Kara-France,7
-2020-09-21,Flyweight,Rogerio Bontorin,8
-2020-09-21,Flyweight,Brandon Royval,9
-2020-09-21,Flyweight,Matt Schnell,10
-2020-09-21,Flyweight,Raulian Paiva,11
-2020-09-21,Flyweight,David Dvorak,11
-2020-09-21,Flyweight,Tim Elliott,13
-2020-09-21,Flyweight,Jordan Espinosa,14
-2020-09-21,Flyweight,Amir Albazi,15
-2020-09-21,Flyweight,Tyson Nam,15
-2020-09-21,Bantamweight,Petr Yan,0
-2020-09-21,Bantamweight,Marlon Moraes,1
-2020-09-21,Bantamweight,Aljamain Sterling,2
-2020-09-21,Bantamweight,Cody Garbrandt,3
-2020-09-21,Bantamweight,Cory Sandhagen,4
-2020-09-21,Bantamweight,Frankie Edgar,5
-2020-09-21,Bantamweight,Pedro Munhoz,6
-2020-09-21,Bantamweight,Jose Aldo,7
-2020-09-21,Bantamweight,Jimmie Rivera,8
-2020-09-21,Bantamweight,Raphael Assuncao,9
-2020-09-21,Bantamweight,Dominick Cruz,10
-2020-09-21,Bantamweight,Rob Font,11
-2020-09-21,Bantamweight,Cody Stamann,12
-2020-09-21,Bantamweight,Merab Dvalishvili,13
-2020-09-21,Bantamweight,Song Yadong,14
-2020-09-21,Bantamweight,Marlon Vera,15
-2020-09-21,Featherweight,Alexander Volkanovski,0
-2020-09-21,Featherweight,Max Holloway,1
-2020-09-21,Featherweight,Brian Ortega,2
-2020-09-21,Featherweight,Zabit Magomedsharipov,3
-2020-09-21,Featherweight,Chan Sung Jung,4
-2020-09-21,Featherweight,Yair Rodriguez,5
-2020-09-21,Featherweight,Calvin Kattar,6
-2020-09-21,Featherweight,Josh Emmett,7
-2020-09-21,Featherweight,Jeremy Stephens,8
-2020-09-21,Featherweight,Arnold Allen,9
-2020-09-21,Featherweight,Dan Ige,10
-2020-09-21,Featherweight,Sodiq Yusuff,11
-2020-09-21,Featherweight,Ryan Hall,12
-2020-09-21,Featherweight,Shane Burgos,13
-2020-09-21,Featherweight,Jose Aldo,14
-2020-09-21,Featherweight,Edson Barboza,14
-2020-09-21,Featherweight,Bryce Mitchell,15
-2020-09-21,Lightweight,Khabib Nurmagomedov,0
-2020-09-21,Lightweight,Justin Gaethje,1
-2020-09-21,Lightweight,Dustin Poirier,2
-2020-09-21,Lightweight,Tony Ferguson,3
-2020-09-21,Lightweight,Dan Hooker,4
-2020-09-21,Lightweight,Conor McGregor,5
-2020-09-21,Lightweight,Charles Oliveira,6
-2020-09-21,Lightweight,Paul Felder,7
-2020-09-21,Lightweight,Diego Ferreira,8
-2020-09-21,Lightweight,Al Iaquinta,9
-2020-09-21,Lightweight,Kevin Lee,10
-2020-09-21,Lightweight,Beneil Dariush,11
-2020-09-21,Lightweight,Islam Makhachev,12
-2020-09-21,Lightweight,Gregor Gillespie,13
-2020-09-21,Lightweight,Drew Dober,14
-2020-09-21,Lightweight,Donald Cerrone,15
-2020-09-21,Welterweight,Kamaru Usman,0
-2020-09-21,Welterweight,Colby Covington,1
-2020-09-21,Welterweight,Gilbert Burns,2
-2020-09-21,Welterweight,Leon Edwards,3
-2020-09-21,Welterweight,Jorge Masvidal,4
-2020-09-21,Welterweight,Stephen Thompson,5
-2020-09-21,Welterweight,Demian Maia,6
-2020-09-21,Welterweight,Tyron Woodley,7
-2020-09-21,Welterweight,Michael Chiesa,8
-2020-09-21,Welterweight,Rafael Dos Anjos,9
-2020-09-21,Welterweight,Neil Magny,10
-2020-09-21,Welterweight,Vicente Luque,10
-2020-09-21,Welterweight,Geoff Neal,12
-2020-09-21,Welterweight,Nate Diaz,13
-2020-09-21,Welterweight,Anthony Pettis,14
-2020-09-21,Welterweight,Robbie Lawler,15
-2020-09-21,Middleweight,Israel Adesanya,0
-2020-09-21,Middleweight,Robert Whittaker,1
-2020-09-21,Middleweight,Paulo Costa,2
-2020-09-21,Middleweight,Jared Cannonier,3
-2020-09-21,Middleweight,Jack Hermansson,4
-2020-09-21,Middleweight,Yoel Romero,5
-2020-09-21,Middleweight,Darren Till,6
-2020-09-21,Middleweight,Derek Brunson,7
-2020-09-21,Middleweight,Kelvin Gastelum,8
-2020-09-21,Middleweight,Chris Weidman,9
-2020-09-21,Middleweight,Uriah Hall,10
-2020-09-21,Middleweight,Edmen Shahbazyan,11
-2020-09-21,Middleweight,Brad Tavares,12
-2020-09-21,Middleweight,Omari Akhmedov,13
-2020-09-21,Middleweight,Marvin Vettori,14
-2020-09-21,Middleweight,Ian Heinisch,15
-2020-09-21,Light Heavyweight,Dominick Reyes,1
-2020-09-21,Light Heavyweight,Thiago Santos,2
-2020-09-21,Light Heavyweight,Jan Blachowicz,3
-2020-09-21,Light Heavyweight,Glover Teixeira,4
-2020-09-21,Light Heavyweight,Aleksandar Rakic,5
-2020-09-21,Light Heavyweight,Jiri Prochazka,6
-2020-09-21,Light Heavyweight,Volkan Oezdemir,7
-2020-09-21,Light Heavyweight,Anthony Smith,8
-2020-09-21,Light Heavyweight,Nikita Krylov,9
-2020-09-21,Light Heavyweight,Johnny Walker,10
-2020-09-21,Light Heavyweight,Misha Cirkunov,11
-2020-09-21,Light Heavyweight,Ryan Spann,12
-2020-09-21,Light Heavyweight,Magomed Ankalaev,13
-2020-09-21,Light Heavyweight,Mauricio Rua,14
-2020-09-21,Light Heavyweight,Paul Craig,15
-2020-09-21,Heavyweight,Stipe Miocic,0
-2020-09-21,Heavyweight,Francis Ngannou,1
-2020-09-21,Heavyweight,Curtis Blaydes,2
-2020-09-21,Heavyweight,Jairzinho Rozenstruik,3
-2020-09-21,Heavyweight,Derrick Lewis,4
-2020-09-21,Heavyweight,Alistair Overeem,5
-2020-09-21,Heavyweight,Alexander Volkov,6
-2020-09-21,Heavyweight,Junior Dos Santos,7
-2020-09-21,Heavyweight,Walt Harris,8
-2020-09-21,Heavyweight,Shamil Abdurakhimov,9
-2020-09-21,Heavyweight,Augusto Sakai,10
-2020-09-21,Heavyweight,Aleksei Oleinik,11
-2020-09-21,Heavyweight,Sergei Pavlovich,12
-2020-09-21,Heavyweight,Blagoy Ivanov,12
-2020-09-21,Heavyweight,Ciryl Gane,14
-2020-09-21,Heavyweight,Tanner Boser,15
-2020-09-21,Women's Strawweight,Weili Zhang,0
-2020-09-21,Women's Strawweight,Rose Namajunas,1
-2020-09-21,Women's Strawweight,Jessica Andrade,2
-2020-09-21,Women's Strawweight,Tatiana Suarez,3
-2020-09-21,Women's Strawweight,Joanna Jedrzejczyk,4
-2020-09-21,Women's Strawweight,Nina Ansaroff,5
-2020-09-21,Women's Strawweight,Carla Esparza,6
-2020-09-21,Women's Strawweight,Claudia Gadelha,7
-2020-09-21,Women's Strawweight,Michelle Waterson,8
-2020-09-21,Women's Strawweight,Marina Rodriguez,9
-2020-09-21,Women's Strawweight,Yan Xiaonan,10
-2020-09-21,Women's Strawweight,Tecia Torres,11
-2020-09-21,Women's Strawweight,Amanda Ribas,12
-2020-09-21,Women's Strawweight,Angela Hill,13
-2020-09-21,Women's Strawweight,Mackenzie Dern,14
-2020-09-21,Women's Strawweight,Virna Jandiroba,15
-2020-09-21,Women's Flyweight,Valentina Shevchenko,0
-2020-09-21,Women's Flyweight,Katlyn Chookagian,1
-2020-09-21,Women's Flyweight,Cynthia Calvillo,2
-2020-09-21,Women's Flyweight,Jennifer Maia,3
-2020-09-21,Women's Flyweight,Lauren Murphy,4
-2020-09-21,Women's Flyweight,Jessica Eye,5
-2020-09-21,Women's Flyweight,Joanne Calderwood,6
-2020-09-21,Women's Flyweight,Roxanne Modafferi,7
-2020-09-21,Women's Flyweight,Viviane Araujo,8
-2020-09-21,Women's Flyweight,Andrea Lee,9
-2020-09-21,Women's Flyweight,Maycee Barber,10
-2020-09-21,Women's Flyweight,Alexis Davis,11
-2020-09-21,Women's Flyweight,Montana De La Rosa,12
-2020-09-21,Women's Flyweight,Antonina Shevchenko,13
-2020-09-21,Women's Flyweight,Alexa Grasso,14
-2020-09-21,Women's Flyweight,Gillian Robertson,15
-2020-09-21,Women's Bantamweight,Amanda Nunes,0
-2020-09-21,Women's Bantamweight,Germaine de Randamie,1
-2020-09-21,Women's Bantamweight,Holly Holm,2
-2020-09-21,Women's Bantamweight,Aspen Ladd,3
-2020-09-21,Women's Bantamweight,Julianna Pena,4
-2020-09-21,Women's Bantamweight,Raquel Pennington,5
-2020-09-21,Women's Bantamweight,Irene Aldana,6
-2020-09-21,Women's Bantamweight,Ketlen Vieira,7
-2020-09-21,Women's Bantamweight,Yana Kunitskaya,8
-2020-09-21,Women's Bantamweight,Sara McMann,9
-2020-09-21,Women's Bantamweight,Marion Reneau,10
-2020-09-21,Women's Bantamweight,Macy Chiasson,11
-2020-09-21,Women's Bantamweight,Lina Lansberg,12
-2020-09-21,Women's Bantamweight,Sijara Eubanks,13
-2020-09-21,Women's Bantamweight,Pannie Kianzad,14
-2020-09-21,Women's Bantamweight,Julia Avila,15
-2020-09-21,Women's Featherweight,Amanda Nunes,0
+2020-06-22,Pound-for-Pound,Jon Jones,1
+2020-06-22,Pound-for-Pound,Amanda Nunes,1
+2020-06-22,Pound-for-Pound,Khabib Nurmagomedov,2
+2020-06-22,Pound-for-Pound,Weili Zhang,2
+2020-06-22,Pound-for-Pound,Stipe Miocic,3
+2020-06-22,Pound-for-Pound,Valentina Shevchenko,3
+2020-06-22,Pound-for-Pound,Israel Adesanya,4
+2020-06-22,Pound-for-Pound,Jessica Andrade,4
+2020-06-22,Pound-for-Pound,Daniel Cormier,5
+2020-06-22,Pound-for-Pound,Joanna Jedrzejczyk,5
+2020-06-22,Pound-for-Pound,Kamaru Usman,6
+2020-06-22,Pound-for-Pound,Rose Namajunas,6
+2020-06-22,Pound-for-Pound,Alexander Volkanovski,7
+2020-06-22,Pound-for-Pound,Tatiana Suarez,7
+2020-06-22,Pound-for-Pound,Conor McGregor,8
+2020-06-22,Pound-for-Pound,Holly Holm,8
+2020-06-22,Pound-for-Pound,Max Holloway,9
+2020-06-22,Pound-for-Pound,Germaine de Randamie,9
+2020-06-22,Pound-for-Pound,Justin Gaethje,10
+2020-06-22,Pound-for-Pound,Aspen Ladd,10
+2020-06-22,Pound-for-Pound,Dustin Poirier,11
+2020-06-22,Pound-for-Pound,Katlyn Chookagian,11
+2020-06-22,Pound-for-Pound,Tony Ferguson,12
+2020-06-22,Pound-for-Pound,Claudia Gadelha,12
+2020-06-22,Pound-for-Pound,Robert Whittaker,13
+2020-06-22,Pound-for-Pound,Julianna Peña,13
+2020-06-22,Pound-for-Pound,Francis Ngannou,14
+2020-06-22,Pound-for-Pound,Cynthia Calvillo,14
+2020-06-22,Pound-for-Pound,Dominick Reyes,15
+2020-06-22,Pound-for-Pound,Nina Ansaroff,15
+2020-06-22,Flyweight,Deiveson Figueiredo,1
+2020-06-22,Flyweight,Joseph Benavidez,2
+2020-06-22,Flyweight,Brandon Moreno,3
+2020-06-22,Flyweight,Alexandre Pantoja,4
+2020-06-22,Flyweight,Alex Perez,5
+2020-06-22,Flyweight,Jussier Formiga,6
+2020-06-22,Flyweight,Askar Askarov,7
+2020-06-22,Flyweight,Kai Kara France,8
+2020-06-22,Flyweight,Rogerio Bontorin,9
+2020-06-22,Flyweight,Matt Schnell,10
+2020-06-22,Flyweight,Brandon Royval,11
+2020-06-22,Flyweight,Tim Elliott,12
+2020-06-22,Flyweight,Jordan Espinosa,13
+2020-06-22,Flyweight,Raulian Paiva,14
+2020-06-22,Flyweight,David Dvorak,15
+2020-06-22,Bantamweight,Marlon Moraes,1
+2020-06-22,Bantamweight,Aljamain Sterling,2
+2020-06-22,Bantamweight,Petr Yan,3
+2020-06-22,Bantamweight,Cory Sandhagen,4
+2020-06-22,Bantamweight,Cody Garbrandt,4
+2020-06-22,Bantamweight,Jose Aldo,6
+2020-06-22,Bantamweight,Pedro Munhoz,7
+2020-06-22,Bantamweight,Raphael Assuncao,8
+2020-06-22,Bantamweight,Jimmie Rivera,9
+2020-06-22,Bantamweight,Cody Stamann,10
+2020-06-22,Bantamweight,Rob Font,11
+2020-06-22,Bantamweight,Dominick Cruz,12
+2020-06-22,Bantamweight,John Dodson,13
+2020-06-22,Bantamweight,Sean O'Malley,14
+2020-06-22,Bantamweight,Song Yadong,15
+2020-06-22,Featherweight,Alexander Volkanovski,0
+2020-06-22,Featherweight,Max Holloway,1
+2020-06-22,Featherweight,Brian Ortega,2
+2020-06-22,Featherweight,Zabit Magomedsharipov,3
+2020-06-22,Featherweight,Chan Sung Jung,4
+2020-06-22,Featherweight,Yair Rodriguez,5
+2020-06-22,Featherweight,Calvin Kattar,6
+2020-06-22,Featherweight,Frankie Edgar,7
+2020-06-22,Featherweight,Josh Emmett,8
+2020-06-22,Featherweight,Jeremy Stephens,9
+2020-06-22,Featherweight,Dan Ige,10
+2020-06-22,Featherweight,Arnold Allen,11
+2020-06-22,Featherweight,Jose Aldo,12
+2020-06-22,Featherweight,Ryan Hall,13
+2020-06-22,Featherweight,Sodiq Yusuff,14
+2020-06-22,Featherweight,Shane Burgos,14
+2020-06-22,Lightweight,Khabib Nurmagomedov,0
+2020-06-22,Lightweight,Justin Gaethje,1
+2020-06-22,Lightweight,Tony Ferguson,2
+2020-06-22,Lightweight,Dustin Poirier,3
+2020-06-22,Lightweight,Conor McGregor,4
+2020-06-22,Lightweight,Dan Hooker,5
+2020-06-22,Lightweight,Paul Felder,6
+2020-06-22,Lightweight,Charles Oliveira,7
+2020-06-22,Lightweight,Kevin Lee,8
+2020-06-22,Lightweight,Al Iaquinta,9
+2020-06-22,Lightweight,Diego Ferreira,10
+2020-06-22,Lightweight,Donald Cerrone,11
+2020-06-22,Lightweight,Gregor Gillespie,12
+2020-06-22,Lightweight,Islam Makhachev,13
+2020-06-22,Lightweight,Beneil Dariush,14
+2020-06-22,Lightweight,Drew Dober,15
+2020-06-22,Welterweight,Kamaru Usman,0
+2020-06-22,Welterweight,Gilbert Burns,1
+2020-06-22,Welterweight,Colby Covington,2
+2020-06-22,Welterweight,Jorge Masvidal,3
+2020-06-22,Welterweight,Leon Edwards,4
+2020-06-22,Welterweight,Tyron Woodley,5
+2020-06-22,Welterweight,Stephen Thompson,6
+2020-06-22,Welterweight,Demian Maia,7
+2020-06-22,Welterweight,Michael Chiesa,8
+2020-06-22,Welterweight,Rafael Dos Anjos,9
+2020-06-22,Welterweight,Nate Diaz,10
+2020-06-22,Welterweight,Geoff Neal,11
+2020-06-22,Welterweight,Vicente Luque,12
+2020-06-22,Welterweight,Robbie Lawler,13
+2020-06-22,Welterweight,Anthony Pettis,14
+2020-06-22,Welterweight,Neil Magny,15
+2020-06-22,Middleweight,Israel Adesanya,0
+2020-06-22,Middleweight,Robert Whittaker,1
+2020-06-22,Middleweight,Paulo Costa,2
+2020-06-22,Middleweight,Jared Cannonier,3
+2020-06-22,Middleweight,Yoel Romero,4
+2020-06-22,Middleweight,Darren Till,5
+2020-06-22,Middleweight,Jack Hermansson,6
+2020-06-22,Middleweight,Kelvin Gastelum,7
+2020-06-22,Middleweight,Derek Brunson,8
+2020-06-22,Middleweight,Edmen Shahbazyan,9
+2020-06-22,Middleweight,Uriah Hall,10
+2020-06-22,Middleweight,Omari Akhmedov,11
+2020-06-22,Middleweight,Brad Tavares,12
+2020-06-22,Middleweight,Ian Heinisch,13
+2020-06-22,Middleweight,Marvin Vettori,14
+2020-06-22,Middleweight,Antonio Carlos Junior,15
+2020-06-22,Light Heavyweight,Jon Jones,0
+2020-06-22,Light Heavyweight,Dominick Reyes,1
+2020-06-22,Light Heavyweight,Thiago Santos,2
+2020-06-22,Light Heavyweight,Jan Blachowicz,3
+2020-06-22,Light Heavyweight,Corey Anderson,4
+2020-06-22,Light Heavyweight,Glover Teixeira,5
+2020-06-22,Light Heavyweight,Anthony Smith,6
+2020-06-22,Light Heavyweight,Volkan Oezdemir,7
+2020-06-22,Light Heavyweight,Alexander Gustafsson,8
+2020-06-22,Light Heavyweight,Aleksandar Rakic,9
+2020-06-22,Light Heavyweight,Nikita Krylov,10
+2020-06-22,Light Heavyweight,Johnny Walker,11
+2020-06-22,Light Heavyweight,Misha Cirkunov,12
+2020-06-22,Light Heavyweight,Ryan Spann,13
+2020-06-22,Light Heavyweight,Magomed Ankalaev,14
+2020-06-22,Light Heavyweight,Mauricio Rua,15
+2020-06-22,Heavyweight,Stipe Miocic,0
+2020-06-22,Heavyweight,Daniel Cormier,1
+2020-06-22,Heavyweight,Francis Ngannou,2
+2020-06-22,Heavyweight,Curtis Blaydes,3
+2020-06-22,Heavyweight,Derrick Lewis,4
+2020-06-22,Heavyweight,Junior Dos Santos,5
+2020-06-22,Heavyweight,Jairzinho Rozenstruik,6
+2020-06-22,Heavyweight,Alistair Overeem,7
+2020-06-22,Heavyweight,Alexander Volkov,8
+2020-06-22,Heavyweight,Walt Harris,9
+2020-06-22,Heavyweight,Augusto Sakai,10
+2020-06-22,Heavyweight,Aleksei Oleinik,11
+2020-06-22,Heavyweight,Shamil Abdurakhimov,12
+2020-06-22,Heavyweight,Sergei Pavlovich,13
+2020-06-22,Heavyweight,Fabricio Werdum,14
+2020-06-22,Heavyweight,Blagoy Ivanov,15
+2020-06-22,Heavyweight,Ciryl Gane,15
+2020-06-22,Women's Strawweight,Weili Zhang,0
+2020-06-22,Women's Strawweight,Jessica Andrade,1
+2020-06-22,Women's Strawweight,Rose Namajunas,2
+2020-06-22,Women's Strawweight,Tatiana Suarez,3
+2020-06-22,Women's Strawweight,Joanna Jedrzejczyk,4
+2020-06-22,Women's Strawweight,Nina Ansaroff,5
+2020-06-22,Women's Strawweight,Claudia Gadelha,6
+2020-06-22,Women's Strawweight,Carla Esparza,7
+2020-06-22,Women's Strawweight,Michelle Waterson,8
+2020-06-22,Women's Strawweight,Marina Rodriguez,9
+2020-06-22,Women's Strawweight,Yan Xiaonan,10
+2020-06-22,Women's Strawweight,Tecia Torres,11
+2020-06-22,Women's Strawweight,Alexa Grasso,12
+2020-06-22,Women's Strawweight,Felice Herrig,13
+2020-06-22,Women's Strawweight,Angela Hill,14
+2020-06-22,Women's Strawweight,Amanda Ribas,15
+2020-06-22,Women's Flyweight,Valentina Shevchenko,0
+2020-06-22,Women's Flyweight,Katlyn Chookagian,1
+2020-06-22,Women's Flyweight,Cynthia Calvillo,2
+2020-06-22,Women's Flyweight,Joanne Calderwood,3
+2020-06-22,Women's Flyweight,Lauren Murphy,4
+2020-06-22,Women's Flyweight,Jessica Eye,4
+2020-06-22,Women's Flyweight,Jennifer Maia,6
+2020-06-22,Women's Flyweight,Roxanne Modafferi,7
+2020-06-22,Women's Flyweight,Viviane Araujo,8
+2020-06-22,Women's Flyweight,Andrea Lee,9
+2020-06-22,Women's Flyweight,Maycee Barber,10
+2020-06-22,Women's Flyweight,Alexis Davis,11
+2020-06-22,Women's Flyweight,Montana De La Rosa,12
+2020-06-22,Women's Flyweight,Antonina Shevchenko,13
+2020-06-22,Women's Flyweight,Ji Yeon Kim,14
+2020-06-22,Women's Flyweight,Molly McCann,15
+2020-06-22,Women's Bantamweight,Amanda Nunes,0
+2020-06-22,Women's Bantamweight,Germaine de Randamie,1
+2020-06-22,Women's Bantamweight,Holly Holm,2
+2020-06-22,Women's Bantamweight,Aspen Ladd,3
+2020-06-22,Women's Bantamweight,Julianna Peña,4
+2020-06-22,Women's Bantamweight,Raquel Pennington,5
+2020-06-22,Women's Bantamweight,Irene Aldana,6
+2020-06-22,Women's Bantamweight,Ketlen Vieira,7
+2020-06-22,Women's Bantamweight,Yana Kunitskaya,8
+2020-06-22,Women's Bantamweight,Sara McMann,9
+2020-06-22,Women's Bantamweight,Marion Reneau,10
+2020-06-22,Women's Bantamweight,Lina Lansberg,11
+2020-06-22,Women's Bantamweight,Macy Chiasson,12
+2020-06-22,Women's Bantamweight,Bethe Correia,13
+2020-06-22,Women's Bantamweight,Sijara Eubanks,14
+2020-06-22,Women's Bantamweight,Nicco Montano,15
+2020-06-22,Women's Bantamweight,Julia Avila,15
+2020-06-22,Women's Featherweight,Amanda Nunes,0
+2020-06-29,Pound-for-Pound,Jon Jones,1
+2020-06-29,Pound-for-Pound,Amanda Nunes,1
+2020-06-29,Pound-for-Pound,Khabib Nurmagomedov,2
+2020-06-29,Pound-for-Pound,Weili Zhang,2
+2020-06-29,Pound-for-Pound,Stipe Miocic,3
+2020-06-29,Pound-for-Pound,Valentina Shevchenko,3
+2020-06-29,Pound-for-Pound,Israel Adesanya,4
+2020-06-29,Pound-for-Pound,Jessica Andrade,4
+2020-06-29,Pound-for-Pound,Daniel Cormier,5
+2020-06-29,Pound-for-Pound,Joanna Jedrzejczyk,5
+2020-06-29,Pound-for-Pound,Kamaru Usman,6
+2020-06-29,Pound-for-Pound,Rose Namajunas,6
+2020-06-29,Pound-for-Pound,Alexander Volkanovski,7
+2020-06-29,Pound-for-Pound,Tatiana Suarez,7
+2020-06-29,Pound-for-Pound,Conor McGregor,8
+2020-06-29,Pound-for-Pound,Holly Holm,8
+2020-06-29,Pound-for-Pound,Dustin Poirier,9
+2020-06-29,Pound-for-Pound,Germaine de Randamie,9
+2020-06-29,Pound-for-Pound,Max Holloway,10
+2020-06-29,Pound-for-Pound,Aspen Ladd,10
+2020-06-29,Pound-for-Pound,Justin Gaethje,11
+2020-06-29,Pound-for-Pound,Katlyn Chookagian,11
+2020-06-29,Pound-for-Pound,Tony Ferguson,12
+2020-06-29,Pound-for-Pound,Claudia Gadelha,12
+2020-06-29,Pound-for-Pound,Robert Whittaker,13
+2020-06-29,Pound-for-Pound,Cynthia Calvillo,13
+2020-06-29,Pound-for-Pound,Francis Ngannou,14
+2020-06-29,Pound-for-Pound,Julianna Peña,14
+2020-06-29,Pound-for-Pound,Dominick Reyes,15
+2020-06-29,Pound-for-Pound,Nina Ansaroff,15
+2020-06-29,Flyweight,Deiveson Figueiredo,1
+2020-06-29,Flyweight,Joseph Benavidez,2
+2020-06-29,Flyweight,Brandon Moreno,3
+2020-06-29,Flyweight,Alexandre Pantoja,4
+2020-06-29,Flyweight,Alex Perez,5
+2020-06-29,Flyweight,Jussier Formiga,6
+2020-06-29,Flyweight,Askar Askarov,7
+2020-06-29,Flyweight,Kai Kara France,8
+2020-06-29,Flyweight,Rogerio Bontorin,9
+2020-06-29,Flyweight,Matt Schnell,10
+2020-06-29,Flyweight,Brandon Royval,11
+2020-06-29,Flyweight,Tim Elliott,12
+2020-06-29,Flyweight,Jordan Espinosa,13
+2020-06-29,Flyweight,Raulian Paiva,14
+2020-06-29,Flyweight,David Dvorak,15
+2020-06-29,Bantamweight,Marlon Moraes,1
+2020-06-29,Bantamweight,Aljamain Sterling,2
+2020-06-29,Bantamweight,Petr Yan,3
+2020-06-29,Bantamweight,Cody Garbrandt,4
+2020-06-29,Bantamweight,Cory Sandhagen,5
+2020-06-29,Bantamweight,Jose Aldo,6
+2020-06-29,Bantamweight,Pedro Munhoz,7
+2020-06-29,Bantamweight,Raphael Assuncao,8
+2020-06-29,Bantamweight,Jimmie Rivera,9
+2020-06-29,Bantamweight,Cody Stamann,10
+2020-06-29,Bantamweight,Rob Font,11
+2020-06-29,Bantamweight,Dominick Cruz,12
+2020-06-29,Bantamweight,John Dodson,13
+2020-06-29,Bantamweight,Sean O'Malley,14
+2020-06-29,Bantamweight,Song Yadong,15
+2020-06-29,Featherweight,Alexander Volkanovski,0
+2020-06-29,Featherweight,Max Holloway,1
+2020-06-29,Featherweight,Zabit Magomedsharipov,2
+2020-06-29,Featherweight,Brian Ortega,3
+2020-06-29,Featherweight,Chan Sung Jung,4
+2020-06-29,Featherweight,Yair Rodriguez,5
+2020-06-29,Featherweight,Calvin Kattar,6
+2020-06-29,Featherweight,Josh Emmett,7
+2020-06-29,Featherweight,Frankie Edgar,7
+2020-06-29,Featherweight,Jeremy Stephens,9
+2020-06-29,Featherweight,Dan Ige,10
+2020-06-29,Featherweight,Jose Aldo,11
+2020-06-29,Featherweight,Arnold Allen,12
+2020-06-29,Featherweight,Ryan Hall,13
+2020-06-29,Featherweight,Shane Burgos,14
+2020-06-29,Featherweight,Sodiq Yusuff,15
+2020-06-29,Lightweight,Khabib Nurmagomedov,0
+2020-06-29,Lightweight,Justin Gaethje,1
+2020-06-29,Lightweight,Dustin Poirier,2
+2020-06-29,Lightweight,Tony Ferguson,3
+2020-06-29,Lightweight,Conor McGregor,4
+2020-06-29,Lightweight,Dan Hooker,5
+2020-06-29,Lightweight,Charles Oliveira,6
+2020-06-29,Lightweight,Paul Felder,7
+2020-06-29,Lightweight,Diego Ferreira,8
+2020-06-29,Lightweight,Kevin Lee,9
+2020-06-29,Lightweight,Al Iaquinta,10
+2020-06-29,Lightweight,Islam Makhachev,11
+2020-06-29,Lightweight,Gregor Gillespie,12
+2020-06-29,Lightweight,Donald Cerrone,13
+2020-06-29,Lightweight,Drew Dober,14
+2020-06-29,Lightweight,Beneil Dariush,15
+2020-06-29,Welterweight,Kamaru Usman,0
+2020-06-29,Welterweight,Gilbert Burns,1
+2020-06-29,Welterweight,Colby Covington,2
+2020-06-29,Welterweight,Jorge Masvidal,3
+2020-06-29,Welterweight,Leon Edwards,4
+2020-06-29,Welterweight,Tyron Woodley,5
+2020-06-29,Welterweight,Stephen Thompson,6
+2020-06-29,Welterweight,Demian Maia,7
+2020-06-29,Welterweight,Michael Chiesa,8
+2020-06-29,Welterweight,Rafael Dos Anjos,9
+2020-06-29,Welterweight,Geoff Neal,10
+2020-06-29,Welterweight,Nate Diaz,11
+2020-06-29,Welterweight,Vicente Luque,12
+2020-06-29,Welterweight,Robbie Lawler,13
+2020-06-29,Welterweight,Neil Magny,14
+2020-06-29,Welterweight,Anthony Pettis,14
+2020-06-29,Middleweight,Israel Adesanya,0
+2020-06-29,Middleweight,Robert Whittaker,1
+2020-06-29,Middleweight,Paulo Costa,2
+2020-06-29,Middleweight,Jared Cannonier,3
+2020-06-29,Middleweight,Yoel Romero,4
+2020-06-29,Middleweight,Darren Till,5
+2020-06-29,Middleweight,Jack Hermansson,6
+2020-06-29,Middleweight,Kelvin Gastelum,7
+2020-06-29,Middleweight,Derek Brunson,8
+2020-06-29,Middleweight,Edmen Shahbazyan,9
+2020-06-29,Middleweight,Uriah Hall,10
+2020-06-29,Middleweight,Omari Akhmedov,11
+2020-06-29,Middleweight,Brad Tavares,12
+2020-06-29,Middleweight,Ian Heinisch,13
+2020-06-29,Middleweight,Marvin Vettori,14
+2020-06-29,Middleweight,Antonio Carlos Junior,15
+2020-06-29,Light Heavyweight,Jon Jones,0
+2020-06-29,Light Heavyweight,Dominick Reyes,1
+2020-06-29,Light Heavyweight,Thiago Santos,2
+2020-06-29,Light Heavyweight,Jan Blachowicz,3
+2020-06-29,Light Heavyweight,Corey Anderson,4
+2020-06-29,Light Heavyweight,Glover Teixeira,5
+2020-06-29,Light Heavyweight,Anthony Smith,6
+2020-06-29,Light Heavyweight,Volkan Oezdemir,7
+2020-06-29,Light Heavyweight,Alexander Gustafsson,8
+2020-06-29,Light Heavyweight,Aleksandar Rakic,9
+2020-06-29,Light Heavyweight,Nikita Krylov,10
+2020-06-29,Light Heavyweight,Misha Cirkunov,11
+2020-06-29,Light Heavyweight,Johnny Walker,12
+2020-06-29,Light Heavyweight,Ryan Spann,13
+2020-06-29,Light Heavyweight,Magomed Ankalaev,14
+2020-06-29,Light Heavyweight,Mauricio Rua,15
+2020-06-29,Heavyweight,Stipe Miocic,0
+2020-06-29,Heavyweight,Daniel Cormier,1
+2020-06-29,Heavyweight,Francis Ngannou,2
+2020-06-29,Heavyweight,Curtis Blaydes,3
+2020-06-29,Heavyweight,Derrick Lewis,4
+2020-06-29,Heavyweight,Junior Dos Santos,5
+2020-06-29,Heavyweight,Jairzinho Rozenstruik,6
+2020-06-29,Heavyweight,Alistair Overeem,7
+2020-06-29,Heavyweight,Alexander Volkov,8
+2020-06-29,Heavyweight,Augusto Sakai,9
+2020-06-29,Heavyweight,Walt Harris,10
+2020-06-29,Heavyweight,Aleksei Oleinik,11
+2020-06-29,Heavyweight,Shamil Abdurakhimov,12
+2020-06-29,Heavyweight,Sergei Pavlovich,13
+2020-06-29,Heavyweight,Fabricio Werdum,14
+2020-06-29,Heavyweight,Ciryl Gane,15
+2020-06-29,Women's Strawweight,Weili Zhang,0
+2020-06-29,Women's Strawweight,Jessica Andrade,1
+2020-06-29,Women's Strawweight,Rose Namajunas,2
+2020-06-29,Women's Strawweight,Tatiana Suarez,3
+2020-06-29,Women's Strawweight,Joanna Jedrzejczyk,4
+2020-06-29,Women's Strawweight,Nina Ansaroff,5
+2020-06-29,Women's Strawweight,Claudia Gadelha,6
+2020-06-29,Women's Strawweight,Carla Esparza,7
+2020-06-29,Women's Strawweight,Michelle Waterson,8
+2020-06-29,Women's Strawweight,Marina Rodriguez,9
+2020-06-29,Women's Strawweight,Yan Xiaonan,10
+2020-06-29,Women's Strawweight,Tecia Torres,11
+2020-06-29,Women's Strawweight,Alexa Grasso,12
+2020-06-29,Women's Strawweight,Angela Hill,13
+2020-06-29,Women's Strawweight,Amanda Ribas,14
+2020-06-29,Women's Strawweight,Felice Herrig,15
+2020-06-29,Women's Flyweight,Valentina Shevchenko,0
+2020-06-29,Women's Flyweight,Katlyn Chookagian,1
+2020-06-29,Women's Flyweight,Cynthia Calvillo,2
+2020-06-29,Women's Flyweight,Joanne Calderwood,3
+2020-06-29,Women's Flyweight,Lauren Murphy,4
+2020-06-29,Women's Flyweight,Jessica Eye,5
+2020-06-29,Women's Flyweight,Jennifer Maia,6
+2020-06-29,Women's Flyweight,Roxanne Modafferi,7
+2020-06-29,Women's Flyweight,Viviane Araujo,8
+2020-06-29,Women's Flyweight,Andrea Lee,9
+2020-06-29,Women's Flyweight,Maycee Barber,10
+2020-06-29,Women's Flyweight,Alexis Davis,11
+2020-06-29,Women's Flyweight,Montana De La Rosa,12
+2020-06-29,Women's Flyweight,Antonina Shevchenko,13
+2020-06-29,Women's Flyweight,Ji Yeon Kim,14
+2020-06-29,Women's Flyweight,Molly McCann,15
+2020-06-29,Women's Bantamweight,Amanda Nunes,0
+2020-06-29,Women's Bantamweight,Germaine de Randamie,1
+2020-06-29,Women's Bantamweight,Holly Holm,2
+2020-06-29,Women's Bantamweight,Aspen Ladd,3
+2020-06-29,Women's Bantamweight,Raquel Pennington,4
+2020-06-29,Women's Bantamweight,Julianna Peña,4
+2020-06-29,Women's Bantamweight,Irene Aldana,6
+2020-06-29,Women's Bantamweight,Ketlen Vieira,7
+2020-06-29,Women's Bantamweight,Yana Kunitskaya,8
+2020-06-29,Women's Bantamweight,Sara McMann,9
+2020-06-29,Women's Bantamweight,Marion Reneau,10
+2020-06-29,Women's Bantamweight,Lina Lansberg,11
+2020-06-29,Women's Bantamweight,Macy Chiasson,12
+2020-06-29,Women's Bantamweight,Bethe Correia,13
+2020-06-29,Women's Bantamweight,Sijara Eubanks,14
+2020-06-29,Women's Bantamweight,Julia Avila,15
+2020-06-29,Women's Featherweight,Amanda Nunes,0
