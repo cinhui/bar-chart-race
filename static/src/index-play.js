@@ -9,9 +9,13 @@ let sequenceArray = [];
 // const weightclass passed in from html
 
 const title1 = "HISTORY OF UFC";
-const title2 = weightclass;
+title2 = weightclass;
 const title3 = "RANKINGS";
 const subTitle = "February 2013-present";
+
+if (weightclass == "lightheavyweight"){
+   title2 = "light heavyweight"
+}
 
 const svg = d3.select("#bar-chart").append("svg")
    .attr("width", width)
@@ -233,7 +237,7 @@ Promise.all([
       // Format axes
       let x = d3.scaleLinear()
          .domain([0, 10])
-         .range([margin.left, width-margin.right-100]);
+         .range([margin.left, width-margin.right+20]);
    
       let y = d3.scaleLinear()
          .domain([max_value, 0])
@@ -250,7 +254,7 @@ Promise.all([
       let rankText = svg.append("g");
       rankText.append('text')
          .attr('class', 'annotate')
-         .attr('x', x(5)+45)
+         .attr('x', x(5)+75)
          .attr('y', 1.7*margin.top)
          .style('text-anchor', 'end')
          .html("Champion");
