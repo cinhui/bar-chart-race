@@ -309,7 +309,7 @@ Promise.all([
             .enter()
             .append('rect')
             .attr('class', d => `bar ${d.name.replace(/\s/g,'_')}`)
-            .attr('x', x(6)+45)
+            .attr('x', x(7)-33)
             .attr('y', d => y(max_value+1)+50)
             .attr('width', d => x(1.5*bar_offset))
             .attr('height', y(1)-y(0)-barPadding)
