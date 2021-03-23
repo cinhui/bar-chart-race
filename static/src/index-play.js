@@ -126,8 +126,8 @@ Promise.all([
       const sequenceEnd       = sequenceArray.length;
       let sequence = sequenceStart;
 
-      // console.log(sequenceStart)
-      // console.log(sequenceEnd)
+      console.log(sequenceStart)
+      console.log(sequenceEnd)
    
       let fighters = {};
       data[2].forEach( d => {
