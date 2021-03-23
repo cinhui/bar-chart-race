@@ -80,7 +80,8 @@ svg.append("text")
    .attr("class", "caption")
    .attr("x", 45)
    .attr('y', from_top+4*rect_offset+8)
-   .html("Status as of Sept 28, 2020");
+   .html("Status as of March 23, 2021");
+   // .html("Status as of Sept 28, 2020");
    // .html("Status as of June 29, 2020");
    // .html("Status as of March 14, 2020");
 
