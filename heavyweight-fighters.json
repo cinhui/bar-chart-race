@@ -1,1 +1,134 @@
-[{"fighter":"Cain Velasquez","bar_color":"#0F4C81"},{"fighter":"Junior Dos Santos","bar_color":"#939597"},{"fighter":"Fabricio Werdum","bar_color":"#939597"},{"fighter":"Daniel Cormier","bar_color":"#0F4C81"},{"fighter":"Antonio Silva","bar_color":"#939597"},{"fighter":"Frank Mir","bar_color":"#939597"},{"fighter":"Alistair Overeem","bar_color":"#939597"},{"fighter":"Minotauro Nogueira","bar_color":"#0F4C81"},{"fighter":"Roy Nelson","bar_color":"#939597"},{"fighter":"Stefan Struve","bar_color":"#0F4C81"},{"fighter":"Shane Carwin","bar_color":"#0F4C81"},{"fighter":"Mark Hunt","bar_color":"#939597"},{"fighter":"Travis Browne","bar_color":"#0F4C81"},{"fighter":"Stipe Miocic","bar_color":"#F5DF4D"},{"fighter":"Josh Barnett","bar_color":"#939597"},{"fighter":"Andrei Arlovski","bar_color":"#F5DF4D"},{"fighter":"Ben Rothwell","bar_color":"#F5DF4D"},{"fighter":"Brock Lesnar","bar_color":"#0F4C81"},{"fighter":"Derrick Lewis","bar_color":"#F5DF4D"},{"fighter":"Francis Ngannou","bar_color":"#F5DF4D"},{"fighter":"Alexander Volkov","bar_color":"#F5DF4D"},{"fighter":"Marcin Tybura","bar_color":"#F5DF4D"},{"fighter":"Aleksei Oleinik","bar_color":"#F5DF4D"},{"fighter":"Curtis Blaydes","bar_color":"#F5DF4D"},{"fighter":"Tai Tuivasa","bar_color":"#F5DF4D"},{"fighter":"Justin Willis","bar_color":"#939597"},{"fighter":"Shamil Abdurakhimov","bar_color":"#F5DF4D"},{"fighter":"Blagoy Ivanov","bar_color":"#F5DF4D"},{"fighter":"Walt Harris","bar_color":"#F5DF4D"},{"fighter":"Jairzinho Rozenstruik","bar_color":"#F5DF4D"},{"fighter":"Augusto Sakai","bar_color":"#F5DF4D"},{"fighter":"Ciryl Gane","bar_color":"#F5DF4D"},{"fighter":"Chris Daukaus","bar_color":"#F5DF4D"}]
+[
+    {
+        "fighter": "Cain Velasquez",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Junior Dos Santos",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Fabricio Werdum",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Daniel Cormier",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Antonio Silva",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Frank Mir",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Alistair Overeem",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Minotauro Nogueira",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Roy Nelson",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Stefan Struve",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Shane Carwin",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Mark Hunt",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Travis Browne",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Stipe Miocic",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Josh Barnett",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Andrei Arlovski",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Ben Rothwell",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Brock Lesnar",
+        "bar_color": "#DBDBDB"
+    },
+    {
+        "fighter": "Derrick Lewis",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Francis Ngannou",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Alexander Volkov",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Marcin Tybura",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Aleksei Oleinik",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Curtis Blaydes",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Tai Tuivasa",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Justin Willis",
+        "bar_color": "#C1A57B"
+    },
+    {
+        "fighter": "Shamil Abdurakhimov",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Blagoy Ivanov",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Walt Harris",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Jairzinho Rozenstruik",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Augusto Sakai",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Ciryl Gane",
+        "bar_color": "#F5DF4D"
+    },
+    {
+        "fighter": "Chris Daukaus",
+        "bar_color": "#F5DF4D"
+    }
+]
