@@ -88,7 +88,7 @@ svg.append("text")
 svg.append("rect")
    .attr("x",50).attr("y", from_top+rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
-   .style("fill", "#f0a500");
+   .style("fill", "#FCD200");
 svg.append("text")
    .attr("class", "legend")
    .attr("x",75).attr("y", from_top+rect_offset+10)
@@ -97,7 +97,7 @@ svg.append("text")
 svg.append("rect")
    .attr("x",50).attr("y", from_top+2*rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
-   .style("fill", "#c1a57b");
+   .style("fill", "#00c9b8");
 svg.append("text")
    .attr("class", "legend")
    .attr("x",75).attr("y", from_top+2*rect_offset+10)
@@ -106,7 +106,7 @@ svg.append("text")
 svg.append("rect")
    .attr("x",50).attr("y", from_top+3*rect_offset)
    .attr("width", rect_size).attr("height", rect_size)
-   .style("fill", "#dbdbdb");
+   .style("fill", "#e2e0e5");
 svg.append("text")
    .attr("class", "legend")   
    .attr("x",75).attr("y", from_top+3*rect_offset+10)
